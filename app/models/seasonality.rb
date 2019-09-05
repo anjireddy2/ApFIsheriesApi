@@ -1,0 +1,2 @@
+class Seasonality < ApplicationRecord
+end

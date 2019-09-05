@@ -1,0 +1,2 @@
+class FreshWaterFarm < ApplicationRecord
+end

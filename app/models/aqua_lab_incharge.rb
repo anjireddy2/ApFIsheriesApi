@@ -1,0 +1,2 @@
+class AquaLabIncharge < ApplicationRecord
+end

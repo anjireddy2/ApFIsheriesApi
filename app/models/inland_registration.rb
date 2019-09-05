@@ -1,0 +1,2 @@
+class InlandRegistration < ApplicationRecord
+end

@@ -1,0 +1,1560 @@
+1,S.Kota,S. Kota,Gangivani tank,LS,MI,Lease ,12,6.00
+2,S.Kota,S. Kota,Sitammasagaram,LS,MI,Lease ,8,4.00
+3,S.Kota,S. Kota,Gollampivani tank,LS,MI,Lease ,8,4.00
+4,S.Kota,Potanapalli,Pandrivani tank,LS,MI,Lease ,36,18.00
+5,S.Kota,Dharamavaram,kankivanitank,LS,MI,Lease ,32,16.00
+6,s.kota,Revellapalem,banadhi tank,LS,MI,Lease ,16,8.00
+7,S.Kota,S. Kota,Jagannadhrasagaram,SS,MI,Lease ,8,2.00
+8,S.Kota,Timidi,Naidu tank,SS,MI,Lease ,20,5.00
+9,S.Kota,Timidi,Veeraraju tank,SS,MI,Lease ,10,2.50
+10,S.Kota,Vasi,Amma tank,SS,MI,Lease ,12,3.00
+11,S.Kota,Kottam,Mallunaidu tank,SS,GP,Lease ,4.00,1
+12,S.Kota,Kottam,Kotamma tank,SS,GP,Lease ,4.00,1
+13,S.Kota,Kottam,Kullu koneru,SS,GP,Lease ,2.00,0.5
+14,S.Kota,Kottam,Bhojaraju tank,SS,GP,Lease ,3.00,0.75
+15,S.Kota,Kottam,Rabbinaini Tank,SS,GP,Lease ,3.00,0.75
+16,S.Kota,Kottam,Dasu banda,SS,GP,Lease ,4.00,1
+17,S.Kota,kottam,Thamuru Tank,SS,GP,Lease ,2.00,0.5
+18,S.Kota,Revallpalem,Maradala Tank,SS,GP,Lease ,3.00,0.75
+19,S.Kota,Revallapalem,Pillavani Tank,SS,GP,Lease ,3.00,0.75
+20,S.Kota,Revallapalem,Gudalavani Tank,SS,GP,Lease ,2.00,0.5
+21,S.Kota,Revallapalem,Randhi vani Tank,SS,GP,Lease ,2.00,0.5
+22,S.Kota,Revallapalem,Vemalavani Tank,SS,GP,Lease ,2.00,0.5
+23,S.Kota,Revallapalem,Chakalibanda,SS,GP,Lease ,2.00,0.5
+24,S.Kota,Revallapalem,Akkamma Tank,SS,GP,Lease ,2.00,0.5
+25,S.Kota,revallapalem,Bandaruvani Tank,SS,GP,Lease ,2.00,0.5
+26,S.Kota,Revallapalem,Rellapalem Koneru,SS,GP,Lease ,1.00,0.25
+27,S.Kota,Revallapalem,Chinayya Konery,SS,GP,Lease ,1.00,0.25
+28,S.Kota,Revallaplem,Chappavani Koneru,SS,GP,Lease ,2.00,0.5
+29,S.Kota,Revallapalem,Paramma Tank,SS,GP,Lease ,3.00,0.75
+30,S.Kota,Revallapalem,Paramma Tank,SS,GP,Lease ,3.00,0.75
+31,S.Kota,Veranarayanam,Gairamma tank,SS,GP,Lease ,5.00,1.25
+32,S.Kota,Veranarayanam,Koneru,SS,GP,Lease ,2.00,0.5
+33,S.Kota,Veeranarayanam,Ramunaidu Banda,SS,GP,Lease ,1.00,0.25
+34,S.Kota,Veeranarayanam,Naram naidu Tank,SS,GP,Lease ,1.00,0.25
+35,S.Kota,Veeranaryaanam,Voora Tank,SS,GP,Lease ,6.00,1.5
+36,S.Kota,Veeranarayanam,Naidu Tank,SS,GP,Lease ,6.00,1.5
+37,S.Kota,Veeranarayanam,Voora Tank,SS,GP,Lease ,3.00,0.75
+38,S.Kota,Mukandapuram,Yerukunaidu tank,SS,GP,Lease ,7.00,1.75
+39,S.Kota,Mukandapuram,Kanchivani tank,SS,GP,Lease ,5.00,1.25
+40,S.Kota,Mukandapuram,Muriibanda,SS,GP,Lease ,2.00,0.5
+41,S.Kota,Mukandapuram,Chakali banda,SS,GP,Lease ,2.00,0.5
+42,S.Kota,Sivaramarajueta,Viswanadh tank,SS,GP,Lease ,10.00,2.5
+43,S.Kota,Sivaramarajueta,Tamminaidu tank,SS,GP,Lease ,8.00,2
+44,S.Kota,Sivaramarajueta,Papinaidu tank,SS,GP,Lease ,5.00,1.25
+45,S.Kota,Sivaramarajueta,Boppanaidu tank,SS,GP,Lease ,7.00,1.75
+46,S.Kota,Sivaramarajueta,Sivanna tank,SS,GP,Lease ,7.00,1.75
+47,S.Kota,Sivaramarajueta,Daggu tank,SS,GP,Lease ,8.00,2
+48,S.Kota,Venkataramanapeta,Venkataramanna tank,SS,GP,Lease ,4.00,1
+49,S.Kota,Venkataramanapeta,Mukundaraju tank,SS,GP,Lease ,9.00,2.25
+50,S.Kota,Venkataramanapeta,Nakkavani tank,SS,GP,Lease ,5.00,1.25
+51,S.Kota,Venkataramanapeta,Manchi Koneru,SS,GP,Lease ,3.00,0.75
+52,S.Kota,Santapeta,Kallodu tank,SS,GP,Lease ,8.00,2
+53,S.Kota,Santapeta,Allodu banda,SS,GP,Lease ,15.00,3.75
+54,S.Kota,Santapeta,Podavu banda,SS,GP,Lease ,10.00,2.5
+55,S.Kota,Santapeta,Kankari/raji/dara tank,SS,GP,Lease ,6.00,1.5
+56,S.Kota,Peddakrisnnarajapuram,Sanyasinaidu tank,SS,GP,Lease ,4.00,1
+57,S.Kota,Peddakrisnnarajapuram,VENKATARAMANA TANK,SS,GP,Lease ,3.00,0.75
+58,S.Kota,Peddakrisnnarajapuram,Nanipillivani tank,SS,GP,Lease ,2.00,0.5
+59,S.Kota,Alugubilli,Raavala tank,SS,GP,Lease ,15.00,3.75
+60,S.Kota,Alugubilli,Modi tank,SS,GP,Lease ,9.00,2.25
+61,S.Kota,Alugubilli,neredu banda,SS,GP,Lease ,6.00,1.5
+62,S.Kota,Alugubilli,Koneru,SS,GP,Lease ,2.00,0.5
+63,S.Kota,Alugubilli,Lingala tank,SS,GP,Lease ,3.00,0.75
+64,S.Kota,Alugubilli,sappavani tank,SS,GP,Lease ,7.00,1.75
+65,S.Kota,Alugubilli,Raji tank,SS,GP,Lease ,3.00,0.75
+66,S.Kota,S.Kota,Chakali banda,SS,GP,Lease ,1.00,0.25
+67,S.Kota,S.Kota,Rajula tank,SS,GP,Lease ,2.00,0.5
+68,S.Kota,S.Kota,Jaggu tank,SS,GP,Lease ,1.50,0.375
+69,S.Kota,S.Kota,Dagda tank,SS,GP,Lease ,2.00,0.5
+70,S.Kota,S.Kota,Mangali tank,SS,GP,Lease ,2.00,0.5
+71,S.Kota,S.Kota,Padya tank,SS,GP,Lease ,1.00,0.25
+72,S.Kota,S.Kota,Papayya tank,SS,GP,Lease ,1.00,0.25
+73,S.Kota,S.Kota,Mamavani tank,SS,GP,Lease ,1.00,0.25
+74,S.Kota,SKOTA,KUMARAM GEDDA,SS,GP,Lease ,4.00,1
+75,S.Kota,SKOTA,CHINTA TANK,SS,GP,Lease ,3.00,0.75
+76,S.Kota,SKOTA,KARRIVANI BANDA,SS,GP,Lease ,1.00,0.25
+77,S.Kota,SKOTA,PALLURE BANDA,SS,GP,Lease ,2.00,0.5
+78,S.Kota,SKOTA,KAMSALI BANDA,SS,GP,Lease ,1.00,0.25
+79,S.Kota,SKOTA,GURLAVANI BANDA,SS,GP,Lease ,1.00,0.25
+80,S.Kota,SKOTA,MANGALI BANDA,SS,GP,Lease ,3.00,0.75
+81,S.Kota,SKOTA,BEHARA TANK,SS,GP,Lease ,2.00,0.5
+82,S.Kota,SKOTA,MUSIDI BANDA,SS,GP,Lease ,1.00,0.25
+83,S.Kota,SKOTA,AVALA BANDA,SS,GP,Lease ,3.00,0.75
+84,S.Kota,SKOTA,BABU CHURUVU,SS,GP,Lease ,3.00,0.75
+85,S.Kota,SKOTA,KEDARIVANI TANK,SS,GP,Lease ,2.00,0.5
+86,S.Kota,Krishna puram,Rai tank,SS,GP,Lease ,3.00,0.75
+87,S.Kota,Krishna puram,Patruni tank,SS,GP,Lease ,2.00,0.5
+88,S.Kota,Vemulapalli,Gatraju tank,SS,GP,Lease ,2.00,0.5
+89,S.Kota,Vemulapalli,Mookalavani Cheruvu,SS,GP,Lease ,4.00,1
+90,S.Kota,Potanapalli,Malla koneru,SS,GP,Lease ,1.00,0.25
+91,S.Kota,Potanapalli,Vruthimalupu banda,SS,GP,Lease ,1.00,0.25
+92,S.Kota,Potanapalli,Devaravani banda,SS,GP,Lease ,1.00,0.25
+93,S.Kota,Potanapalli,Pandinavani banda,SS,GP,Lease ,1.50,0.375
+94,S.Kota,Potanapalli,Doddavani koneru,SS,GP,Lease ,2.00,0.5
+95,S.Kota,Potanapalli,Dontalavani koneru,SS,GP,Lease ,2.00,0.5
+96,S.Kota,POTANAPALLI,SOMANNADORA TANK,SS,GP,Lease ,1.00,0.25
+97,S.Kota,POTANAPALLI,MALA BANDA,SS,GP,Lease ,1.00,0.25
+98,S.Kota,POTANAPALLI,NAKKALAVANI BANDA,SS,GP,Lease ,2.00,0.5
+99,S.Kota,POTANAPALLI,PILLAVANI CHERUVU,SS,GP,Lease ,2.00,0.5
+100,S.Kota,POTANAPALLI,DODDAVANI BANDA,SS,GP,Lease ,2.00,0.5
+101,S.Kota,POTANAPALLI,RAYUDUVANI TANK,SS,GP,Lease ,1.00,0.25
+102,S.Kota,Darmavaram,Komati tank,SS,GP,Lease ,20.00,5
+103,S.Kota,Darmavaram,Lagudu tank,SS,GP,Lease ,1.00,0.25
+104,S.Kota,Darmavaram,Chintala tank,SS,GP,Lease ,9.00,2.25
+105,S.Kota,Darmavaram,Appalaraju tank,SS,GP,Lease ,14.00,3.5
+106,S.Kota,Darmavaram,Sivalajoginaidu tank,SS,GP,Lease ,1.00,0.25
+107,S.Kota,Darmavaram,Naidu tank,SS,GP,Lease ,3.00,0.75
+108,S.Kota,Darmavaram,Dagguvni tank,SS,GP,Lease ,2.00,0.5
+109,S.Kota,Darmavaram,Peetala tank,SS,GP,Lease ,1.00,0.25
+110,S.Kota,Dharmavaram,Somayya banda,SS,GP,Lease ,2.00,0.5
+111,S.Kota,Gopalapalli,Chinakoneeru,SS,GP,Lease ,7.00,1.75
+112,S.Kota,gopalapalli,Panchayavani Cheruvu,SS,GP,Lease ,5.00,1.25
+113,S.Kota,Chamalapalli,Nalla Cheruvu,SS,GP,Lease ,3.00,0.75
+114,S.Kota,Sasanapalli,Jaladaramula gedda,SS,GP,Lease ,10.00,2.5
+115,S.Kota,Sasanapalli,Tummala tank,SS,GP,Lease ,3.00,0.75
+116,S.Kota,Sirikipalem,Kalyani gummi,SS,GP,Lease ,1.00,0.25
+117,S.Kota,Sirikipalem,Chembuvani tank,SS,GP,Lease ,2.00,0.5
+118,S.Kota,Sirikipalem,Bongala banda,SS,GP,Lease ,1.00,0.25
+119,S.Kota,Sirikipalem,Bapadu tank,SS,GP,Lease ,2.00,0.5
+120,S.Kota,Sirikipalem,Kotha tank,SS,GP,Lease ,2.00,0.5
+121,S.Kota,Sirikipalem,Rayavarapu vani tank,SS,GP,Lease ,1.50,0.375
+122,S.Kota,Sirikipalem,Nadimi gedda,SS,GP,Lease ,3.00,0.75
+123,S.Kota,Sirikipalem,Jaganadh koneru,SS,GP,Lease ,2.00,0.5
+124,S.Kota,Vinayakapalli,Pasuvula koneru,SS,GP,Lease ,1.00,0.25
+125,S.Kota,Vinayakapalli,Voora tank,SS,GP,Lease ,2.00,0.5
+126,S.Kota,ALLUGUBILLI,DASU BANDA,SS,GP,Auction,1.00,0.25
+127,S.Kota,ALLUGUBILLI,TATAYYANAIDU TANK,SS,GP,Auction,1.00,0.25
+128,S.Kota,ALLUGUBILLI,BURIBANDA,SS,GP,Auction,2.00,0.50
+129,S.Kota,ALLUGUBILLI,KONDALA BANDA,SS,GP,Auction,2.00,0.50
+130,S.Kota,Chamalapalli,Mayya Banda,SS,GP,Auction,2.00,0.50
+131,S.Kota,Chamalapalli,Kamayya banda,SS,GP,Auction,1.00,0.25
+132,S.Kota,Chamalapalli,Kotha banda,SS,GP,Auction,1.00,0.25
+133,S.Kota,Chamalapalli,Surmma Banda,SS,GP,Auction,1.00,0.25
+134,S.Kota,Chamalapalli,Buddavani Banda,SS,GP,Auction,1.00,0.25
+135,S.Kota,Chamalapalli,Venkatavani Banda,SS,GP,Auction,1.00,0.25
+136,S.Kota,Chamalapalli,Mutyalamma Tank,SS,GP,Auction,1.00,0.25
+137,S.Kota,Chamalapalli,Kamayya banda,SS,GP,Auction,1.00,0.25
+138,S.Kota,Chamalapalli,Motta Banda,SS,GP,Auction,1.00,0.25
+139,S.Kota,Chamalapalli,Thatagari banda,SS,GP,Auction,1.00,0.25
+140,S.Kota,Chamalapalli,ballamudivari Tank,SS,GP,Auction,1.00,0.25
+141,S.Kota,chamalapalli,Atchayyamma Banda,SS,GP,Auction,1.00,0.25
+142,S.Kota,Chamalapalli,Burja banda,SS,GP,Auction,1.00,0.25
+143,S.Kota,Chamalapalli,Koneru Banda,SS,GP,Auction,1.00,0.25
+144,S.Kota,Chamalapalli,Gummidi banda,SS,GP,Auction,1.00,0.25
+145,S.Kota,Chamalapalli,Lothubanda,SS,GP,Auction,1.00,0.25
+146,S.Kota,Chamalapalli,Chittipantuluvarigundalu,SS,GP,Auction,1.00,0.25
+147,S.Kota,Chamalapalli,Hanamma Tank,SS,GP,Auction,1.00,0.25
+148,S.Kota,Chamalapalli,Siyyamma Tank,SS,GP,Auction,2.00,0.50
+149,S.Kota,Chamalapalli,Ammathali banda,SS,GP,Auction,2.00,0.50
+150,S.Kota,Chamalapalli,kamsali Tank,SS,GP,Auction,2.00,0.50
+151,S.Kota,Chamalapalli,Cheepurubanda,SS,GP,Auction,1.00,0.25
+152,S.Kota,Chamalapalli,Polayya banda,SS,GP,Auction,1.00,0.25
+153,S.Kota,Chamalapalli,Gopayya banda,SS,GP,Auction,1.00,0.25
+154,S.Kota,Chamalapalli,Somulamma Banda,SS,GP,Auction,1.00,0.25
+155,S.Kota,Chamalapalli,Karuku banda,SS,GP,Auction,1.00,0.25
+156,S.Kota,Chamalapalli,Kondala banda,SS,GP,Auction,1.00,0.25
+157,S.Kota,Chamalapalli,kambabanda Laxmidevibanda,SS,GP,Auction,3.00,0.75
+158,S.Kota,DARAPARTHI,PASUPUBANDA GEDDA,SS,GP,Auction,2.00,0.50
+159,S.Kota,Gopalapalii,chakali Koneeru,SS,GP,Auction,1.00,0.25
+160,S.Kota,Gopalapalli,Gadivani Cheruvu,SS,GP,Auction,3.00,0.75
+161,S.Kota,KILTAM PALEM,MARRIMANU TANK,SS,GP,Auction,1.00,0.25
+162,S.Kota,KILTAMPALEM,KAKURUVANI TANK,SS,GP,Auction,2.00,0.50
+163,S.Kota,KILTAMPALEM,YERRE BANDA,SS,GP,Auction,1.00,0.25
+164,S.Kota,KILTAM PALEM,PENUKU BANDA,SS,GP,Auction,1.00,0.25
+165,S.Kota,KILTAMPALEM,KOTHA BANDA,SS,GP,Auction,3.00,0.75
+166,S.Kota,KILTAMPALEM,MAMIDIPANU TANK,SS,GP,Auction,2.00,0.50
+167,S.Kota,KILTAMPALEM,KARRI BANDA,SS,GP,Auction,2.00,0.50
+168,S.Kota,KILTAMPALEM,PILLAVANI TANK,SS,GP,Auction,1.00,0.25
+169,S.Kota,KILTAMPALEM,SIVANNA TANK,SS,GP,Auction,2.00,0.50
+170,S.Kota,KILTAMPALEM,SUNKARAVANI TANK,SS,GP,Auction,2.00,0.50
+171,S.Kota,Kothuru,Babunaidu Tank,SS,GP,Auction,1.00,0.25
+172,S.Kota,Kothavuru,Peramma Cheruvu,SS,GP,Auction,1.00,0.25
+173,S.Kota,Kothavuru,Jaggu Cheruvu,SS,GP,Auction,1.00,0.25
+174,S.Kota,Kothuru,Chinnamnaidu Tank,SS,GP,Auction,1.00,0.25
+175,S.Kota,Kothuru,Pothayya banda,SS,GP,Auction,2.00,0.50
+176,S.Kota,kothuru,Patnalavani Tank,SS,GP,Auction,1.00,0.25
+177,S.Kota,kothuru,Gedda,SS,GP,Auction,1.00,0.25
+178,S.Kota,Kothuru,Redra Cheruvu,SS,GP,Auction,7.00,1.75
+179,S.Kota,Kothuru,Thammayya Tank,SS,GP,Auction,8.00,2.00
+180,S.Kota,Kothuru,Yerlapallivani Tank,SS,GP,Auction,5.00,1.25
+181,S.Kota,Kottam,Kannamma banda,SS,GP,Auction,2.00,0.50
+182,S.Kota,kottam,Venkataramayya Tank,SS,GP,Auction,3.00,0.75
+183,S.Kota,kottam,Peeramma Tank,SS,GP,Auction,4.00,1.00
+184,S.Kota,Kottam,Maddela Tank,SS,GP,Auction,2.00,0.50
+185,S.Kota,kottam,Nalla Tank,SS,GP,Auction,2.00,0.50
+186,S.Kota,kottam,Nalla Tank,SS,GP,Auction,2.00,0.50
+187,S.Kota,Kottam,Ramayya Tank,SS,GP,Auction,1.00,0.25
+188,S.Kota,Kottam,Mallapuraju Tank,SS,GP,Auction,3.00,0.75
+189,S.Kota,Kottam,Kamsali Tank,SS,GP,Auction,3.00,0.75
+190,S.Kota,Kottam,Chakali banda,SS,GP,Auction,1.00,0.25
+191,S.Kota,kottam,Nalla Cheruvu,SS,GP,Auction,2.00,0.50
+192,S.Kota,kottam,Akkamma Cheruvu,SS,GP,Auction,1.00,0.25
+193,S.Kota,kottam,Gudalavani Cheruvu,SS,GP,Auction,3.00,0.75
+194,S.Kota,kottam,PillalavaniBanda,SS,GP,Auction,1.00,0.25
+195,S.Kota,MULABODDAVARA,YERRA CHERUVU,SS,GP,Auction,2.00,0.50
+196,S.Kota,MULABODDAVARA,AMMA CHERUVU,SS,GP,Auction,1.00,0.25
+197,S.Kota,MUSIDIPALLI,DOGGAVEERAMMA CHERUVU,SS,GP,Auction,1.00,0.25
+198,S.Kota,MUSIDIPALLI,YERRA CHERUVU,SS,GP,Auction,2.00,0.50
+199,S.Kota,MUSIDIPALLI,JATLAVANI CHERUVU,SS,GP,Auction,2.00,0.50
+200,S.Kota,MUSIDIPALLI,PEDDA TANK,SS,GP,Auction,1.00,0.25
+201,S.Kota,MUSIDIPALLI,NANDIKONDA TANK,SS,GP,Auction,2.00,0.50
+202,S.Kota,MUSIDIPALLI,DORAVANI TANK,SS,GP,Auction,2.00,0.50
+203,S.Kota,MUSIDIPALLI,ADIREDDIVANI TANK,SS,GP,Auction,2.00,0.50
+204,S.Kota,MUSIDIPALLI,CHINNA BANDA,SS,GP,Auction,1.00,0.25
+205,S.Kota,MUSIDIPALLI,PILLAGEDDA TANK,SS,GP,Auction,1.00,0.25
+206,S.Kota,MUSIDIPALLI,RONGALIVANI TANK,SS,GP,Auction,2.00,0.50
+207,S.Kota,PEDAKANDAPALLI,YERRABANDA,SS,GP,Auction,4.00,1.00
+208,S.Kota,PEDAKANDAPALLI,RAJU BANDA,SS,GP,Auction,2.00,0.50
+209,S.Kota,POTANAPALLI,DEMULUVANI TANK,SS,GP,Auction,1.00,0.25
+210,S.Kota,POTANAPALLI,UTTIPULUSUVANI TANK,SS,GP,Auction,1.00,0.25
+211,S.Kota,POTANAPALLI,MADDILA BANDA,SS,GP,Auction,2.00,0.50
+212,S.Kota,POTANAPALLI,KOTHABANDA,SS,GP,Auction,1.00,0.25
+213,S.Kota,POTANAPALLI,VOORA CHERUVU,SS,GP,Auction,2.00,0.50
+214,S.Kota,SKOTA,KUMARAYYA BANDA,SS,GP,Auction,3.00,0.75
+215,S.Kota,SKOTA,KRISHNAMAHANTHI TANK,SS,GP,Auction,1.00,0.25
+216,S.Kota,SKOTA,BANGALA BANDA,SS,GP,Auction,3.00,0.75
+217,S.Kota,SKOTA,GUGGILA BANDA,SS,GP,Auction,1.00,0.25
+218,S.Kota,SKOTA,AMUDALA BANDA,SS,GP,Auction,2.00,0.50
+219,S.Kota,SKOTA,PUNYAGIRI GEDDA,SS,GP,Auction,3.00,0.75
+220,S.Kota,SKOTA,RAIWADA BANDA,SS,GP,Auction,2.00,0.50
+221,S.Kota,SKOTA,BUDDAYYA BANDA,SS,GP,Auction,3.00,0.75
+222,S.Kota,SKOTA,MANTIVANI TANK,SS,GP,Auction,2.00,0.50
+223,S.Kota,SKOTA,BAHARAVANI TANK,SS,GP,Auction,3.00,0.75
+224,S.Kota,skota,NANDA BANDA,SS,GP,Auction,2.00,0.50
+225,S.Kota,SKOTA,SUNKARIVANI TANK,SS,GP,Auction,2.00,0.50
+226,S.Kota,SKOTA TALARI,PAPAYYA BANDA,SS,GP,Auction,2.00,0.50
+227,S.Kota,SKOTA TALARI,TELUKULAVANI CHERUVU,SS,GP,Auction,3.00,0.75
+228,S.Kota,SKOTA TALARI,KASIREDDIVANI BANDA,SS,GP,Auction,2.00,0.50
+229,S.Kota,SKOTA TALARI,KOTHA BANDA,SS,GP,Auction,1.00,0.25
+230,S.Kota,SKOTA TALARI,RAMUDU BANDA,SS,GP,Auction,4.00,1.00
+231,S.Kota,SKOTA TALARI,RABANDA,SS,GP,Auction,3.00,0.75
+232,S.Kota,Vemulapalli,Gandreddi banda,SS,GP,Auction,1.00,0.25
+233,S.Kota,Vemulapalli,Godi Banda,SS,GP,Auction,1.00,0.25
+234,S.Kota,Vinayakapalli,Tank,SS,GP,Auction,1.00,0.25
+235,L.kota,V.B.Peta,veeramukundasagaram,LS,MI,Lease ,22,11.00
+236,L.kota,vallampudi,krishnamrjutank,LS,MI,Lease ,8,2.00
+237,L.kota,Golzam,vallabharayudu tank,LS,MI,Lease ,16,8.00
+238,L.kota,killampudi,mukhikrishnamrajutank,LS,MI,Lease ,8,4.00
+239,L.kota,marlapalli,lingamma tank,LS,MI,Lease ,12,6.00
+240,L.kota,L.kota,dharmasagaram,SS,MI,Lease ,12,3.00
+241,L.kota,L.kota,Kittannatank,SS,MI,Lease ,11,2.75
+242,L.kota,L.kota,Viziaramasagaramtank,SS,MI,Lease ,12,3.00
+243,L.kota,Vallampudi,dabbbirajutank,SS,MI,Lease ,18,4.50
+244,L.kota,Golzam,Davalarayudu tank,SS,MI,Lease ,8,2.00
+245,L.kota,kasapeta,venkatapathiraju tank,SS,MI,Lease ,8,2.00
+246,L.kota,mallipudi,vallayyatank,SS,MI,Lease ,8,2.00
+247,L.Kota,L.Kota,Duddugundam,SS,GP,Lease ,12.00,3
+248,L.Kota,L.Kota,Singaladevi tank,SS,GP,Lease ,21.00,5.25
+249,L.Kota,L.Kota,Manchinella koneru,SS,GP,Lease ,2.00,0.5
+250,L.Kota,L.Kota,Sunkini tank,SS,GP,Lease ,5.00,1.25
+251,L.Kota,L.Kota,Kurma sagaram,SS,GP,Lease ,16.00,4
+252,L.Kota,LAKKAVARAPUKOTA,NARAYUDU,SS,GP,Lease ,1.00,0.25
+253,L.Kota,LAKKAVARAPUKOTA,CHIKKALAVA,SS,GP,Lease ,1.00,0.25
+254,L.Kota,LAKKAVARAPUKOTA,PILLAVANAI,SS,GP,Lease ,4.00,1
+255,L.Kota,LAKKAVARAPUKOTA,KAREDDLAVA,SS,GP,Lease ,4.00,1
+256,L.Kota,LAKKAVARAPUKOTA,KRISHNNAPA,SS,GP,Lease ,4.00,1
+257,L.Kota,LAKKAVARAPUKOTA,RANGASAGAR,SS,GP,Lease ,1.00,0.25
+258,L.Kota,LAKKAVARAPUKOTA,RAMMAPPA,SS,GP,Lease ,3.00,0.75
+259,L.Kota,Rangapuram,Gonavani banda,SS,GP,Lease ,1.00,0.25
+260,L.Kota,Rangapuram,Rasi tank,SS,GP,Lease ,2.00,0.5
+261,L.Kota,Rangapuram,Amma tank,SS,GP,Lease ,2.00,0.5
+262,L.Kota,Rangapuram,Kanimellavani tank,SS,GP,Lease ,1.00,0.25
+263,L.Kota,RANGAPURAM,JAMI VANI TANK,SS,GP,Lease ,4.00,1
+264,L.Kota,RANGAPURAM,VENKAMMA TANK,SS,GP,Lease ,5.00,1.25
+265,L.Kota,RANGARAYAPURAM,DASARAVANI TANK,SS,GP,Lease ,2.00,0.5
+266,L.Kota,RANGARAYAPURAM,RANGASAAGARAM,SS,GP,Lease ,2.00,0.5
+267,L.Kota,RANGARAYAPURAM,GOLLABANDA,SS,GP,Lease ,2.00,0.5
+268,L.Kota,RANGARAYAPURAM,AGRAHRAPU BANDA,SS,GP,Lease ,2.00,0.5
+269,L.Kota,RANGARAYAPURAM,SOMAGUNDAM,SS,GP,Lease ,2.00,0.5
+270,L.Kota,Kittannapeta,Kittanna tank,SS,GP,Lease ,15.00,3.75
+271,L.Kota,KITHANNAPETA,SANI TANK,SS,GP,Lease ,1.00,0.25
+272,L.Kota,KITHANNAPETA,UPPAYYA TANK,SS,GP,Lease ,6.00,1.5
+273,L.Kota,KITHANNAPETA,DABBI VANI TANK,SS,GP,Lease ,2.00,0.5
+274,L.Kota,KITHANNAPETA,CHALLAMA TANK,SS,GP,Lease ,3.00,0.75
+275,L.Kota,Chanduluru,Pani tank,SS,GP,Lease ,5.00,1.25
+276,L.Kota,Chanduluru,Kullu koneru,SS,GP,Lease ,8.00,2
+277,L.Kota,Chanduluru,Randhi banda,SS,GP,Lease ,2.00,0.5
+278,L.Kota,Chanduluru,Manchiniti koneru,SS,GP,Lease ,5.00,1.25
+279,L.Kota,Chanduluru,Ramayamma banda,SS,GP,Lease ,2.00,0.5
+280,L.Kota,CHANDHULURU,LATCHANNA TANK,SS,GP,Lease ,1.00,0.25
+281,L.Kota,CHANDHULURU,JOGINAIDU TANK,SS,GP,Lease ,4.00,1
+282,L.Kota,CHANDHULURU,YERRA BANDA,SS,GP,Lease ,3.00,0.75
+283,L.Kota,CHANDHULURU,YERRINAIDU TANK,SS,GP,Lease ,7.00,1.75
+284,L.Kota,CHANDHULURU,RANDI VANI TANK,SS,GP,Lease ,5.00,1.25
+285,L.Kota,Marlapalli,Gododivani tank,SS,GP,Lease ,12.00,3
+286,L.Kota,Marlapalli,Mantilipudivani tan,SS,GP,Lease ,4.00,1
+287,L.Kota,Marlapalli,Akkamma tank,SS,GP,Lease ,10.00,2.5
+288,L.Kota,Marlapalli,Latchamma tank,SS,GP,Lease ,11.00,2.75
+289,L.Kota,MARLAPALLI,APPALAMMA TANK,SS,GP,Lease ,2.00,0.5
+290,L.Kota,MARLAPALLI,KASTURIVANI TANK,SS,GP,Lease ,1.00,0.25
+291,L.Kota,MARLAPALLI,VENKATARAMANA TANK,SS,GP,Lease ,3.00,0.75
+292,L.Kota,Kasapeta,Pasuvala koneru,SS,GP,Lease ,5.00,1.25
+293,L.kota,Talari,Pedda tank,SS,GP,Lease ,7.00,1.75
+294,L.kota,Talari,Tekkavani tank,SS,GP,Lease ,4.00,1
+295,L.kota,Kotyada,Voora tank,SS,GP,Lease ,5.00,1.25
+296,L.kota,Kotyada,Mogali banda,SS,GP,Lease ,5.00,1.25
+297,L.kota,Kotyada,Narsingh tank,SS,GP,Lease ,4.00,1
+298,L.kota,Kotyada,Bavi tank,SS,GP,Lease ,4.00,1
+299,L.Kota,BHEEMALI,CHITIKIREDDIVANI TANK,SS,GP,Auction,9.00,2.25
+300,L.Kota,BHEEMALI,KONERU TANK,SS,GP,Auction,2.00,0.50
+301,L.Kota,BHEEMALI,GOBBURU BANDA,SS,GP,Auction,1.00,0.25
+302,L.Kota,BHEEMALI,GULLIPALLI VANI TANK,SS,GP,Auction,4.00,1.00
+303,L.Kota,BHEEMALI,JAGGU BANDA,SS,GP,Auction,2.00,0.50
+304,L.Kota,BHEEMALI,NERELLA TANK,SS,GP,Auction,1.00,0.25
+305,L.Kota,BHEEMALI,CHINTALA TANK,SS,GP,Auction,2.00,0.50
+306,L.Kota,BHEEMALI,MIDATANA TANK,SS,GP,Auction,1.00,0.25
+307,L.Kota,BHEEMALI,MARRI TANK,SS,GP,Auction,2.00,0.50
+308,L.Kota,CHANDHULURU,PATHA TANK,SS,GP,Auction,3.00,0.75
+309,L.Kota,CHANDHULURU,CHAKALI BANDA,SS,GP,Auction,5.00,1.25
+310,L.Kota,CHANDHULURU,KOTHAVANI TANK,SS,GP,Auction,1.00,0.25
+311,L.Kota,CHANDHULURU,ADIREDDY VANI TANK,SS,GP,Auction,1.00,0.25
+312,L.Kota,CHANDHURULU,KOTHA BANDA,SS,GP,Auction,1.00,0.25
+313,L.Kota,CHANDHULURU,PYDAMMA TANK,SS,GP,Auction,1.00,0.25
+314,L.Kota,CHANDHULURU,VEDHULLA BANDA,SS,GP,Auction,1.00,0.25
+315,L.Kota,CHANDHULURU,GEDALAVANI TANK,SS,GP,Auction,1.00,0.25
+316,L.Kota,CHANDHULURU,BOKAM TANK,SS,GP,Auction,1.00,0.25
+317,L.Kota,CHANDHULURU,MARRI BANDA,SS,GP,Auction,2.00,0.50
+318,L.Kota,CHANDHURULU,GORRIPATI VANI TANK,SS,GP,Auction,1.00,0.25
+319,L.Kota,CHANDHULURU,GADI VANI TANK,SS,GP,Auction,2.00,0.50
+320,L.Kota,DASULLAPALEM,VOORATANK,SS,GP,Auction,7.00,1.75
+321,L.Kota,DASULLAPALEM,PAPAYYATAN,SS,GP,Auction,2.00,0.50
+322,L.Kota,DASULLAPALEM,GOKEDABAND,SS,GP,Auction,3.00,0.75
+323,L.Kota,DASULLAPALEM,REDDAYYAVA,SS,GP,Auction,2.00,0.50
+324,L.Kota,DASULLAPALEM,THUMMALABA,SS,GP,Auction,1.00,0.25
+325,L.Kota,DASULLAPALEM,MARRIBANDA,SS,GP,Auction,1.00,0.25
+326,L.Kota,DASULLAPALEM,CHINNATANK,SS,GP,Auction,6.00,1.50
+327,L.Kota,DASULLAPALEM,MANGALIBAN,SS,GP,Auction,4.00,1.00
+328,L.Kota,DASULLAPALEM,KAKARABAND,SS,GP,Auction,1.00,0.25
+329,L.Kota,DASULLAPALEM,PILLAVANI,SS,GP,Auction,1.00,0.25
+330,L.Kota,GANGUBUDI,PEETHALA TANK,SS,GP,Auction,10.00,2.50
+331,L.Kota,GANGUBUDI,APPADU TANK,SS,GP,Auction,2.00,0.50
+332,L.Kota,GANGUBUDI,KOTHA TANK,SS,GP,Auction,2.00,0.50
+333,L.Kota,GANGUBUDI,AYYAPPAVARI TANK,SS,GP,Auction,1.00,0.25
+334,L.Kota,GANGUBUDI,GANGUBUDIVANI TANK,SS,GP,Auction,3.00,0.75
+335,L.Kota,GANIVADA,GUJAVARAJU TANK,SS,GP,Auction,2.00,0.50
+336,L.Kota,GANIVADA,SAKIVANI TANK,SS,GP,Auction,2.00,0.50
+337,L.Kota,GANIVADA,BALUSABANDA,SS,GP,Auction,4.00,1.00
+338,L.Kota,GANIVADA,PAPAYYA TANK,SS,GP,Auction,5.00,1.25
+339,L.Kota,GANIVADA,PINNA TANK,SS,GP,Auction,1.00,0.25
+340,L.Kota,GANIVADA,BUNGAVANI TANK,SS,GP,Auction,3.00,0.75
+341,L.Kota,GANIVADA,TELUKULAVANI TANK,SS,GP,Auction,5.00,1.25
+342,L.Kota,GANIVADA,NARAYYAPPA TANK,SS,GP,Auction,2.00,0.50
+343,L.Kota,GANIVADA,PADI TANK,SS,GP,Auction,3.00,0.75
+344,L.Kota,GANIVADA,GURUBATLAVARI TANK,SS,GP,Auction,1.00,0.25
+345,L.Kota,GANIVADA,KAMSALI TANK,SS,GP,Auction,4.00,1.00
+346,L.Kota,GANIVADA,SINGAMPALLVANI I TANK,SS,GP,Auction,1.00,0.25
+347,L.Kota,GANIVADA,AKKUNAIDU TANK,SS,GP,Auction,6.00,1.50
+348,L.Kota,GANIVADA,RAGHAVAPPA TANK,SS,GP,Auction,3.00,0.75
+349,L.Kota,GANIVADA,NERERU TANK,SS,GP,Auction,3.00,0.75
+350,L.Kota,GANIVADA,PEDDA TANK,SS,GP,Auction,3.00,0.75
+351,L.Kota,GOLZAM,JAGGAMBAND,SS,GP,Auction,1.00,0.25
+352,L.Kota,GOLZAM,YERRABANDA,SS,GP,Auction,2.00,0.50
+353,L.Kota,GOLZAM,MUKUNDAVAN,SS,GP,Auction,1.00,0.25
+354,L.Kota,KALLEPALLI,AMMA TANK,SS,GP,Auction,1.00,0.25
+355,L.Kota,KALLEPALLI,BANNA TANK,SS,GP,Auction,6.00,1.50
+356,L.Kota,KALLEPALLI,MANTHARAMANA TANK,SS,GP,Auction,2.00,0.50
+357,L.Kota,KALLEPALLI,APPAYYA TANK,SS,GP,Auction,3.00,0.75
+358,L.Kota,KALLEPALLI,SOMUDU BANDA,SS,GP,Auction,4.00,1.00
+359,L.Kota,KALLEPALLI,BAPADU BANDA,SS,GP,Auction,1.00,0.25
+360,L.Kota,KALLEPALLI,KASINAIDU TANK,SS,GP,Auction,2.00,0.50
+361,L.Kota,KALLEPALLI,ADINARAYANA TANK,SS,GP,Auction,1.00,0.25
+362,L.Kota,KALLEPALLI,VENKATA TANK,SS,GP,Auction,1.00,0.25
+363,L.Kota,KALLEPALLI,MANGALI BANDA,SS,GP,Auction,1.00,0.25
+364,L.Kota,KALLEPALLI,KAMESWARI TANK,SS,GP,Auction,2.00,0.50
+365,L.Kota,KALLEPALLI,GOLLABANDA,SS,GP,Auction,3.00,0.75
+366,L.Kota,KALLEPALLI,KOMATI TANK,SS,GP,Auction,2.00,0.50
+367,L.Kota,KALLEPALLI,KOTHA TANK,SS,GP,Auction,2.00,0.50
+368,L.Kota,KALLEPALLI,JUGGUTANK,SS,GP,Auction,4.00,1.00
+369,L.Kota,KALLEPALLI,BUDARI TANK,SS,GP,Auction,3.00,0.75
+370,L.Kota,KALLEPALLI,EETIVANI KATTU,SS,GP,Auction,2.00,0.50
+371,L.Kota,KALLEPALLI,RAVIVANI TANK,SS,GP,Auction,3.00,0.75
+372,L.Kota,KALLEPALLI,RANGAPPA TANK,SS,GP,Auction,3.00,0.75
+373,L.Kota,KALLEPALLI,KAMSALI TANK,SS,GP,Auction,3.00,0.75
+374,L.Kota,KALLEPALLI,RAMMANNA TANK,SS,GP,Auction,2.00,0.50
+375,L.Kota,KALEEPALLI,MUSIDI BANDA,SS,GP,Auction,2.00,0.50
+376,L.Kota,KALLEPALLI,SOMAYAJULI BANDA,SS,GP,Auction,3.00,0.75
+377,L.Kota,KALLEPALLI,RAVI BANDA,SS,GP,Auction,1.00,0.25
+378,L.Kota,KALLEPALLI,VENKATARAYADU TANK,SS,GP,Auction,1.00,0.25
+379,L.Kota,KALLEPALLI,JOGISOMAYAJULI TANK,SS,GP,Auction,2.00,0.50
+380,L.Kota,KALLEPALLI,KESAVA SAGARAM,SS,GP,Auction,2.00,0.50
+381,L.Kota,KALLEPALLI,VEDULA TANK,SS,GP,Auction,2.00,0.50
+382,L.Kota,KALLEPALLI,SWAMYNADIU TANK,SS,GP,Auction,1.00,0.25
+383,L.Kota,KALLEPALLI,APPPANNA BANADA,SS,GP,Auction,1.00,0.25
+384,L.Kota,KALLEPALLI,MALLAYYA BANDA,SS,GP,Auction,4.00,1.00
+385,L.Kota,kallepalli,THAMMAYYA TANK,SS,GP,Auction,2.00,0.50
+386,L.Kota,KALLEPALLI,VENKAYYA BANDA,SS,GP,Auction,1.00,0.25
+387,L.Kota,KHASAPETA,DUKKAVANI,SS,GP,Auction,1.00,0.25
+388,L.Kota,KHASAPETA,KARIBANDA,SS,GP,Auction,5.00,1.25
+389,L.Kota,KHASAPETA,CHODAVARAP Tank,SS,GP,Auction,1.00,0.25
+390,L.Kota,KHASAPETA,CHINNAMRAJ,SS,GP,Auction,1.00,0.25
+391,L.Kota,KHASAPETA,BARIKIBAND,SS,GP,Auction,1.00,0.25
+392,L.Kota,KHASAPETA,KOMATI TAN,SS,GP,Auction,2.00,0.50
+393,L.Kota,KHASAPETA,KOTANAVANI,SS,GP,Auction,1.00,0.25
+394,L.Kota,KHASAPETA,GOLLAVANI,SS,GP,Auction,1.00,0.25
+395,L.Kota,KHASAPETA,BOBBILIVAN,SS,GP,Auction,1.00,0.25
+396,L.Kota,KHASAPETA,AKKARAIDU,SS,GP,Auction,3.00,0.75
+397,L.Kota,KHASPETA,MAKIREDDI,SS,GP,Auction,3.00,0.75
+398,L.Kota,KITHANNAPETA,KAKULABANDA,SS,GP,Auction,4.00,1.00
+399,L.Kota,KITHANNAPETA,RANGAYYA TANK,SS,GP,Auction,2.00,0.50
+400,L.Kota,KITHANNAPETA,KAMSHALA BANDA,SS,GP,Auction,2.00,0.50
+401,L.Kota,KOTYADA,SAHEB POOD,SS,GP,Auction,6.00,1.50
+402,L.Kota,KOTYADA,YERRAMMA,SS,GP,Auction,6.00,1.50
+403,L.Kota,KOTYADA,BANTUBANDA,SS,GP,Auction,4.00,1.00
+404,L.Kota,KOTYADA,BARIKIBAND,SS,GP,Auction,1.00,0.25
+405,L.Kota,KOTYADA,VENKKAYYA TANK,SS,GP,Auction,1.00,0.25
+406,L.Kota,KOTYADA,ARITAKULA TANK,SS,GP,Auction,1.00,0.25
+407,L.Kota,KOTYADA,KAPUVANICHERUVU,SS,GP,Auction,2.00,0.50
+408,L.Kota,KOTYADA,MAMIDIBAND,SS,GP,Auction,1.00,0.25
+409,L.Kota,KOTYADA,NAGULABAND,SS,GP,Auction,1.00,0.25
+410,L.Kota,KOTYADA,JAGGUKONER,SS,GP,Auction,1.00,0.25
+411,L.Kota,LKOTA TALARI,NATHANNABA,SS,GP,Auction,3.00,0.75
+412,L.Kota,LKOTA TALARI,TUKKUDUBAN,SS,GP,Auction,2.00,0.50
+413,L.Kota,LKOTA TALARI,PANASA BAN,SS,GP,Auction,1.00,0.25
+414,L.Kota,LKOTATALARI,UJJOGI BAN,SS,GP,Auction,6.00,1.50
+415,L.Kota,LKOTATALARI,KAMSALLI,SS,GP,Auction,1.00,0.25
+416,L.Kota,LKOTA TALARI,NAIDUTANK,SS,GP,Auction,2.00,0.50
+417,L.Kota,LKOTA TALARI,KONERUBAND,SS,GP,Auction,7.00,1.75
+418,L.Kota,LKOTA TALARI,NARASAMMA,SS,GP,Auction,1.00,0.25
+419,L.Kota,LKOTA TALARI,KANNAYYA,SS,GP,Auction,1.00,0.25
+420,L.Kota,LKOTA TALARI,JOGULU BANDA,SS,GP,Auction,1.00,0.25
+421,L.Kota,LKOTA TALARI,AKKAMMA,SS,GP,Auction,1.00,0.25
+422,L.Kota,LKOTA TALARI,ESWARAVANI,SS,GP,Auction,1.00,0.25
+423,L.Kota,LKOTA TALARI,KONAPALLI,SS,GP,Auction,1.00,0.25
+424,L.Kota,LKOTA TALARI,KOTTA CHERUVU,SS,GP,Auction,3.00,0.75
+425,L.Kota,LKOTASEETHARAMPURAM,PEDDARAYUDU TANK,SS,GP,Auction,578.00,144.50
+426,L.Kota,LAKKAVARAPUKOTA,BHAVANNA TANK,SS,GP,Auction,2.00,0.50
+427,L.Kota,LAKKAVARAPUKOTA,BARIKIBAND,SS,GP,Auction,1.00,0.25
+428,L.Kota,LAKKAVARAPUKOTA,KOKKIBANDA,SS,GP,Auction,4.00,1.00
+429,L.Kota,LAKKAVARAPUKOTA,GEDDAKATTU,SS,GP,Auction,1.00,0.25
+430,L.Kota,LAKKAVARAPUKOTA,LATCHAMMA,SS,GP,Auction,3.00,0.75
+431,L.Kota,LAKKAVARAPUKOTA,PATHARAMA,SS,GP,Auction,1.00,0.25
+432,L.Kota,LATCHAMPETA,VENKATI TA,SS,GP,Auction,4.00,1.00
+433,L.Kota,LATCHAMPETA,VENKATARAM,SS,GP,Auction,1.00,0.25
+434,L.Kota,LATCHAMPETA,GOWRIPATHI,SS,GP,Auction,2.00,0.50
+435,L.Kota,LATCHAMPETA,VIDHYANATH,SS,GP,Auction,1.00,0.25
+436,L.Kota,LATCHAMPETA,VIYYANNA,SS,GP,Auction,1.00,0.25
+437,L.Kota,LATCHAMPETA,AMMA TANK,SS,GP,Auction,1.00,0.25
+438,L.Kota,LATCHMAPETA,AMBIKATTU,SS,GP,Auction,2.00,0.50
+439,L.Kota,LATCHMPETA,VEERABHADR,SS,GP,Auction,1.00,0.25
+440,L.Kota,LATCHMAPETA,AMARAYYA,SS,GP,Auction,4.00,1.00
+441,L.Kota,LATCHAMPETA,YERRA BAND,SS,GP,Auction,2.00,0.50
+442,L.Kota,LATCHAMPETA,KAMSALIBAN,SS,GP,Auction,1.00,0.25
+443,L.Kota,LATCHAMPETA,GURRAMMA,SS,GP,Auction,1.00,0.25
+444,L.Kota,LATCHAMAPETA,PADUKUBAND,SS,GP,Auction,2.00,0.50
+445,L.Kota,LATCHAMPETA,PATAMATABA,SS,GP,Auction,1.00,0.25
+446,L.Kota,LATCHAMPETA,SARAVANI T,SS,GP,Auction,1.00,0.25
+447,L.Kota,LATCHMPETA,BARIKIBAND,SS,GP,Auction,1.00,0.25
+448,L.Kota,LATCHAMPETA,MOGALIBAND,SS,GP,Auction,1.00,0.25
+449,L.Kota,LATCHAMPETA,MANYAVANIB,SS,GP,Auction,1.00,0.25
+450,L.Kota,LATCHAMPETA,TOORPUBAND,SS,GP,Auction,2.00,0.50
+451,L.Kota,LATCHAMPETA,MATHIMAYA,SS,GP,Auction,1.00,0.25
+452,L.Kota,LATCHAMPETA,CHAVITIBAN,SS,GP,Auction,1.00,0.25
+453,L.Kota,LATCHAMPETA,CHAVITIBAN,SS,GP,Auction,1.00,0.25
+454,L.Kota,LATCHAMPETA,UNGAMMA,SS,GP,Auction,1.00,0.25
+455,L.Kota,LATCHAMPETA,KOMATITANK,SS,GP,Auction,2.00,0.50
+456,L.Kota,LATCHAMPETA,MALLESWARA,SS,GP,Auction,5.00,1.25
+457,L.Kota,MALLIVEEDU,KOMATI TANK,SS,GP,Auction,1.00,0.25
+458,L.Kota,MALLIVEEDU,GURAVARAJU TANK,SS,GP,Auction,4.00,1.00
+459,L.Kota,MALLIVEEDU,CHILAKANIVANI TANK,SS,GP,Auction,3.00,0.75
+460,L.Kota,MALLIVEEDU,YERAKAYYAVANI TANK,SS,GP,Auction,2.00,0.50
+461,L.Kota,MALLIVEEDU,PYDAMMA TANK,SS,GP,Auction,3.00,0.75
+462,L.Kota,MALLIVEEDU,VOORA TANK,SS,GP,Auction,6.00,1.50
+463,L.Kota,MALLIVEEDU,NEKKALA KATTU,SS,GP,Auction,4.00,1.00
+464,L.Kota,MALLIVEEEDU,PEDDA KATTU,SS,GP,Auction,2.00,0.50
+465,L.Kota,MALLIVEEDU,PASALAVANI TANK,SS,GP,Auction,2.00,0.50
+466,L.Kota,MALLIVEEDU,CHAVITI TANK,SS,GP,Auction,4.00,1.00
+467,L.Kota,MALLIVEEDU,GOPICHETTIVANI TANK,SS,GP,Auction,2.00,0.50
+468,L.Kota,MARLAPALLI,BARIKAM BANDA,SS,GP,Auction,3.00,0.75
+469,L.Kota,MARLAPALLI,RONGALIVANI BANDA,SS,GP,Auction,1.00,0.25
+470,L.Kota,MARLAPALLI,DWARAPUDI TANK,SS,GP,Auction,3.00,0.75
+471,L.Kota,MARLAPALLI,CHUKKAVANI TANK,SS,GP,Auction,3.00,0.75
+472,L.Kota,MARLAPALLI,YERRABANDA,SS,GP,Auction,1.00,0.25
+473,L.Kota,MARLAPALLI,KATTA TANK,SS,GP,Auction,2.00,0.50
+474,L.Kota,NARASAMPETA,TATA TANK,SS,GP,Auction,4.00,1.00
+475,L.Kota,NARASAMPETA,KIAAMANNA TANK,SS,GP,Auction,3.00,0.75
+476,L.Kota,NARASAMMPETA,NARASAMMA TANK,SS,GP,Auction,3.00,0.75
+477,L.Kota,POTHAMPETA,LACHAMMA TANK,SS,GP,Auction,4.00,1.00
+478,L.Kota,POTHAMPETA,JAGAMMA TANK,SS,GP,Auction,1.00,0.25
+479,L.Kota,POTHAMPETA,PEDDARAMANNA TANK,SS,GP,Auction,2.00,0.50
+480,L.Kota,POTHAM PETA,CHAPPAVANI TANK,SS,GP,Auction,7.00,1.75
+481,L.Kota,POTHAMPETA,POTHAMA TANK,SS,GP,Auction,1.00,0.25
+482,L.Kota,POTHAMPETA,ATHAVARAMANNA TANK,SS,GP,Auction,3.00,0.75
+483,L.Kota,POTHAMPETA,ATHAVARAMANNA TANK,SS,GP,Auction,1.00,0.25
+484,L.Kota,POTHAMPETA,KANNAMNAIDU TANK,SS,GP,Auction,2.00,0.50
+485,L.Kota,POTHAM PETA,KAMAIAH TANK,SS,GP,Auction,2.00,0.50
+486,L.Kota,RANGAPURAM,BENKAPUDI VANI TANK,SS,GP,Auction,1.00,0.25
+487,L.Kota,RANGAPURAM,VENKAYYA TANK,SS,GP,Auction,1.00,0.25
+488,L.Kota,RANGAPURAM,JANASAGARAM TANK,SS,GP,Auction,5.00,1.25
+489,L.Kota,RANGAPURAM,GEDDA KALULA,SS,GP,Auction,1.00,0.25
+490,L.Kota,RANGAPURAM,MURUMALLA VANI TANK,SS,GP,Auction,2.00,0.50
+491,L.Kota,RANGAPURAM,YERRA TANK,SS,GP,Auction,3.00,0.75
+492,L.Kota,REGA,REGA CHARUVU,SS,GP,Auction,1.00,0.25
+493,L.Kota,REGA,SANKARAYYA TANK,SS,GP,Auction,3.00,0.75
+494,L.Kota,REGA,REVADA BANDA,SS,GP,Auction,1.00,0.25
+495,L.Kota,REGA,VENKHAMMA BANDA,SS,GP,Auction,1.00,0.25
+496,L.Kota,REGA,KAMHANNA TANK,SS,GP,Auction,1.00,0.25
+497,L.Kota,REGA,DAALAPPU BANDA,SS,GP,Auction,1.00,0.25
+498,L.Kota,REGA,YERRA BANDA,SS,GP,Auction,1.00,0.25
+499,L.Kota,REGA,JANGAM BANDA,SS,GP,Auction,1.00,0.25
+500,L.Kota,REGA,SETHAMMA BANDA,SS,GP,Auction,1.00,0.25
+501,L.Kota,REGA,APPIKATTU,SS,GP,Auction,1.00,0.25
+502,L.Kota,REGA,GANGALAYYA TANK,SS,GP,Auction,2.00,0.50
+503,L.Kota,REGA,KOTHA TANK,SS,GP,Auction,2.00,0.50
+504,L.Kota,REGA,LINGAMMA TANK,SS,GP,Auction,1.00,0.25
+505,L.Kota,REGA,SANTHA BANDA,SS,GP,Auction,1.00,0.25
+506,L.Kota,REGA,BAVANA BANDA,SS,GP,Auction,1.00,0.25
+507,L.Kota,REGA,ABBASI CHERUVU,SS,GP,Auction,1.00,0.25
+508,L.Kota,REGA,MOGALI CHERUVU,SS,GP,Auction,1.00,0.25
+509,L.Kota,REGA,CHINTHALA CHEERUVU,SS,GP,Auction,1.00,0.25
+510,L.Kota,REGA,MANTHI KATTU,SS,GP,Auction,1.00,0.25
+511,L.Kota,REGA,CHINTHALA BANDA,SS,GP,Auction,1.00,0.25
+512,L.Kota,REGA,THINNAMAYYA BANDA,SS,GP,Auction,1.00,0.25
+513,L.Kota,REGA,KITTUDU KATTU,SS,GP,Auction,1.00,0.25
+514,L.Kota,REGA,CHINNAM NAIDU TANK,SS,GP,Auction,2.00,0.50
+515,L.Kota,RELLIGAVIRAMMAPETA,BURRAVAN TANK,SS,GP,Auction,2.00,0.50
+516,L.Kota,RALLIGAVARAMMAPETA,KOTHA TANK,SS,GP,Auction,2.00,0.50
+517,L.Kota,RALLIGAVARAMMAPETA,LAGUDUVANI TANK,SS,GP,Auction,3.00,0.75
+518,L.Kota,SANTAPETA,YERUVAKA TANK,SS,GP,Auction,1.00,0.25
+519,L.Kota,SANTAPETA,KOMATTI TANK,SS,GP,Auction,3.00,0.75
+520,L.Kota,SANTAPETA,ALLUVANI TANK,SS,GP,Auction,2.00,0.50
+521,L.Kota,SANTAPETA,NELLIVANI TANK,SS,GP,Auction,1.00,0.25
+522,L.Kota,SANTAPETA,KAKARA BANDA,SS,GP,Auction,1.00,0.25
+523,L.Kota,SREERAMPURAM,PADALAMMA TANK,SS,GP,Auction,2.00,0.50
+524,L.Kota,SREERAMPURAM,CHANDULURU KATTU,SS,GP,Auction,1.00,0.25
+525,L.Kota,TAMARAPALLI,THIMMADI KATTU,SS,GP,Auction,1.00,0.25
+526,L.Kota,TAMARAPALLI,GORELIBANDA,SS,GP,Auction,2.00,0.50
+527,L.Kota,TAMARAPALLI,KOTHA TANK,SS,GP,Auction,2.00,0.50
+528,L.Kota,TAMARAPALLI,BUDARI BANDA,SS,GP,Auction,2.00,0.50
+529,L.Kota,TAMARAPALLI,RATHI TANK,SS,GP,Auction,2.00,0.50
+530,L.Kota,TAMARAPALLI,BARIKABANDA,SS,GP,Auction,4.00,1.00
+531,L.Kota,TAMARAPALLI,CHINTHALA BANDA,SS,GP,Auction,3.00,0.75
+532,L.Kota,VEERABHADRAPETA,APPAMMA BANDA,SS,GP,Auction,1.00,0.25
+533,vepada,paturu,Raju tank,LS,MI,Lease ,50,25.14
+534,vepada,chintada,Jangam tank,LS,MI,Lease ,12,6.00
+535,vepada,singarai,Komati tank,LS,MI,Lease ,12,6.00
+536,vepada,Boddam,Gangulavani tank,SS,MI,Lease ,18,4.50
+537,vepada,kondagangupudi,Viziaramasagaram,SS,MI,Lease ,24,6.00
+538,vepada,veldam,Narayudu tank,SS,MI,Lease ,8,2.00
+539,vepada,gudivada,Veddulla tank,SS,MI,Lease ,8,2.00
+540,vepada,vallilapadu,krishnamraju tank,SS,MI,Lease ,10,2.50
+541,vepada,vallilapadu,gopannatank,SS,MI,Lease ,12,3.00
+542,vepada,dabbirajupeta,kanumala tank,SS,MI,Lease ,68,17.00
+543,vepada,vepada,Tumu tank,SS,MI,Lease ,8,2.00
+544,Vpada,Athava,Kantamayya tank,SS,GP,Lease ,16.00,4
+545,Vpada,Vepada,Yarra tank,SS,GP,Lease ,4.00,1
+546,Vpada,Vepada,Kitta tank,SS,GP,Lease ,9.00,2.25
+547,Vpada,Jaggayyapeta,Komati tank,SS,GP,Lease ,5.00,1.25
+548,Vpada,Jaggayyapeta,Jangamma tank/g.gudivada,SS,GP,Lease ,5.00,1.25
+549,Vpada,Jaggayyapeta,Nainappa tank,SS,GP,Lease ,6.00,1.5
+550,Vpada,Jaggayyapeta,Pinnamaraju tank,SS,GP,Lease ,5.00,1.25
+551,Vpada,Jaggayyapeta,Tammunaidu tank,SS,GP,Lease ,6.00,1.5
+552,Vpada,Boddam,Gaangu tank,SS,GP,Lease ,12.00,3
+553,Vpada,Boddam,Gani banta,SS,GP,Lease ,1.00,0.25
+554,Vpada,BODDAM,KOTHA,SS,GP,Lease ,3.00,0.75
+555,Vpada,BODDAM,VURA,SS,GP,Lease ,2.00,0.5
+556,Vpada,BODDAM,MUDRINAIDU,SS,GP,Lease ,2.00,0.5
+557,Vpada,Ramaswamypeta,Naram naidu tank,SS,GP,Lease ,19.00,4.75
+558,Vpada,Ramaswamypeta,Jaganadh tank,SS,GP,Lease ,8.00,2
+559,Vpada,Ramaswamypeta,Mangali banda,SS,GP,Lease ,3.00,0.75
+560,Vpada,Ramaswamypeta,Kullu koneru,SS,GP,Lease ,2.00,0.5
+561,Vpada,Ramaswamypeta,Dhanna koneru,SS,GP,Lease ,3.00,0.75
+562,Vpada,Ramaswamypeta,DPTNT ANK,SS,GP,Lease ,9.00,2.25
+563,Vpada,Ramaswamypeta,SITAMMA,SS,GP,Lease ,2.00,0.5
+564,Vpada,Ramaswamypeta,NISTALA,SS,GP,Lease ,1.00,0.25
+565,Vpada,Nallabilli,Gurupathi tank,SS,GP,Lease ,8.00,2
+566,Vpada,Nallabilli,Kannamala tank,SS,GP,Lease ,7.50,1.875
+567,Vpada,Nallabilli,Jamodu tank,SS,GP,Lease ,9.00,2.25
+568,Vpada,Nallabilli,Yerram banda ,SS,GP,Lease ,5.00,1.25
+569,Vpada,Nallabilli,Akali banda,SS,GP,Lease ,4.00,1
+570,Vpada,Nallabilli,Sontam banda,SS,GP,Lease ,3.50,0.875
+571,Vpada,Nallabilli,Raju tank,SS,GP,Lease ,6.00,1.5
+572,Vpada,Nallabilli,Kuncham banda ,SS,GP,Lease ,4.00,1
+573,Vpada,Nallabilli,Gangodu banda,SS,GP,Lease ,3.00,0.75
+574,Vpada,Nallabilli,Mallodu tank,SS,GP,Lease ,5.50,1.375
+575,Vpada,Sompuram,Peddaravi tank,SS,GP,Lease ,7.00,1.75
+576,Vpada,Sompuram,Gundam tank,SS,GP,Lease ,7.00,1.75
+577,Vpada,Sompuram,Peddagangu tank,SS,GP,Lease ,2.00,0.5
+578,Vpada,Sompuram,Chinagangu tank,SS,GP,Lease ,1.00,0.25
+579,Vpada,Sompuram,Chinta banda,SS,GP,Lease ,9.00,2.25
+580,Vpada,Sompuram,Muthamma tank,SS,GP,Lease ,5.00,1.25
+581,Vpada,Sompuram,Yedduvani Tank,SS,GP,Lease ,1.00,0.25
+582,Vpada,Sompuram,Pedda Tank,SS,GP,Lease ,8.00,2
+583,Vpada,Sompuram,Nalla Tank,SS,GP,Lease ,8.00,2
+584,Vpada,Sompuram,Bodu Banda,SS,GP,Lease ,2.00,0.5
+585,Vpada,Sompuram,Gangu Tank,SS,GP,Lease ,4.00,1
+586,Vpada,Sompuram,Gavarapatruni Tank,SS,GP,Lease ,3.00,0.75
+587,Vpada,Arigipalem,Venkanna koneru,SS,GP,Lease ,2.00,0.5
+588,Vpada,Arigipalem,Ravala tank,SS,GP,Lease ,2.00,0.5
+589,Vpada,Arigipalem,Patha koneru,SS,GP,Lease ,1.00,0.25
+590,Vpada,Arigipalem,Medaravani tank,SS,GP,Lease ,1.00,0.25
+591,Vpada,Arigipalem,Arigi tank,SS,GP,Lease ,2.00,0.5
+592,Vpada,Arigipalem,Vaddivani tank,SS,GP,Lease ,1.00,0.25
+593,Vpada,Arigipalem,Pragadatank,SS,GP,Lease ,2.00,0.5
+594,Vpada,Timidi,Muragada koneru,SS,GP,Lease ,4.00,1
+595,Vpada,Timidi,Pratapadevi koneru,SS,GP,Lease ,10.00,2.5
+596,Vepada,K.G.Pudi,Jaganadh sagaram,SS,GP,Lease ,10.00,2.5
+597,Vepada,K.G.Pudi,Rayudu tank,SS,GP,Lease ,6.00,1.5
+598,Vepada,K.G.Pudi,Anand sagar,SS,GP,Lease ,10.00,2.5
+599,Vepada,Singarai,Rathi tank,SS,GP,Lease ,3.00,0.75
+600,Vepada,Singarai,Voora tank,SS,GP,Lease ,2.00,0.5
+601,Vepada,Singarai,Tammayya tank,SS,GP,Lease ,3.00,0.75
+602,Vepada,Singarai,Telukali gedda,SS,GP,Lease ,5.00,1.25
+603,Vepada,ARIGIPALEM,MODARA,SS,GP,Auction,10.00,2.50
+604,Vepada,ARIGIPALEM,PRAGADA,SS,GP,Auction,5.00,1.25
+605,Vepada,ARIGIPALEM,REVALLA,SS,GP,Auction,2.00,0.50
+606,Vepada,ARIGIPALEM,VEDULLAVAN,SS,GP,Auction,1.00,0.25
+607,Vepada,ATHAVA,KALYANI,SS,GP,Auction,2.00,0.50
+608,Vepada,ATHAVA,NATARAJU,SS,GP,Auction,2.00,0.50
+609,Vepada,ATHAVA,PYDIRAJU,SS,GP,Auction,4.00,1.00
+610,Vepada,ATHAVA,SUNGARI,SS,GP,Auction,8.00,2.00
+611,Vepada,ATHAVA,GUNDUVANITANK,SS,GP,Auction,1.00,0.25
+612,Vepada,ATHAVA,KAMSALI,SS,GP,Auction,3.00,0.75
+613,Vepada,ATHAVA,YERRUNAIDU,SS,GP,Auction,1.00,0.25
+614,Vepada,Ballanki,Adhikarabanda,SS,GP,Auction,2.00,0.50
+615,Vepada,Ballanki,Dasula Tank,SS,GP,Auction,4.00,1.00
+616,Vepada,Ballanki,Krishnanaidu Tank,SS,GP,Auction,1.00,0.25
+617,Vepada,Ballanki,Appayya Tank,SS,GP,Auction,1.00,0.25
+618,Vepada,Ballanki,Gurunaidu Tank,SS,GP,Auction,2.00,0.50
+619,Vepada,Ballanki,Kamsalibanda,SS,GP,Auction,1.00,0.25
+620,Vepada,Ballanki,Narasamma Tank,SS,GP,Auction,6.00,1.50
+621,Vepada,Ballanki,Naidu Tank,SS,GP,Auction,6.00,1.50
+622,Vepada,Ballanki,Ravivani Tank,SS,GP,Auction,1.00,0.25
+623,Vepada,BANADI,KITTAYYA,SS,GP,Auction,5.00,1.25
+624,Vepada,BANADI,GURUVULA,SS,GP,Auction,3.00,0.75
+625,Vepada,BANADI,GUMMADI,SS,GP,Auction,1.00,0.25
+626,Vepada,BANADI,MAHDEVAYA,SS,GP,Auction,3.00,0.75
+627,Vepada,Chamalapalli,Seetamma Tank,SS,GP,Auction,2.00,0.50
+628,Vepada,Chamalapalli,Deyyala Tank,SS,GP,Auction,1.00,0.25
+629,Vepada,Chamalapalli,Karri Banda,SS,GP,Auction,1.00,0.25
+630,Vepada,Chamalapalli,Bodda Banda,SS,GP,Auction,1.00,0.25
+631,Vepada,Chamalapalli,Chintala Banda,SS,GP,Auction,1.00,0.25
+632,Vepada,Chamalapalli,Telagabanda,SS,GP,Auction,1.00,0.25
+633,Vepada,Chamalapalli,Vootavani Tank,SS,GP,Auction,1.00,0.25
+634,Vepada,Chamalapalli,Madala Banda,SS,GP,Auction,2.00,0.50
+635,Vepada,Chamalapalli,Nalla Tank,SS,GP,Auction,3.00,0.75
+636,Vepada,Chamalapalli,Rangamma Tank,SS,GP,Auction,6.00,1.50
+637,Vepada,Chamalapalli,Suyamma Tank,SS,GP,Auction,3.00,0.75
+638,Vepada,Chamalapalli,Paidamma Tank,SS,GP,Auction,1.00,0.25
+639,Vepada,Chamalapalli,Voora Tank,SS,GP,Auction,9.00,2.25
+640,Vepada,Chamalapalli,Yerakamma Tank,SS,GP,Auction,1.00,0.25
+641,Vepada,Chamalapalli,Arigivani Tank,SS,GP,Auction,6.00,1.50
+642,Vepada,Chinagudipala,Appalanaidu Tank,SS,GP,Auction,1.00,0.25
+643,Vepada,Chinagudipala,Busalavani Tank,SS,GP,Auction,8.00,2.00
+644,Vepada,Chinagudipala,Boosta Tank,SS,GP,Auction,3.00,0.75
+645,Vepada,Chinagudipala,Gostani Tank,SS,GP,Auction,2.00,0.50
+646,Vepada,Chinagudipala,Venkayya tank,SS,GP,Auction,1.00,0.25
+647,Vepada,Chinagudipala,Seethamma Tank,SS,GP,Auction,1.00,0.25
+648,Vepada,Chinagudipala,Kollapuvani Tank,SS,GP,Auction,1.00,0.25
+649,Vepada,Chinagudipala,Chintalabanda,SS,GP,Auction,1.00,0.25
+650,Vepada,Chinagudipala,Dasari Banda,SS,GP,Auction,1.00,0.25
+651,Vepada,Chinagudipala,Mulakalavanitank,SS,GP,Auction,2.00,0.50
+652,Vepada,Chinagudipala,Pallavani Tank,SS,GP,Auction,1.00,0.25
+653,Vepada,Chinagudipala,Venkayya Banda,SS,GP,Auction,1.00,0.25
+654,Vepada,Chinagudipala,Gosangi Tank,SS,GP,Auction,1.00,0.25
+655,Vepada,GUDIVADA,BARIKABANDA,SS,GP,Auction,1.00,0.25
+656,Vepada,GUDIVADA,KOMATI,SS,GP,Auction,6.00,1.50
+657,Vepada,GUDIVADA,PINNAMARAJU,SS,GP,Auction,3.00,0.75
+658,Vepada,GUDIVADA,BARIKABANDA,SS,GP,Auction,3.00,0.75
+659,Vepada,GUDIVADA,GUDIVADATANK,SS,GP,Auction,3.00,0.75
+660,Vepada,singarai,Tammayya,SS,GP,Auction,3.00,0.75
+661,Vepada,Jakeru,Bharatavani Tank,SS,GP,Auction,6.00,1.50
+662,Vepada,Jakeru,Gopamma Tank,SS,GP,Auction,8.00,2.00
+663,Vepada,Jakeru,Revallavani Tank,SS,GP,Auction,3.00,0.75
+664,Vepada,Jakeru,Tammayya Tank,SS,GP,Auction,5.00,1.25
+665,Vepada,Jakeru,Yerikinaidu Tank,SS,GP,Auction,3.00,0.75
+666,Vepada,Jakeru,Mala Madiga Tank,SS,GP,Auction,1.00,0.25
+667,Vepada,Jakeru,Gowramma Tank,SS,GP,Auction,3.00,0.75
+668,Vepada,Jakeru,Bapamma Tank,SS,GP,Auction,2.00,0.50
+669,Vepada,Jakeru,Chamatalavani Tank,SS,GP,Auction,3.00,0.75
+670,Vepada,Jakeru,Ceemalavani Tank,SS,GP,Auction,2.00,0.50
+671,Vepada,Jakeru,Kittamma Tank,SS,GP,Auction,5.00,1.25
+672,Vepada,Jakeru,Mathamma Tank,SS,GP,Auction,8.00,2.00
+673,Vepada,Jakeru,Pedda Tank,SS,GP,Auction,4.00,1.00
+674,Vepada,Jakeru,Thammayya Tank,SS,GP,Auction,3.00,0.75
+675,Vepada,Jakeru,Voota Tank,SS,GP,Auction,5.00,1.25
+676,Vepada,Jakeru,Korukonda Banda,SS,GP,Auction,4.00,1.00
+677,Vepada,Karakavalasa,Karrivani Tank,SS,GP,Auction,4.00,1.00
+678,Vepada,Karakavalasa,Polayya Banda,SS,GP,Auction,1.00,0.25
+679,Vepada,Karakavalasa,Appanna Tank,SS,GP,Auction,8.00,2.00
+680,Vepada,Karakavalasa,Dharma Koneru,SS,GP,Auction,1.00,0.25
+681,Vepada,Kondagangupudi,Daaribanda,SS,GP,Auction,6.00,1.50
+682,Vepada,Kondagangupudi,Vantanapud,SS,GP,Auction,7.00,1.75
+683,Vepada,Kondagangupudi,KNPT Tank,SS,GP,Auction,2.00,0.50
+684,Vepada,K R Peta,Edurlavani Tank,SS,GP,Auction,2.00,0.50
+685,Vepada,K R Peta,Vallikala Cheruvu,SS,GP,Auction,3.00,0.75
+686,Vepada,K R Peta,Gurunaidu Tank,SS,GP,Auction,10.00,2.50
+687,Vepada,K R Peta,Kamsali Tank,SS,GP,Auction,3.00,0.75
+688,Vepada,K R Peta,Krishnamnaidu Tank,SS,GP,Auction,2.00,0.50
+689,Vepada,K R Peta,Juvvi Banda,SS,GP,Auction,1.00,0.25
+690,Vepada,K R Peta,Narasamma Tank,SS,GP,Auction,1.00,0.25
+691,Vepada,K R Peta,Venkayya Cheruvu,SS,GP,Auction,2.00,0.50
+692,Vepada,K R Peta,Yerra Banda,SS,GP,Auction,2.00,0.50
+693,Vepada,K R Peta,Yerakamma Tank,SS,GP,Auction,1.00,0.25
+694,Vepada,Kummapalli,Akkunaidu Tank,SS,GP,Auction,7.00,1.75
+695,Vepada,Kummapalli,Boda banda,SS,GP,Auction,4.00,1.00
+696,Vepada,Kummapalli,Kagu Cheruvu,SS,GP,Auction,5.00,1.25
+697,Vepada,Kummapalli,Komati Tank,SS,GP,Auction,8.00,2.00
+698,Vepada,Kummapalli,Kotha Cheruvu,SS,GP,Auction,7.00,1.75
+699,Vepada,Kummapalli,Nalla Tank,SS,GP,Auction,9.00,2.25
+700,Vepada,Kummapalli,Cheekati Tank,SS,GP,Auction,2.00,0.50
+701,Vepada,Kummapalli,Lingamma Tank,SS,GP,Auction,2.00,0.50
+702,Vepada,Kummapalli,Musidi Banda,SS,GP,Auction,3.00,0.75
+703,Vepada,Kummapalli,Palikavani Cheruvu,SS,GP,Auction,3.00,0.75
+704,Vepada,Kummapalli,Regubanda,SS,GP,Auction,2.00,0.50
+705,Vepada,MUKUNDAPURAM,chakali cheruvu,SS,GP,Auction,2.00,0.50
+706,Vepada,MUKUNDAPURAM,KOMATI TANK,SS,GP,Auction,5.00,1.25
+707,Vepada,MUKUNDAPURAM,YERUKU NAIDU TANK,SS,GP,Auction,9.00,2.25
+708,Vepada,MUKUNDAPURAM,MURUKI BANDA,SS,GP,Auction,2.00,0.50
+709,Vepada,MUKUNDAPURAM,CHAVITI BANDA,SS,GP,Auction,1.00,0.25
+710,Vepada,Mukundapuram,Krishnasagaram,SS,GP,Auction,1.00,0.25
+711,Vepada,Mukundapuram,Kotha Banda,SS,GP,Auction,1.00,0.25
+712,Vepada,Mukundapuram,Musidi Banda,SS,GP,Auction,1.00,0.25
+713,Vepada,Nallabilli,Appalanaidu tank,SS,GP,Auction,2.00,0.50
+714,Vepada,Nallabilli,Yerra Banda,SS,GP,Auction,3.00,0.75
+715,Vepada,Vavilapadu,Rajayya Tank,SS,GP,Auction,11.00,2.75
+716,Vepada,Nallabilli,Bariki Banda,SS,GP,Auction,1.00,0.25
+717,Vepada,Nallabilli,Nagireddi Banda,SS,GP,Auction,1.00,0.25
+718,Vepada,Nallabilli,Ganchidi Banda,SS,GP,Auction,2.00,0.50
+719,Vepada,Nallabilli,Jannivani Cheruvu,SS,GP,Auction,6.00,1.50
+720,Vepada,Neelakantarajapuram,Appalanaidu Tank,SS,GP,Auction,3.00,0.75
+721,Vepada,Neelakantarajapuram,Korla Banda,SS,GP,Auction,6.00,1.50
+722,Vepada,Neelakantarajapuram,Mahalaxmi Tank,SS,GP,Auction,9.00,2.25
+723,Vepada,Neelakantarajapuram,Narayya Banda,SS,GP,Auction,2.00,0.50
+724,Vepada,Neelakantarajapuram,Narasamma Tank,SS,GP,Auction,3.00,0.75
+725,Vepada,Neelakantarajapuram,Saki Cheruvu,SS,GP,Auction,3.00,0.75
+726,Vepada,Neelakantarajapuram,Kotha Banda,SS,GP,Auction,1.00,0.25
+727,Vepada,Neelakantarajapuram,Pydamma Banda,SS,GP,Auction,1.00,0.25
+728,Vepada,Neelakantarajapuram,Ramanna Tank,SS,GP,Auction,2.00,0.50
+729,Vepada,Neelakantarajapuram,Sivayya Tank,SS,GP,Auction,1.00,0.25
+730,Vepada,Neelakantarajapuram,Venkayya Tank,SS,GP,Auction,6.00,1.50
+731,Vepada,OBALAYYA PALEM,JAMI BANDA,SS,GP,Auction,2.00,0.50
+732,Vepada,OBALAYYA PALEM,RALLA BANDA,SS,GP,Auction,4.00,1.00
+733,Vepada,OBBALAYYAPALEM,NAKKALA BANDA,SS,GP,Auction,5.00,1.25
+734,Vepada,OBALAYYAPALEM,MANGALI BANDA,SS,GP,Auction,1.00,0.25
+735,Vepada,OBALAYYAPALEM,SEETRAMAPURAM TANK,SS,GP,Auction,1.00,0.25
+736,Vepada,Paturu,Ayyanna Cheruvu,SS,GP,Auction,3.00,0.75
+737,Vepada,Paturu,Lanka Banda,SS,GP,Auction,2.00,0.50
+738,Vepada,Paturu,Pathavani Cheruvu,SS,GP,Auction,4.00,1.00
+739,Vepada,Paturu,Sangamvani Tank,SS,GP,Auction,2.00,0.50
+740,Vepada,Paturu,Marrivani Cheruvu,SS,GP,Auction,10.00,2.50
+741,Vepada,Paturu,Polavani Cheruvu,SS,GP,Auction,3.00,0.75
+742,Vepada,Paturu,Musidi Banda,SS,GP,Auction,3.00,0.75
+743,Vepada,RS PETA,KARI BANDA,SS,GP,Auction,3.00,0.75
+744,Vepada,RS PETA,NOKKALA,SS,GP,Auction,1.00,0.25
+745,Vepada,Sompuram,Appalayya Tank,SS,GP,Auction,5.00,1.25
+746,Vepada,Sompuram,Chitala Tank,SS,GP,Auction,6.00,1.50
+747,Vepada,Sompuram,Devarapatruni Tank,SS,GP,Auction,3.00,0.75
+748,Vepada,Sompuram,Jagannadha Banda,SS,GP,Auction,6.00,1.50
+749,Vepada,Sompuram,Jagganna Banda,SS,GP,Auction,3.00,0.75
+750,Vepada,Sompuram,Pothayya Tank,SS,GP,Auction,2.00,0.50
+751,Vepada,Sompuram,Pydanna Tank,SS,GP,Auction,3.00,0.75
+752,Vepada,Sompuram,Ravi Tank,SS,GP,Auction,4.00,1.00
+753,Vepada,Sompuram,Sathiraju Tank,SS,GP,Auction,4.00,1.00
+754,Vepada,Sompuram,Thamayya Tank,SS,GP,Auction,1.00,0.25
+755,Vepada,Sompuram,Vedanna Tank,SS,GP,Auction,4.00,1.00
+756,Vepada,Sompuram,Yedamma Tank,SS,GP,Auction,6.00,1.50
+757,Vepada,Sompuram,Amma Tank,SS,GP,Auction,2.00,0.50
+758,Vepada,Sompuram,Busuvani Tank,SS,GP,Auction,1.00,0.25
+759,Vepada,Sompuram,Bayyavani Tank,SS,GP,Auction,1.00,0.25
+760,Vepada,Sompuram,Chinajagaram Banda,SS,GP,Auction,1.00,0.25
+761,Vepada,Sompuram,Chinnamraju Tank,SS,GP,Auction,2.00,0.50
+762,Vepada,Sompuram,Chakirevu Banda,SS,GP,Auction,2.00,0.50
+763,Vepada,Sompuram,Chandrappa Tank,SS,GP,Auction,1.00,0.25
+764,Vepada,Sompuram,Devastanam Tank,SS,GP,Auction,1.00,0.25
+765,Vepada,Sompuram,Gobbili Banda,SS,GP,Auction,1.00,0.25
+766,Vepada,Sompuram,Guramma Banda,SS,GP,Auction,1.00,0.25
+767,Vepada,Sompuram,Jagamma Banda,SS,GP,Auction,2.00,0.50
+768,Vepada,Sompuram,Koppugurila Tank,SS,GP,Auction,1.00,0.25
+769,Vepada,Sompuram,Karrisatyanarayana Tank,SS,GP,Auction,2.00,0.50
+770,Vepada,Sompuram,Latchanna Tank,SS,GP,Auction,1.00,0.25
+771,Vepada,Sompuram,Murthi Banda,SS,GP,Auction,2.00,0.50
+772,Vepada,Sompuram,Notheru Banda,SS,GP,Auction,1.00,0.25
+773,Vepada,Sompuram,Nistala Tank,SS,GP,Auction,1.00,0.25
+774,Vepada,Sompuram,Pothanna Tank,SS,GP,Auction,1.00,0.25
+775,Vepada,Sompuram,Pedda Lakshmana Tank,SS,GP,Auction,1.00,0.25
+776,Vepada,Sompuram,Ragayya Tank,SS,GP,Auction,2.00,0.50
+777,Vepada,Sompuram,Saladivari Tank,SS,GP,Auction,2.00,0.50
+778,Vepada,Sompuram,Takkamalluvari Tank,SS,GP,Auction,2.00,0.50
+779,Vepada,Sompuram,Venkamma Tank,SS,GP,Auction,1.00,0.25
+780,Vepada,Sompuram,Velagala Banda,SS,GP,Auction,1.00,0.25
+781,Vepada,Sompuram,Yerra Tank,SS,GP,Auction,1.00,0.25
+782,Vepada,VALLAMPUDI,PATHABANDA,SS,GP,Auction,4.00,1.00
+783,Vepada,VALLAMPUDI,TAMMAYYA TANK,SS,GP,Auction,2.00,0.50
+784,Vepada,VALLAMPUDI,YERRA TANK,SS,GP,Auction,10.00,2.50
+785,Vepada,VALLAMPUDI,VEERANAGAMMA TANK,SS,GP,Auction,5.00,1.25
+786,Vepada,Vavilapadu,Challavani Tank,SS,GP,Auction,2.00,0.50
+787,Vepada,Vavilapadu,Kotha Tank,SS,GP,Auction,1.00,0.25
+788,Vepada,Vavilapadu,Koraddi Banda,SS,GP,Auction,2.00,0.50
+789,Vepada,Vavilapadu,Gopamma Tank,SS,GP,Auction,6.00,1.50
+790,Vepada,Vavilapadu,Naidu Tank,SS,GP,Auction,4.00,1.00
+791,Vepada,Vavilapadu,Sundrappa Tank,SS,GP,Auction,2.00,0.50
+792,Vepada,Vavilapadu,Virata Banda,SS,GP,Auction,1.00,0.25
+793,Vepada,Veeluparthy,Kamsali,SS,GP,Auction,2.00,0.50
+794,Vepada,Veeluparthy,palagedda,SS,GP,Auction,2.00,0.50
+795,Vepada,VEPADA,BURJUVANI BANDA,SS,GP,Auction,1.00,0.25
+796,Vepada,VEPADA,KANNAYYA BANDA,SS,GP,Auction,2.00,0.50
+797,Vepada,VEPADA,NAIDU BANDA,SS,GP,Auction,4.00,1.00
+798,Vepada,VEPADA,PAIDAMMA,SS,GP,Auction,1.00,0.25
+799,Vepada,VEPADA,BAKKUNAIDU TANK,SS,GP,Auction,11.00,2.75
+800,Vepada,VEPADA,APPANNA TANK,SS,GP,Auction,13.00,3.25
+801,Vepada,VEPADA,ARIGI VANI TANK,SS,GP,Auction,4.00,1.00
+802,Vepada,VEPADA,DASARI BANDA,SS,GP,Auction,5.00,1.25
+803,Vepada,VEPADA,KOTHA BANDA,SS,GP,Auction,2.00,0.50
+804,Vepada,VEPADA,VOORA BANDA,SS,GP,Auction,5.00,1.25
+805,Vepada,VEPADA,BODDA PALLI BANDA,SS,GP,Auction,3.00,0.75
+806,Vepada,VEPADA,MANGAPU BANDA,SS,GP,Auction,4.00,1.00
+807,Jami,Venni,Karrivani tank,LS,MI,Lease ,28,14.00
+808,Jami,Jami,Rubbuvani tank,LS,MI,Lease ,12,6.00
+809,Jami,Thadrangi,Beelavani tank,LS,MI,Lease ,16,8.00
+810,Jami,Thadrangi,Narasimha tank,LS,MI,Lease ,12,6.00
+811,Jami,Tanavaram,Raju tank,LS,MI,Lease ,42,21.00
+812,Jami,Jagaram,Rajunaidu tank,LS,MI,Lease ,32,16.00
+813,Jami,Annamrajupeta,Padmanbharaju tank,LS,MI,Lease ,105,52.50
+814,Jami,Vizinigiri,Sitayya tank,LS,MI,Lease ,16,8.00
+815,Jami,Alamanda,Pedda tank,SS,MI,Lease ,32,8.00
+816,Jami,Venkarajupalem,Raju tank,SS,MI,Lease ,24,6.00
+817,Jami,Jagaram,Dalemma tank,SS,GP,Lease ,30.00,7.5
+818,Jami,Jagaram,Isukagedda,SS,GP,Lease ,3.00,0.75
+819,Jami,Jagaram,Manchinella koneru,SS,GP,Lease ,15.00,3.75
+820,Jami,Tanavaram,Talla tank,SS,GP,Lease ,15.00,3.75
+821,Jami,Tanavaram,Yerunaidu tankku,SS,GP,Lease ,5.00,1.25
+822,Jami,Tanavaram,Nattala koneru,SS,GP,Lease ,3.00,0.75
+823,Jami,Tanavaram,Raminaidu tank,SS,GP,Lease ,2.00,0.5
+824,Jami,Tanavaram,Naidu tank,SS,GP,Lease ,3.00,0.75
+825,Jami,Tanavaram,Chinta banda,SS,GP,Lease ,1.00,0.25
+826,Jami,Tanavaram,Pala banda,SS,GP,Lease ,5.00,1.25
+827,Jami,Alamanda,Jaganadh sagaram,SS,GP,Lease ,4.00,1
+828,Jami,Alamanda,Tothavani tank,SS,GP,Lease ,2.00,0.5
+829,Jami,Alamanda,Seerabanda koneru,SS,GP,Lease ,1.50,0.375
+830,Jami,Alamanda,Narayana sagaram,SS,GP,Lease ,3.00,0.75
+831,Jami,Alamanda,Katakamvani tank,SS,GP,Lease ,2.00,0.5
+832,Jami,Alamanda,Papaya tank,SS,GP,Lease ,3.00,0.75
+833,Jami,alamanda,chintakamsala banda,SS,GP,Lease ,1.00,0.25
+834,Jami,alamanda,mogali tank,SS,GP,Lease ,7.00,1.75
+835,Jami,alamanda,narayanasagaram,SS,GP,Lease ,1.00,0.25
+836,Jami,alamanda,kotha tank,SS,GP,Lease ,2.00,0.5
+837,Jami,alamanda,patrunitank,SS,GP,Lease ,2.00,0.5
+838,Jami,alamanda,pinagantivanitank,SS,GP,Lease ,2.00,0.5
+839,Jami,alamanda,pattibirama tank,SS,GP,Lease ,1.00,0.25
+840,Jami,alamanda,pedakamsalitnk,SS,GP,Lease ,1.00,0.25
+841,Jami,alamanda,seera banda,SS,GP,Lease ,2.00,0.5
+842,Jami,alamanda,venkannatank,SS,GP,Lease ,1.00,0.25
+843,Jami,alamanda,yellavanitank,SS,GP,Lease ,4.00,1
+844,Jami,Jami,Narsinga tank,SS,GP,Lease ,3.00,0.75
+845,Jami,Jami,Kotha tank,SS,GP,Lease ,4.00,1
+846,Jami,Jami,Karindavani tank,SS,GP,Lease ,2.00,0.5
+847,Jami,Jami,Narsanna tank,SS,GP,Lease ,3.00,0.75
+848,Jami,Jami,Nerella tank,SS,GP,Lease ,4.00,1
+849,Jami,Jami,kotha/Yellamamba gandi,SS,GP,Lease ,2.00,0.5
+850,Jami,jami,aku tank,SS,GP,Lease ,5.00,1.25
+851,Jami,jami,budabanda,SS,GP,Lease ,3.00,0.75
+852,Jami,jami,baratam tank,SS,GP,Lease ,1.00,0.25
+853,Jami,jami,dibbavani tank,SS,GP,Lease ,2.00,0.5
+854,Jami,jami,gullipallivani tank,SS,GP,Lease ,2.00,0.5
+855,Jami,kumaram,chinatekkalivanitank,SS,GP,Lease ,2.00,0.5
+856,Jami,kumaram,kothakotatank,SS,GP,Lease ,2.00,0.5
+857,Jami,Kunaram,Koneru,SS,GP,Lease ,2.00,0.5
+858,Jami,kumaram,pedatekklivani Tank,SS,GP,Lease ,4.00,1
+859,Jami,KUMARAM,thotatank,SS,GP,Lease ,5.00,1.25
+860,Jami,M.Kothavalasa,Puligummi,SS,GP,Lease ,8.00,2
+861,Jami,M.Kothavalasa,Raju tank,SS,GP,Lease ,5.00,1.25
+862,Jami,M.Kothavalasa,Dasanna tank,SS,GP,Lease ,10.00,2.5
+863,Jami,M.Kothavalasa,Beda tank,SS,GP,Lease ,7.00,1.75
+864,Jami,M.Kothavalasa,Pidakala kandi tank,SS,GP,Lease ,7.00,1.75
+865,Jami,M.Kothavalasa,Koneru,SS,GP,Lease ,2.00,0.5
+866,Jami,MAMIDIPALLI,KORUKONDAVANI TANK,SS,GP,Lease ,8.00,2
+867,Jami,MAMIDIPALLI,KALARUVANI TANK,SS,GP,Lease ,3.00,0.75
+868,Jami,Bheemsingi,Kandi tank,SS,GP,Lease ,2.00,0.5
+869,Jami,Bheemsingi,Devan raju tank,SS,GP,Lease ,4.00,1
+870,Jami,Bheemsingi,Kotha tank,SS,GP,Lease ,1.00,0.25
+871,Jami,Bheemsingi,Chakirevu tank,SS,GP,Lease ,1.00,0.25
+872,Jami,Bheemsingi,Viswanadh raju tank,SS,GP,Lease ,3.00,0.75
+873,Jami,Bheemsingi,Tamuru tank,SS,GP,Lease ,2.00,0.5
+874,Jami,alamanda,ayyatank,SS,GP,Auction,2.00,0.50
+875,Jami,alamanda,barikibanda,SS,GP,Auction,2.00,0.50
+876,Jami,alamanda,chowti banda,SS,GP,Auction,2.00,0.50
+877,Jami,alamanda,chintabanda,SS,GP,Auction,2.00,0.50
+878,Jami,alamanda,lakshminarasimha tank,SS,GP,Auction,1.00,0.25
+879,Jami,alamanda,murakada banda,SS,GP,Auction,1.00,0.25
+880,Jami,alamanda,naidu tank,SS,GP,Auction,1.00,0.25
+881,Jami,alamanda,tulasitank,SS,GP,Auction,1.00,0.25
+882,Jami,alamanda,tuntivanitank,SS,GP,Auction,2.00,0.50
+883,Jami,annamarajupeta,RAMANNAPALEMTANK,SS,GP,Auction,2.00,0.50
+884,Jami,attada,jogupunu,SS,GP,Auction,6.00,1.50
+885,Jami,attada,vuratank,SS,GP,Auction,2.00,0.50
+886,Jami,GODUKOMMU,JAGANNABANDA ALIAS GOPANNABANDA,SS,GP,Auction,3.00,0.75
+887,Jami,JADDETIVALASA,APPALARAJU TANK,SS,GP,Auction,3.00,0.75
+888,Jami,LADDETIVALASA,ADIREDDIVANI TANK,SS,GP,Auction,1.00,0.25
+889,Jami,JADDETIVALASA,BAPUDU TANK,SS,GP,Auction,1.00,0.25
+890,Jami,JADDETIVALASA,BANGARAJU TANK,SS,GP,Auction,1.00,0.25
+891,Jami,JADDETIVALASA,BODAMMA TANK,SS,GP,Auction,1.00,0.25
+892,Jami,JADDETIVALASA,CHINNAYYA TANK,SS,GP,Auction,1.00,0.25
+893,Jami,JADDETIVALASA,CHINTA BANDA,SS,GP,Auction,1.00,0.25
+894,Jami,JADDETIVALASA,DATLA BANGARAJUTANK ALIAS TELUKALA,SS,GP,Auction,1.00,0.25
+895,Jami,JADDETIVALASA,GOLLA BANDA,SS,GP,Auction,1.00,0.25
+896,Jami,JASSETIVALASA,HANUMANTAVANI TANK,SS,GP,Auction,3.00,0.75
+897,Jami,JADDETIVALASA,KOTHA TANK,SS,GP,Auction,1.00,0.25
+898,Jami,JADDETIVALASA,KOTHABANDA,SS,GP,Auction,1.00,0.25
+899,Jami,JADDETIVALASA,KAMANNA TANK,SS,GP,Auction,5.00,1.25
+900,Jami,JADDETIVALASA,LAKSHMINARASIMHA TANK,SS,GP,Auction,1.00,0.25
+901,Jami,JADDETIVALASA,MURAGAVANITANK ALIAS YAKASVANI TANK,SS,GP,Auction,2.00,0.50
+902,Jami,JADDETIVALASA,MAMIDIVANI TANK,SS,GP,Auction,1.00,0.25
+903,Jami,JADDETIVALASA,NERELLA TANK,SS,GP,Auction,3.00,0.75
+904,Jami,JADDETIVALASA,RAVADAVANITANK,SS,GP,Auction,1.00,0.25
+905,Jami,jagaram,ramudu tank,SS,GP,Auction,1.00,0.25
+906,Jami,jami,barikibanda,SS,GP,Auction,3.00,0.75
+907,Jami,jami,chavatibanda,SS,GP,Auction,5.00,1.25
+908,Jami,jami,geerabanda,SS,GP,Auction,2.00,0.50
+909,Jami,jami,kothavani banda,SS,GP,Auction,3.00,0.75
+910,Jami,jami,nukalavani tank,SS,GP,Auction,1.00,0.25
+911,Jami,jami,palankivanitank,SS,GP,Auction,1.00,0.25
+912,Jami,jami,veeralagumadam tank,SS,GP,Auction,1.00,0.25
+913,Jami,kalagada,akkunaidu tank,SS,GP,Auction,2.00,0.50
+914,Jami,kalagada,appalaraju tank,SS,GP,Auction,6.00,1.50
+915,Jami,kalagada,amma tank,SS,GP,Auction,4.00,1.00
+916,Jami,kalagada,dora vani tank,SS,GP,Auction,3.00,0.75
+917,Jami,kalagada,gummadibanda,SS,GP,Auction,2.00,0.50
+918,Jami,kalagada,kodigudlabanda,SS,GP,Auction,1.00,0.25
+919,Jami,kalagada,kotha tank,SS,GP,Auction,1.00,0.25
+920,Jami,kalagada,padmamabharaju tank,SS,GP,Auction,1.00,0.25
+921,Jami,kalagada,regula banda,SS,GP,Auction,2.00,0.50
+922,Jami,kalagada,vijayaramasagaram,SS,GP,Auction,2.00,0.50
+923,Jami,kalagada,yellavani tank,SS,GP,Auction,2.00,0.50
+924,Jami,kalagada,yerrammabanda,SS,GP,Auction,5.00,1.25
+925,Jami,lakshmipuram,appalanaidu tank,SS,GP,Auction,5.00,1.25
+926,Jami,lakshmipuram,gopamanda alias gowrigundam,SS,GP,Auction,1.00,0.25
+927,Jami,lakshmipuram,kamayyabanda,SS,GP,Auction,1.00,0.25
+928,Jami,lakshmi puram,merupalavani tank,SS,GP,Auction,1.00,0.25
+929,Jami,lakshmipuram,nerellatank,SS,GP,Auction,5.00,1.25
+930,Jami,lakshmipuram,pulusubanda,SS,GP,Auction,1.00,0.25
+931,Jami,lakshmipuram,ravibanda,SS,GP,Auction,2.00,0.50
+932,Jami,lakshmipuram,subbarajutank,SS,GP,Auction,1.00,0.25
+933,Jami,LOTAPALLI,ANUVULATANK,SS,GP,Auction,1.00,0.25
+934,Jami,LOTTALAPALI,GOPANNATANK,SS,GP,Auction,1.00,0.25
+935,Jami,LOTTALPALLI,KONERUBANDA,SS,GP,Auction,1.00,0.25
+936,Jami,LOTTLAPALLI,KUNAMDEVITANK,SS,GP,Auction,1.00,0.25
+937,Jami,LOTLAPALLI,REKULABANDA ALIAS REVALABANDA,SS,GP,Auction,1.00,0.25
+938,Jami,LOTLAPALLI,SEERABANDA,SS,GP,Auction,1.00,0.25
+939,Jami,LOTLAPALLI,TULASIBANDA,SS,GP,Auction,1.00,0.25
+940,Jami,LOTLAPALLI,VEERANNABANDA,SS,GP,Auction,4.00,1.00
+941,Jami,r b puram,brahmiah tank,SS,GP,Auction,1.00,0.25
+942,Jami,r b puram,botchamma tank,SS,GP,Auction,2.00,0.50
+943,Jami,r b puram,bheemanna tank,SS,GP,Auction,1.00,0.25
+944,Jami,r b puram,bariki banda,SS,GP,Auction,1.00,0.25
+945,Jami,r b puram,gadabala tank,SS,GP,Auction,3.00,0.75
+946,Jami,r b puram,kannayya banda,SS,GP,Auction,1.00,0.25
+947,Jami,r b puram,kamsali banda,SS,GP,Auction,2.00,0.50
+948,Jami,r b puram,kasmsalabanda,SS,GP,Auction,2.00,0.50
+949,Jami,r b puram,kotha banda,SS,GP,Auction,1.00,0.25
+950,Jami,r b puram,lakshmipatji tank,SS,GP,Auction,3.00,0.75
+951,Jami,r b puram,sambudu tank,SS,GP,Auction,1.00,0.25
+952,Jami,r b puram,sambadutank,SS,GP,Auction,2.00,0.50
+953,Jami,r b puram,subbaraidu tank,SS,GP,Auction,2.00,0.50
+954,Jami,r b puram,voora tank,SS,GP,Auction,2.00,0.50
+955,Jami,r b puram,visannatank,SS,GP,Auction,1.00,0.25
+956,Jami,r b puram,tallabanda,SS,GP,Auction,3.00,0.75
+957,Jami,SIRKIPALEM,MULAKARAYUDU,SS,GP,Auction,2.00,0.50
+958,Jami,thanavaram,kotha tank,SS,GP,Auction,2.00,0.50
+959,Jami,thanavaram,naidu tank,SS,GP,Auction,4.00,1.00
+960,Gantyada,peddavemali,Verasagaram,LS,MI,Lease ,6,3.00
+961,Gantyada,peddavemali,Naidu tank,LS,MI,Lease ,12,6.00
+962,Gantyada,pentasrirampuram,Nallacheruvu,LS,MI,Lease ,20,9.90
+963,Gantyada,ravivalasa,Tamminaidu tank,LS,MI,Lease ,14,7.00
+964,Gantyada,murapaka,Nallacheruvu,LS,MI,Lease ,12,6.00
+965,Gantyada,lakkidam,Baghiradhicheruvu,LS,MI,Lease ,31,15.50
+966,Gantyada,budatanapalli,Padmanabharaju tank,LS,MI,Lease ,20,10.00
+967,Gantyada,vasanta,Pinni tank,LS,MI,Lease ,8,4.00
+968,Gantyada,vasanta,Viziaramasagaram,LS,MI,Lease ,48,24.00
+969,Gantyada,Pollanki ,Peeda tank,SS,GP,Lease ,26.00,6.5
+970,Gantyada,pollanki,kotha tank,SS,GP,Lease ,3.00,0.75
+971,Gantyada,pollanki,pedda tank,SS,GP,Lease ,25.00,6.25
+972,Gantyada,pollanki,thota tank,SS,GP,Lease ,5.00,1.25
+973,Gantyada,pollanki,komati tank,SS,GP,Lease ,4.00,1
+974,Gantyada,pollanki,naidu tank,SS,GP,Lease ,6.00,1.5
+975,Gantyada,pollanki,gadivani tank,SS,GP,Lease ,13.00,3.25
+976,Gantyada,pollanki,chakirevu tank,SS,GP,Lease ,4.00,1
+977,Gantyada,pollanki,peetala tank,SS,GP,Lease ,1.00,0.25
+978,Gantyada,pollanki,karrivani tank,SS,GP,Lease ,10.00,2.5
+979,Gantyada,pollanki,gedda tank,SS,GP,Lease ,38.00,9.5
+980,Gantyada,PSR Puram,Akalivani tank,SS,GP,Lease ,10.00,2.5
+981,Gantyada,PSR Puram,Barika banda-1,SS,GP,Lease ,2.00,0.5
+982,Gantyada,PSR Puram,Barika banda-2,SS,GP,Lease ,2.00,0.5
+983,Gantyada,PSR Puram,Dalivani tank,SS,GP,Lease ,14.00,3.5
+984,Gantyada,PSR Puram,Kanakavani tank,SS,GP,Lease ,8.00,2
+985,Gantyada,PSR Puram,Pottinaidu tank,SS,GP,Lease ,9.00,2.25
+986,Gantyada,PSR Puram,Barlavani tank,SS,GP,Lease ,6.00,1.5
+987,Gantyada,PSR Puram,Aguruvani tank,SS,GP,Lease ,12.00,3
+988,Gantyada,PSR Puram,Jaggayya koneru,SS,GP,Lease ,5.00,1.25
+989,Gantyada,PSR Puram,Kittayya koneru,SS,GP,Lease ,3.00,0.75
+990,Gantyada,PSR Puram,Bandlavani koneru,SS,GP,Lease ,6.00,1.5
+991,Gantyada,PSR Puram,Polambanda koneru,SS,GP,Lease ,2.00,0.5
+992,Gantyada,PSR Puram,Randhivani koneru,SS,GP,Lease ,2.00,0.5
+993,Gantyada,PSR Puram,Karavaka koneru,SS,GP,Lease ,3.00,0.75
+994,Gantyada,psr puram,kotha banda,SS,GP,Lease ,1.00,0.25
+995,Gantyada,psr puram,palli banda,SS,GP,Lease ,1.00,0.25
+996,Gantyada,psr puram,pedda tank,SS,GP,Lease ,6.00,1.5
+997,Gantyada,Siripuram,Ayya koneru,SS,GP,Lease ,2.00,0.5
+998,Gantyada,Siripuram,Singanna tank,SS,GP,Lease ,2.00,0.5
+999,Gantyada,Siripuram,Butchamma koneru,SS,GP,Lease ,1.00,0.25
+1000,Gantyada,siripuram,chintapunu banda,SS,GP,Lease ,1.00,0.25
+1001,Gantyada,siripuram,kamsali banda,SS,GP,Lease ,4.00,1
+1002,Gantyada,siripuram,kallapugeddavani tank,SS,GP,Lease ,6.00,1.5
+1003,Gantyada,siripuram,lingam koneru,SS,GP,Lease ,1.00,0.25
+1004,Gantyada,siripuram,muriki gedda,SS,GP,Lease ,5.00,1.25
+1005,Gantyada,siripuram,nagaraju tank,SS,GP,Lease ,2.00,0.5
+1006,Gantyada,siripuram,naidu tank,SS,GP,Lease ,1.00,0.25
+1007,Gantyada,siripuram,pedapanthulu tank,SS,GP,Lease ,2.00,0.5
+1008,Gantyada,siripuram,pedda tank,SS,GP,Lease ,1.00,0.25
+1009,Gantyada,siripuram,sominaidu tank,SS,GP,Lease ,5.00,1.25
+1010,Gantyada,Chandrampeta,Pedda gedda,SS,GP,Lease ,4.00,1
+1011,Gantyada,chandrammapeta,Dora tank,SS,GP,Lease ,2.00,0.5
+1012,Gantyada,chandrammapeta,Ayyappa tank,SS,GP,Lease ,5.00,1.25
+1013,Gantyada,chandrammapeta,kambala tank,SS,GP,Lease ,1.00,0.25
+1014,Gantyada,chandrammapeta,Kondaparthi Koneru,SS,GP,Lease ,5.00,1.25
+1015,Gantyada,chandrammapeta,Ralla tank,SS,GP,Lease ,8.00,2
+1016,Gantyada,Murapaka,Amena tank,SS,GP,Lease ,2.00,0.5
+1017,Gantyada,Murapaka,Poramboku tank,SS,GP,Lease ,2.00,0.5
+1018,Gantyada,Murapaka,Noothi banda,SS,GP,Lease ,1.00,0.25
+1019,Gantyada,Murapaka,Raya banda,SS,GP,Lease ,1.00,0.25
+1020,Gantyada,Murapaka,Peetala banda,SS,GP,Lease ,4.00,1
+1021,Gantyada,Murapaka,Annayyaraju koneru,SS,GP,Lease ,2.00,0.5
+1022,Gantyada,Murapaka,Ramayya tank,SS,GP,Lease ,2.00,0.5
+1023,Gantyada,murapaka,addala tank,SS,GP,Lease ,9.00,2.25
+1024,Gantyada,murapaka,chinaedula tank,SS,GP,Lease ,1.00,0.25
+1025,Gantyada,murapaka,dharma sagaram,SS,GP,Lease ,2.00,0.5
+1026,Gantyada,murapaka,peda kotha tank,SS,GP,Lease ,2.00,0.5
+1027,Gantyada,murapaka,pedaedula tank,SS,GP,Lease ,2.00,0.5
+1028,Gantyada,Narava,Dannana tank,SS,GP,Lease ,2.00,0.5
+1029,Gantyada,Narava,Nalla koneru,SS,GP,Lease ,1.00,0.25
+1030,Gantyada,Narava,Revadi gedda,SS,GP,Lease ,3.00,0.75
+1031,Gantyada,Narava,Naidu tank,SS,GP,Lease ,2.00,0.5
+1032,Gantyada,Narava,Sendhi tank,SS,GP,Lease ,1.00,0.25
+1033,Gantyada,narava,voota banda,SS,GP,Lease ,1.00,0.25
+1034,Gantyada,narava,yerra banda,SS,GP,Lease ,2.00,0.5
+1035,Gantyada,Peddavemali,Jaganadh koneru,SS,GP,Lease ,1.00,0.25
+1036,Gantyada,Peddavemali,Reddivani koneru,SS,GP,Lease ,1.50,0.375
+1037,Gantyada,Peddavemali,Nagula tank,SS,GP,Lease ,15.00,3.75
+1038,Gantyada,pedavemali,gundamma tank,SS,GP,Lease ,2.00,0.5
+1039,Gantyada,pedavemali,mala banda,SS,GP,Lease ,2.00,0.5
+1040,Gantyada,pedavemali,raju tank,SS,GP,Lease ,2.00,0.5
+1041,Gantyada,mokalapadu,jaggu tank,SS,GP,Lease ,1.00,0.25
+1042,Gantyada,mokalapadu,hanumantha tank,SS,GP,Lease ,2.00,0.5
+1043,Gantyada,mokalapadu,patha tank,SS,GP,Lease ,5.00,1.25
+1044,Gantyada,Bonangi,Patha Tank,SS,GP,Lease ,2.00,0.5
+1045,Gantyada,BONANGI,TAMARA TANK,SS,GP,Lease ,2.00,0.5
+1046,Gantyada,BONANGI,VOORA TANK,SS,GP,Lease ,3.00,0.75
+1047,Gantyada,BONANGI,KOTYADA TANK,SS,GP,Lease ,1.00,0.25
+1048,Gantyada,BONANGI,RAMABHADRARAJU,SS,GP,Lease ,2.00,0.5
+1049,Gantyada,BONANGI,JATTU KONERU,SS,GP,Lease ,2.00,0.5
+1050,Gantyada,BONANGI,HAGARAJI TANK,SS,GP,Lease ,3.00,0.75
+1051,Gantyada,BONANGI,GODI BANDA,SS,GP,Lease ,2.00,0.5
+1052,Gantyada,BONANGI,BUTCHAPPA KONERU,SS,GP,Lease ,1.00,0.25
+1053,Gantyada,Neelavathi,Kalla appanna tank,SS,GP,Lease ,1.00,0.25
+1054,Gantyada,Neelavathi,Patha tank,SS,GP,Lease ,1.00,0.25
+1055,Gantyada,Neelavathi,Krishnamnaidu tank,SS,GP,Lease ,7.00,1.75
+1056,Gantyada,Neelavathi,Kotlavani tank,SS,GP,Lease ,1.00,0.25
+1057,Gantyada,neelavathi,chakalivani tank,SS,GP,Lease ,2.00,0.5
+1058,Gantyada,neelavathi,gangaraju tank,SS,GP,Lease ,8.00,2
+1059,Gantyada,neelavathi,kilaparthivani tank,SS,GP,Lease ,3.00,0.75
+1060,Gantyada,neelavathi,Nethilavani tank,SS,GP,Lease ,2.00,0.5
+1061,Gantyada,neelavathi,pedaraju tank,SS,GP,Lease ,4.00,1
+1062,Gantyada,neelavathi,peribatla vani tank,SS,GP,Lease ,4.00,1
+1063,Gantyada,neelavathi,ponugedda,SS,GP,Lease ,1.00,0.25
+1064,Gantyada,neelavathi,viswanatharaju tank,SS,GP,Lease ,4.00,1
+1065,Gantyada,neelavathi,voora tank,SS,GP,Lease ,1.00,0.25
+1066,Gantyada,Buradapadu,Sanyasi Naidu Koneru,SS,GP,Lease ,2.00,0.5
+1067,Gantyada,buradapadu,ravi tank,SS,GP,Lease ,6.00,1.5
+1068,Gantyada,buradapadu,Yerakapatruni Tank,SS,GP,Lease ,11.00,2.75
+1069,Gantyada,buradapadu,chintala banda,SS,GP,Lease ,2.00,0.5
+1070,Gantyada,buradapadu,voora banda,SS,GP,Lease ,3.00,0.75
+1071,Gantyada,buradapadu,matyani gedda,SS,GP,Lease ,3.00,0.75
+1072,Gantyada,Buradapadu,ragila tank,SS,GP,Lease ,2.00,0.5
+1073,Gantyada,buradapadu,pasuvula koneru,SS,GP,Lease ,2.00,0.5
+1074,Gantyada,regubilli,naidu tank,SS,GP,Lease ,8.00,2
+1075,Gantyada,regubilli,rai tank,SS,GP,Lease ,5.00,1.25
+1076,Gantyada,regubilli,barlavani tank,SS,GP,Lease ,4.00,1
+1077,Gantyada,regubilli,telagavani tank,SS,GP,Lease ,3.00,0.75
+1078,Gantyada,regubilli,popidi tank,SS,GP,Lease ,4.00,1
+1079,Gantyada,regubilli,gummi gedda,SS,GP,Lease ,1.00,0.25
+1080,Gantyada,regubilli,pilavani tank,SS,GP,Lease ,1.00,0.25
+1081,Gantyada,Chinamnapuram,Voora tank,SS,GP,Lease ,4.00,1
+1082,Gantyada,Chinamnapuram,Ravvavani tank,SS,GP,Lease ,2.00,0.5
+1083,Gantyada,chinamanapuram,Yerakannadora tank,SS,GP,Lease ,2.00,0.5
+1084,Gantyada,Chinamanapuram,Pydamma Banda,SS,GP,Lease ,3.00,0.75
+1085,Gantyada,chinamanapuram,Tenuguravani banda,SS,GP,Lease ,1.00,0.25
+1086,Gantyada,Peddamajji palem,Annamraju tank,SS,GP,Lease ,10.00,2.5
+1087,Gantyada,Kotarubilli,Padmanadhuni tank,SS,GP,Lease ,2.00,0.5
+1088,Gantyada,Kotarubilli,Voora tank,SS,GP,Lease ,2.00,0.5
+1089,Gantyada,kotarubilli,karrivani tank,SS,GP,Lease ,4.00,1
+1090,Gantyada,kotarubilli,karri banda,SS,GP,Lease ,4.00,1
+1091,Gantyada,kotarubilli,lakshmi sagaram,SS,GP,Lease ,1.00,0.25
+1092,Gantyada,kotarubilli,kotha tank,SS,GP,Lease ,1.00,0.25
+1093,Gantyada,Ginjeru,Ralla gedda  1&2,SS,GP,Lease ,3.00,0.75
+1094,Gantyada,Budatanapalli,Tallakoneru,SS,GP,Lease ,7.00,1.75
+1095,Gantyada,Budatanapalli,Bapayyaraju tank,SS,GP,Lease ,10.00,2.5
+1096,Gantyada,Budatanapalli,Appalanaidu tank,SS,GP,Lease ,10.00,2.5
+1097,Gantyada,Budatanapalli,Bamidipati tank,SS,GP,Lease ,5.00,1.25
+1098,Gantyada,Budathanapalli,Asakapallivani Tank,SS,GP,Lease ,1.00,0.25
+1099,Gantyada,budathanapalli,Annamarajupeta,SS,GP,Lease ,3.00,0.75
+1100,Gantyada,budatanapalli,kaparapuvani tank,SS,GP,Lease ,2.00,0.5
+1101,Gantyada,budathanapalli,narasaraju tank,SS,GP,Lease ,8.00,2
+1102,Gantyada,budathanapalli,papayyaraju tank,SS,GP,Lease ,9.00,2.25
+1103,Gantyada,budathanapalli,Tummala tank,SS,GP,Lease ,1.00,0.25
+1104,Gantyada,Budathanapalli,Yerra Tank,SS,GP,Lease ,7.00,1.75
+1105,Gantyada,budathanapalli,Jaggayyaraju tank,SS,GP,Lease ,2.00,0.5
+1106,Gantyada,Korlam,Pasuvulavani tank,SS,GP,Lease ,5.00,1.25
+1107,Gantyada,Korlam,Jaganadh tank,SS,GP,Lease ,6.00,1.5
+1108,Gantyada,Korlam,Sanyasinaidu tank,SS,GP,Lease ,5.00,1.25
+1109,Gantyada,Korlam,Bethavani gedda,SS,GP,Lease ,3.00,0.75
+1110,Gantyada,Korlam,Banayya punu,SS,GP,Lease ,2.00,0.5
+1111,Gantyada,Korlam,Pydamma koneru,SS,GP,Lease ,2.00,0.5
+1112,Gantyada,Korlam,Gali banda,SS,GP,Lease ,4.00,1
+1113,Gantyada,Korlam,Manchinella tank,SS,GP,Lease ,7.00,1.75
+1114,Gantyada,korlam,sappavani tank,SS,GP,Lease ,1.00,0.25
+1115,Gantyada,korlam,mallu sagaram,SS,GP,Lease ,1.00,0.25
+1116,Gantyada,korlam,musali naidu tank,SS,GP,Lease ,1.00,0.25
+1117,Gantyada,Korlam,patha tank,SS,GP,Lease ,5.00,1.25
+1118,Gantyada,Lakkidam,Kamsali banda,SS,GP,Lease ,4.00,1
+1119,Gantyada,Lakkidam,Chiruta banda,SS,GP,Lease ,8.00,2
+1120,Gantyada,Lakkidam,Mahadevuni tank,SS,GP,Lease ,16.00,4
+1121,Gantyada,Lakkidam,Musali naidu tank,SS,GP,Lease ,8.00,2
+1122,Gantyada,Lakkidam,Diguva gedda,SS,GP,Lease ,1.00,0.25
+1123,Gantyada,lakkidam,barika banda,SS,GP,Lease ,1.00,0.25
+1124,Gantyada,lakkidam,boddu vai banda,SS,GP,Lease ,1.00,0.25
+1125,Gantyada,lakkidam,naidu tank,SS,GP,Lease ,1.00,0.25
+1126,Gantyada,lakkidam,chintala banda,SS,GP,Lease ,2.00,0.5
+1127,Gantyada,lakkidam,Hariraju banda,SS,GP,Lease ,2.00,0.5
+1128,Gantyada,lakkidam,kondala banda,SS,GP,Lease ,2.00,0.5
+1129,Gantyada,lakkidam,jaggaraju tank,SS,GP,Lease ,1.00,0.25
+1130,Gantyada,lakkidam,somu tank,SS,GP,Lease ,2.00,0.5
+1131,Gantyada,lakkidam,Yerakaraju tank,SS,GP,Lease ,3.00,0.75
+1132,Gantyada,lakkidam,Yadla banda,SS,GP,Lease ,3.00,0.75
+1133,Gantyada,Budathanapalli,Jaggaraju Tank,SS,GP,Auction,3.00,0.75
+1134,Gantyada,budathanapalli,gottivanitank,SS,GP,Auction,1.00,0.25
+1135,Gantyada,budathanapalli,kondavani tank,SS,GP,Auction,3.00,0.75
+1136,Gantyada,budathanapalli,Nagavani tank,SS,GP,Auction,2.00,0.50
+1137,Gantyada,budathanapalli,Majjivani Tank,SS,GP,Auction,1.00,0.25
+1138,Gantyada,budathanapalli,Komati Tank,SS,GP,Auction,1.00,0.25
+1139,Gantyada,budathanapalli,Gummada tank,SS,GP,Auction,1.00,0.25
+1140,Gantyada,Budathanapalli,Dathivani Tank,SS,GP,Auction,4.00,1.00
+1141,Gantyada,Chandrammapeta,Jangam Banda,SS,GP,Auction,1.00,0.25
+1142,Gantyada,chandrammapeta,Venkati Tank,SS,GP,Auction,5.00,1.25
+1143,Gantyada,chandrammapeta,Dhora tank,SS,GP,Auction,5.00,1.25
+1144,Gantyada,Chinamanapuram,Gedda Tank,SS,GP,Auction,2.00,0.50
+1145,Gantyada,Chinamanapuram,Kamsali Banda,SS,GP,Auction,1.00,0.25
+1146,Gantyada,Chinamanapuram,Musidi Banda,SS,GP,Auction,1.00,0.25
+1147,Gantyada,chinamanapuram,Seetayya Tank,SS,GP,Auction,2.00,0.50
+1148,Gantyada,chinamanapuram,G Gedda tank,SS,GP,Auction,3.00,0.75
+1149,Gantyada,Eguvakondaparthi,Banda,SS,GP,Auction,0.00,0.00
+1150,Gantyada,Gantyada,Adavi Banda,SS,GP,Auction,1.00,0.25
+1151,Gantyada,Gantyada,Chakali banda,SS,GP,Auction,1.00,0.25
+1152,Gantyada,Gantyada,Dommaravani tank,SS,GP,Auction,1.00,0.25
+1153,Gantyada,Gantyada,Gandetivani tank,SS,GP,Auction,4.00,1.00
+1154,Gantyada,Gantyada,Gangula tank,SS,GP,Auction,1.00,0.25
+1155,Gantyada,Gantyada,Geddapuvani tank,SS,GP,Auction,1.00,0.25
+1156,Gantyada,Gantyada,Gollavani tank,SS,GP,Auction,1.00,0.25
+1157,Gantyada,Gantyada,Guranna banda,SS,GP,Auction,1.00,0.25
+1158,Gantyada,Gantyada,Kamaraju tank,SS,GP,Auction,1.00,0.25
+1159,Gantyada,gantyada,kanugula banda,SS,GP,Auction,6.00,1.50
+1160,Gantyada,gantyada,kamanna banda,SS,GP,Auction,1.00,0.25
+1161,Gantyada,gantyada,majji banda,SS,GP,Auction,5.00,1.25
+1162,Gantyada,gantyada,mamidi banda,SS,GP,Auction,1.00,0.25
+1163,Gantyada,gantyada,narayana koneru,SS,GP,Auction,1.00,0.25
+1164,Gantyada,gantyada,pujari koneru,SS,GP,Auction,1.00,0.25
+1165,Gantyada,gantyada,pujari tank,SS,GP,Auction,1.00,0.25
+1166,Gantyada,gantyada,pujari banda,SS,GP,Auction,1.00,0.25
+1167,Gantyada,gantyada,rama sagaram,SS,GP,Auction,1.00,0.25
+1168,Gantyada,gantyada,salivani banda,SS,GP,Auction,1.00,0.25
+1169,Gantyada,gantyada,saviti banda,SS,GP,Auction,1.00,0.25
+1170,Gantyada,gantyada,sudda tank,SS,GP,Auction,2.00,0.50
+1171,Gantyada,gantyada,swarnapudi banda,SS,GP,Auction,1.00,0.25
+1172,Gantyada,gantyada,telakula banda,SS,GP,Auction,1.00,0.25
+1173,Gantyada,gantyada,Telugulavani banda,SS,GP,Auction,1.00,0.25
+1174,Gantyada,gantyada,varrivani tank,SS,GP,Auction,2.00,0.50
+1175,Gantyada,Ginjeru,Bogivani Banda,SS,GP,Auction,1.00,0.25
+1176,Gantyada,ginjeru,butchamma banda,SS,GP,Auction,5.00,1.25
+1177,Gantyada,ginjeru,chowduvani tank,SS,GP,Auction,1.00,0.25
+1178,Gantyada,ginjeru,Kanuguvani tank,SS,GP,Auction,1.00,0.25
+1179,Gantyada,Ginjeru,nanipallivani tank,SS,GP,Auction,1.00,0.25
+1180,Gantyada,ginjeru,bapadu tank,SS,GP,Auction,1.00,0.25
+1181,Gantyada,ginjeru,ramanaidu tank,SS,GP,Auction,1.00,0.25
+1182,Gantyada,ginjeru,sukaravani tank,SS,GP,Auction,1.00,0.25
+1183,Gantyada,ginjeru,tukku naidu tank,SS,GP,Auction,1.00,0.25
+1184,Gantyada,ginjeru,voora tank,SS,GP,Auction,1.00,0.25
+1185,Gantyada,godiyada,dakshina banda,SS,GP,Auction,1.00,0.25
+1186,Gantyada,godiyada,chakali banda,SS,GP,Auction,1.00,0.25
+1187,Gantyada,godiyada,chinapapayya banda,SS,GP,Auction,1.00,0.25
+1188,Gantyada,godiyada,panukula banda,SS,GP,Auction,5.00,1.25
+1189,Gantyada,godiyada,voora tank,SS,GP,Auction,4.00,1.00
+1190,Gantyada,Jaggapuram,Adavi tank,SS,GP,Auction,1.00,0.25
+1191,Gantyada,jaggapuram,Ananthapalli banda,SS,GP,Auction,1.00,0.25
+1192,Gantyada,jaggapuram,annapuvani tank,SS,GP,Auction,1.00,0.25
+1193,Gantyada,jaggapuram,atchama banda,SS,GP,Auction,1.00,0.25
+1194,Gantyada,jaggapuram,avadhanulu tank,SS,GP,Auction,1.00,0.25
+1195,Gantyada,jaggapuram,butchanna tank,SS,GP,Auction,4.00,1.00
+1196,Gantyada,jaggapuram,chakali tank,SS,GP,Auction,1.00,0.25
+1197,Gantyada,jaggapuram,Geddakatu,SS,GP,Auction,4.00,1.00
+1198,Gantyada,jaggapuram,gummidi banda,SS,GP,Auction,1.00,0.25
+1199,Gantyada,jaggapuram,isuka banda,SS,GP,Auction,1.00,0.25
+1200,Gantyada,jaggapuram,jagga sagaram,SS,GP,Auction,3.00,0.75
+1201,Gantyada,jaggapuram,kagu tank,SS,GP,Auction,6.00,1.50
+1202,Gantyada,jaggapuram,kotha banda,SS,GP,Auction,1.00,0.25
+1203,Gantyada,jaggapuram,kotha banda,SS,GP,Auction,1.00,0.25
+1204,Gantyada,jaggapuram,kotha tank,SS,GP,Auction,1.00,0.25
+1205,Gantyada,jaggapuram,mutyala banda,SS,GP,Auction,1.00,0.25
+1206,Gantyada,jaggapuram,pati banda,SS,GP,Auction,1.00,0.25
+1207,Gantyada,jaggapuram,pallapu tank,SS,GP,Auction,16.00,4.00
+1208,Gantyada,jaggapuram,gajula tank,SS,GP,Auction,2.00,0.50
+1209,Gantyada,jaggapuram,komati tank,SS,GP,Auction,1.00,0.25
+1210,Gantyada,jaggapuram,rambatla banda,SS,GP,Auction,1.00,0.25
+1211,Gantyada,jaggapuram,ravi tank,SS,GP,Auction,2.00,0.50
+1212,Gantyada,jaggapuram,somayajula tank,SS,GP,Auction,1.00,0.25
+1213,Gantyada,jaggapuram,telukala tank,SS,GP,Auction,1.00,0.25
+1214,Gantyada,jaggapuram,vepannayya tank,SS,GP,Auction,1.00,0.25
+1215,Gantyada,jaggapuram,voora tank,SS,GP,Auction,1.00,0.25
+1216,Gantyada,jaggapuram,yerra tank,SS,GP,Auction,2.00,0.50
+1217,Gantyada,kirthubarthi,thamuru gedda,SS,GP,Auction,3.00,0.75
+1218,Gantyada,kirthubarthi,vudikala banda,SS,GP,Auction,1.00,0.25
+1219,Gantyada,kirthubarthi,mada banda,SS,GP,Auction,1.00,0.25
+1220,Gantyada,kirthubarthi,vepa banda,SS,GP,Auction,1.00,0.25
+1221,Gantyada,kirthubarthi,chakali banda,SS,GP,Auction,1.00,0.25
+1222,Gantyada,kirthubarthi,chittivani tank,SS,GP,Auction,2.00,0.50
+1223,Gantyada,kirthubarthi,godi banda,SS,GP,Auction,1.00,0.25
+1224,Gantyada,kirthubarthi,kamsali banda,SS,GP,Auction,4.00,1.00
+1225,Gantyada,kirthubarthi,kanugula banda,SS,GP,Auction,8.00,2.00
+1226,Gantyada,kirthubarthi,kondala tank,SS,GP,Auction,2.00,0.50
+1227,Gantyada,kirthubarthi,pina banda,SS,GP,Auction,2.00,0.50
+1228,Gantyada,kirthubarthi,bapadu banda,SS,GP,Auction,2.00,0.50
+1229,Gantyada,kt palli,appayya banda,SS,GP,Auction,1.00,0.25
+1230,Gantyada,kt palli,chinasomu tank,SS,GP,Auction,2.00,0.50
+1231,Gantyada,kt palli,chinna banda,SS,GP,Auction,1.00,0.25
+1232,Gantyada,kt palli,donkala gedda,SS,GP,Auction,3.00,0.75
+1233,Gantyada,kt palli,naidu tank,SS,GP,Auction,2.00,0.50
+1234,Gantyada,kt palli,seethamma tank,SS,GP,Auction,6.00,1.50
+1235,Gantyada,korlam,agulla tank,SS,GP,Auction,5.00,1.25
+1236,Gantyada,Korlam,barika banda,SS,GP,Auction,5.00,1.25
+1237,Gantyada,korlam,denkada tank,SS,GP,Auction,4.00,1.00
+1238,Gantyada,korlam,Gavala banda,SS,GP,Auction,4.00,1.00
+1239,Gantyada,korlam,kotha banda,SS,GP,Auction,1.00,0.25
+1240,Gantyada,korlam,nagaraju tank,SS,GP,Auction,1.00,0.25
+1241,Gantyada,korlam,pallivani tank,SS,GP,Auction,8.00,2.00
+1242,Gantyada,korlam,ramayya tank,SS,GP,Auction,1.00,0.25
+1243,Gantyada,korlam,vedulla banda,SS,GP,Auction,2.00,0.50
+1244,Gantyada,kotarubilli,mangali koneru,SS,GP,Auction,4.00,1.00
+1245,Gantyada,kotarubilli,butta tank,SS,GP,Auction,1.00,0.25
+1246,Gantyada,kotarubilli,chakali banda,SS,GP,Auction,1.00,0.25
+1247,Gantyada,kotarubilli,karri banda,SS,GP,Auction,1.00,0.25
+1248,Gantyada,kotarubilli,lankalamma tank,SS,GP,Auction,1.00,0.25
+1249,Gantyada,kotarubilli,raya banda,SS,GP,Auction,1.00,0.25
+1250,Gantyada,kothavelagada,bogi naidu tank,SS,GP,Auction,1.00,0.25
+1251,Gantyada,lakkidam,lankavani banda,SS,GP,Auction,6.00,1.50
+1252,Gantyada,lakkidam,mamidivani tank,SS,GP,Auction,1.00,0.25
+1253,Gantyada,lakkidam,Rajanna banda,SS,GP,Auction,5.00,1.25
+1254,Gantyada,lakkidam,somaraju tank,SS,GP,Auction,1.00,0.25
+1255,Gantyada,lakkidam,suranna banda,SS,GP,Auction,1.00,0.25
+1256,Gantyada,lakkidam,vedulla banda,SS,GP,Auction,6.00,1.50
+1257,Gantyada,lakkidam,venkata koneru,SS,GP,Auction,1.00,0.25
+1258,Gantyada,madhanapuram,bapadu banda,SS,GP,Auction,4.00,1.00
+1259,Gantyada,madhanapuram,janni banda,SS,GP,Auction,2.00,0.50
+1260,Gantyada,madhanapuram,kotha tank,SS,GP,Auction,4.00,1.00
+1261,Gantyada,madhanapuram,neelakantaraju tank,SS,GP,Auction,5.00,1.25
+1262,Gantyada,madhanapuram,papayya tank,SS,GP,Auction,1.00,0.25
+1263,Gantyada,madhanapuram,sasnappa tank,SS,GP,Auction,1.00,0.25
+1264,Gantyada,madhanapuram,vepa banda,SS,GP,Auction,1.00,0.25
+1265,Gantyada,Madhupada,Sarvasiddivani Cheruvu,SS,GP,Auction,1.00,0.25
+1266,Gantyada,Madhupada,Pylavani Cheruvu,SS,GP,Auction,4.00,1.00
+1267,Gantyada,madhupada,jogi naidu cheruvu,SS,GP,Auction,4.00,1.00
+1268,Gantyada,Madhupada,Jagannadha Sagaram,SS,GP,Auction,8.00,2.00
+1269,Gantyada,murapaka,chinthakota tank,SS,GP,Auction,1.00,0.25
+1270,Gantyada,murapaka,golla banda,SS,GP,Auction,1.00,0.25
+1271,Gantyada,murapaka,Jaggamma banda,SS,GP,Auction,1.00,0.25
+1272,Gantyada,murapaka,nukala banda,SS,GP,Auction,1.00,0.25
+1273,Gantyada,murapaka,raju banda,SS,GP,Auction,1.00,0.25
+1274,Gantyada,narava,bonelavari tank,SS,GP,Auction,1.00,0.25
+1275,Gantyada,narava,chakali tank,SS,GP,Auction,1.00,0.25
+1276,Gantyada,narava,dannu banda,SS,GP,Auction,1.00,0.25
+1277,Gantyada,narava,donkada tank,SS,GP,Auction,3.00,0.75
+1278,Gantyada,narava,kittayya tank,SS,GP,Auction,1.00,0.25
+1279,Gantyada,narava,marida banda,SS,GP,Auction,1.00,0.25
+1280,Gantyada,narava,nakudu banda,SS,GP,Auction,2.00,0.50
+1281,Gantyada,narava,peda tank,SS,GP,Auction,3.00,0.75
+1282,Gantyada,narava,raghavaraju tank,SS,GP,Auction,3.00,0.75
+1283,Gantyada,neelavathi,bapanna tank,SS,GP,Auction,1.00,0.25
+1284,Gantyada,neelavathi,chinakotha tank,SS,GP,Auction,1.00,0.25
+1285,Gantyada,neelavathi,chinaraju tank,SS,GP,Auction,1.00,0.25
+1286,Gantyada,neelavathi,chintala banda,SS,GP,Auction,1.00,0.25
+1287,Gantyada,neelavathi,g chitti banda,SS,GP,Auction,1.00,0.25
+1288,Gantyada,neelavathi,geddapunu tank,SS,GP,Auction,1.00,0.25
+1289,Gantyada,neelavathi,gundam tank,SS,GP,Auction,8.00,2.00
+1290,Gantyada,neelavathi,kamsali banda,SS,GP,Auction,1.00,0.25
+1291,Gantyada,neelavathi,Kolluvani tank,SS,GP,Auction,1.00,0.25
+1292,Gantyada,neelavathi,komatigundam tank,SS,GP,Auction,2.00,0.50
+1293,Gantyada,neelavathi,kondukaramma tank,SS,GP,Auction,2.00,0.50
+1294,Gantyada,neelavathi,koripallivani tank,SS,GP,Auction,1.00,0.25
+1295,Gantyada,neelavathi,kotha tank,SS,GP,Auction,1.00,0.25
+1296,Gantyada,neelavathi,kotha cheruvu,SS,GP,Auction,2.00,0.50
+1297,Gantyada,neelavathi,mangali banda,SS,GP,Auction,1.00,0.25
+1298,Gantyada,neelavathi,marrivani tank,SS,GP,Auction,3.00,0.75
+1299,Gantyada,neelavathi,nethavani tank,SS,GP,Auction,8.00,2.00
+1300,Gantyada,neelavathi,Padmanabha tank,SS,GP,Auction,2.00,0.50
+1301,Gantyada,neelavathi,Perugu tank,SS,GP,Auction,1.00,0.25
+1302,Gantyada,neelavathi,pottuvani tank,SS,GP,Auction,3.00,0.75
+1303,Gantyada,neelavathi,raju tank,SS,GP,Auction,1.00,0.25
+1304,Gantyada,neelavathi,ramunaidu tank,SS,GP,Auction,1.00,0.25
+1305,Gantyada,neelavathi,seethayya banda,SS,GP,Auction,1.00,0.25
+1306,Gantyada,neelavathi,sunkaravani tank,SS,GP,Auction,1.00,0.25
+1307,Gantyada,neelavathi,sureddivani tank,SS,GP,Auction,1.00,0.25
+1308,Gantyada,neelavathi,guddu koneru,SS,GP,Auction,1.00,0.25
+1309,Gantyada,neelavathi,kollappanna tank,SS,GP,Auction,1.00,0.25
+1310,Gantyada,pm palem,bosivani tank,SS,GP,Auction,1.00,0.25
+1311,Gantyada,pm palem,buddi tank,SS,GP,Auction,1.00,0.25
+1312,Gantyada,pmpalem,chintalapanu tank,SS,GP,Auction,1.00,0.25
+1313,Gantyada,pm palem,kothamanu tank,SS,GP,Auction,1.00,0.25
+1314,Gantyada,pm palem,pydivani tank,SS,GP,Auction,2.00,0.50
+1315,Gantyada,pm palem,sanyasi raju tank,SS,GP,Auction,1.00,0.25
+1316,Gantyada,penasam,boddu tank,SS,GP,Auction,4.00,1.00
+1317,Gantyada,penasam,kanakayya banda,SS,GP,Auction,1.00,0.25
+1318,Gantyada,penasam,kari tank,SS,GP,Auction,2.00,0.50
+1319,Gantyada,penasam,mangali tank,SS,GP,Auction,1.00,0.25
+1320,Gantyada,penasam,kotha tank,SS,GP,Auction,1.00,0.25
+1321,Gantyada,penasam,neralla tank,SS,GP,Auction,3.00,0.75
+1322,Gantyada,penasam,nimmala banda,SS,GP,Auction,2.00,0.50
+1323,Gantyada,penasam,panukula banda,SS,GP,Auction,1.00,0.25
+1324,Gantyada,penasam,peddivani tank,SS,GP,Auction,1.00,0.25
+1325,Gantyada,penasam,patnamayya tank,SS,GP,Auction,1.00,0.25
+1326,Gantyada,penasam,ethavani tank,SS,GP,Auction,1.00,0.25
+1327,Gantyada,penasam,yerra tank,SS,GP,Auction,3.00,0.75
+1328,Gantyada,Ramabhadrapuram,banda,SS,GP,Auction,1.00,0.25
+1329,Gantyada,ramavaram,bapadu bnnda,SS,GP,Auction,1.00,0.25
+1330,Gantyada,Ramavaram,buditi banda,SS,GP,Auction,1.00,0.25
+1331,Gantyada,ramavaram,edula banda,SS,GP,Auction,2.00,0.50
+1332,Gantyada,ramavaram,konda tank,SS,GP,Auction,2.00,0.50
+1333,Gantyada,ramavaram,karuna tank,SS,GP,Auction,2.00,0.50
+1334,Gantyada,ramavaram,mangali banda,SS,GP,Auction,2.00,0.50
+1335,Gantyada,ramavaram,korayya tank,SS,GP,Auction,5.00,1.25
+1336,Gantyada,Ramavaram,kotha banda,SS,GP,Auction,2.00,0.50
+1337,Gantyada,ramavaram,kothakoneru,SS,GP,Auction,2.00,0.50
+1338,Gantyada,ramavaram,patha tank,SS,GP,Auction,3.00,0.75
+1339,Gantyada,ramavaram,puppidi banda,SS,GP,Auction,1.00,0.25
+1340,Gantyada,ramavaram,ramudu tank,SS,GP,Auction,1.00,0.25
+1341,Gantyada,ramavaram,revalla banda,SS,GP,Auction,4.00,1.00
+1342,Gantyada,RAMAVARAM,RAJINAIDU TANK,SS,GP,Auction,5.00,1.25
+1343,Gantyada,ramavaram,tatayya banda,SS,GP,Auction,1.00,0.25
+1344,Gantyada,ramavaram,voota tank,SS,GP,Auction,1.00,0.25
+1345,Gantyada,ravivalasa,bapadu banda,SS,GP,Auction,1.00,0.25
+1346,Gantyada,ravivalasa,dasari vani tank,SS,GP,Auction,3.00,0.75
+1347,Gantyada,ravivalasa,tangudu banda,SS,GP,Auction,1.00,0.25
+1348,Gantyada,ravaivalasa,kanchara koneru,SS,GP,Auction,1.00,0.25
+1349,Gantyada,ravivalasa,salivani banda,SS,GP,Auction,1.00,0.25
+1350,Gantyada,ravivalasa,siripurapuvani tank,SS,GP,Auction,4.00,1.00
+1351,Gantyada,siripuram,appanna banda,SS,GP,Auction,1.00,0.25
+1352,Gantyada,siripuram,aviti banda,SS,GP,Auction,2.00,0.50
+1353,Gantyada,siripuram,barika banda,SS,GP,Auction,1.00,0.25
+1354,Gantyada,siripuram,chinaraminaidu tank,SS,GP,Auction,1.00,0.25
+1355,Gantyada,siripuram,kamsalivenkayya banda,SS,GP,Auction,1.00,0.25
+1356,Gantyada,siripuram,mangali banda,SS,GP,Auction,1.00,0.25
+1357,Gantyada,siripuram,mangali tank,SS,GP,Auction,1.00,0.25
+1358,Gantyada,siripuram,maradala banda,SS,GP,Auction,1.00,0.25
+1359,Gantyada,siripuram,pedanarayadu tank,SS,GP,Auction,2.00,0.50
+1360,Gantyada,siripuram,ganganna tank,SS,GP,Auction,3.00,0.75
+1361,Gantyada,siripuram,venkati banda,SS,GP,Auction,4.00,1.00
+1362,Gantyada,Thatipudi,Chintala b,SS,GP,Auction,2.00,0.50
+1363,Gantyada,Thatipudi,Durgayya banda,SS,GP,Auction,1.00,0.25
+1364,Gantyada,vasantha,pavada tank,SS,GP,Auction,7.00,1.75
+1365,Gantyada,Vasantha,vadarapuvani tank,SS,GP,Auction,2.00,0.50
+1366,Bondapalli,Veduravada,Baddi tank,SS,GP,Lease ,4.00,1
+1367,Bondapalli,Veduravada,Komati tank,SS,GP,Lease ,1.00,0.25
+1368,Bondapalli,Veduravada,Vennalavani tank,SS,GP,Lease ,5.00,1.25
+1369,Bondapalli,Veduravada,Yerra banda,SS,GP,Lease ,2.00,0.5
+1370,Bondapalli,Veduravada,Narsanna tank,SS,GP,Lease ,1.50,0.375
+1371,Bondapalli,Veduravada,Vanka banda,SS,GP,Lease ,2.00,0.5
+1372,Bondapalli,Veduravada,Vankabanda tank,SS,GP,Lease ,1.00,0.25
+1373,Bondapalli,Veduravada,Vantivani tank,SS,GP,Lease ,2.00,0.5
+1374,Bondapalli,Veduravada,Alluvani tank,SS,GP,Lease ,1.00,0.25
+1375,Bondapalli,Veduravada,Sukarayya tank,SS,GP,Lease ,3.00,0.75
+1376,Bondapalli,Veduravada,Butchivani tank,SS,GP,Lease ,3.00,0.75
+1377,Bondapalli,M.Kothavalasa,Majjivani tank,SS,GP,Lease ,9.00,2.25
+1378,Bondapalli,M.Kothavalasa,Burravani tank,SS,GP,Lease ,1.50,0.375
+1379,Bondapalli,M.Kothavalasa,Koradavani tank,SS,GP,Lease ,1.50,0.375
+1380,Bondapalli,M Kothavalsa,Dasarivani,SS,GP,Lease ,6.00,1.5
+1381,Bondapalli,M Kothavalsa,Kothapuri,SS,GP,Lease ,7.00,1.75
+1382,Bondapalli,M Kothavalasa,Bapiraju,SS,GP,Lease ,5.00,1.25
+1383,Kothavalasa,chinaraopalli,jogi jagam banda,SS,GP,Auction,1.00,0.25
+1384,Kothavalasa,chinaraopalli,tirupathiraju cheruvu,SS,GP,Auction,19.00,4.75
+1385,Kothavalasa,chinaraopalli,venkata sagaram,SS,GP,Auction,3.00,0.75
+1386,Kothavalasa,chinnipalem,appannabanda,SS,GP,Auction,1.00,0.25
+1387,Kothavalasa,chinnipalem,hanumanthusagaram,SS,GP,Auction,8.00,2.00
+1388,Kothavalasa,chinnipalem,jangambanda,SS,GP,Auction,6.00,1.50
+1389,Kothavalasa,chinnipalem,jaggannabanda,SS,GP,Auction,1.00,0.25
+1390,Kothavalasa,chinnipalem,kothacheruvu,SS,GP,Auction,6.00,1.50
+1391,Kothavalasa,chinnipalem,ramasagaram,SS,GP,Auction,1.00,0.25
+1392,Kothavalasa,chinnipalem,somalingam cheruvu,SS,GP,Auction,3.00,0.75
+1393,Kothavalasa,chinnipalem,gurlachedubanda,SS,GP,Auction,1.00,0.25
+1394,Kothavalasa,chinnipalem,laxmidevi banda,SS,GP,Auction,1.00,0.25
+1395,Kothavalasa,chinnipalem,paravadavaribanda,SS,GP,Auction,1.00,0.25
+1396,Kothavalasa,chinnipalem,padupubanda,SS,GP,Auction,1.00,0.25
+1397,Kothavalasa,chinnipalem,ramakrishnayya cheruvu,SS,GP,Auction,1.00,0.25
+1398,Kothavalasa,chinnipalem,sriramudi cheruvu,SS,GP,Auction,1.00,0.25
+1399,Kothavalasa,chintalapalem,appatota gedda,SS,GP,Auction,9.00,2.25
+1400,Kothavalasa,chintalapalem,amudala banda,SS,GP,Auction,1.00,0.25
+1401,Kothavalasa,chintalapalem,chintala sriramulu banda,SS,GP,Auction,1.00,0.25
+1402,Kothavalasa,chintalapalem,chintalavani tank,SS,GP,Auction,6.00,1.50
+1403,Kothavalasa,chintalapalem,geddakattu banda,SS,GP,Auction,3.00,0.75
+1404,Kothavalasa,chintalapalem,korubilli banda,SS,GP,Auction,1.00,0.25
+1405,Kothavalasa,chintalapalem,kondappa gedda,SS,GP,Auction,8.00,2.00
+1406,Kothavalasa,chintalapalem,kothabanda,SS,GP,Auction,1.00,0.25
+1407,Kothavalasa,chintalapalem,lingappacheruvu,SS,GP,Auction,1.00,0.25
+1408,Kothavalasa,chintalapalem,narasimha sagaram,SS,GP,Auction,4.00,1.00
+1409,Kothavalasa,chintalapalem,peddakoneru,SS,GP,Auction,1.00,0.25
+1410,Kothavalasa,chintalapalem,sreeram sagaram,SS,GP,Auction,3.00,0.75
+1411,Kothavalasa,chintalapalem,tadibanda,SS,GP,Auction,1.00,0.25
+1412,Kothavalasa,chintalapalem,,SS,GP,Auction,0.00,0.00
+1413,Kothavalasa,chithalapalem,vaagu gedda,SS,GP,Auction,3.00,0.75
+1414,Kothavalasa,chintalapalem,veerasagaram,SS,GP,Auction,3.00,0.75
+1415,Kothavalasa,chintalapalem,appalanaidu tank,SS,GP,Auction,4.00,1.00
+1416,Kothavalasa,chintalapalem,ammatank,SS,GP,Auction,4.00,1.00
+1417,Kothavalasa,chintalapalem,allubanda,SS,GP,Auction,2.00,0.50
+1418,Kothavalasa,chintalapalem,chintalasriramulabanda,SS,GP,Auction,1.00,0.25
+1419,Kothavalasa,chintalapalem,geddakattubanda,SS,GP,Auction,1.00,0.25
+1420,Kothavalasa,chitalapalem,kondaputank,SS,GP,Auction,1.00,0.25
+1421,Kothavalasa,chintalapalem,kummarapapayya tank,SS,GP,Auction,2.00,0.50
+1422,Kothavalasa,chintalapalem,nerellatank,SS,GP,Auction,6.00,1.50
+1423,Kothavalasa,chintalapalem,nella tank,SS,GP,Auction,1.00,0.25
+1424,Kothavalasa,chintalapalem,peddappanna cheruvu,SS,GP,Auction,3.00,0.75
+1425,Kothavalasa,chintalapalem,papayyatank,SS,GP,Auction,3.00,0.75
+1426,Kothavalasa,chintalapalem,peetalabanda,SS,GP,Auction,2.00,0.50
+1427,Kothavalasa,chintalapalem,ramasagaram,SS,GP,Auction,1.00,0.25
+1428,Kothavalasa,chintalapalem,veeracharyunicheruvu,SS,GP,Auction,1.00,0.25
+1429,Kothavalasa,denderu,dasari banda,SS,GP,Auction,2.00,0.50
+1430,Kothavalasa,denderu,jangam banda,SS,GP,Auction,1.00,0.25
+1431,Kothavalasa,denderu,kamsali cheruvu,SS,GP,Auction,1.00,0.25
+1432,Kothavalasa,denderu,medara banda,SS,GP,Auction,1.00,0.25
+1433,Kothavalasa,denderu,pedda cheruvu,SS,GP,Auction,6.00,1.50
+1434,Kothavalasa,denderu,rajavani banda,SS,GP,Auction,2.00,0.50
+1435,Kothavalasa,devada,kakarabanda,SS,GP,Auction,3.00,0.75
+1436,Kothavalasa,devada,pillakoneru,SS,GP,Auction,3.00,0.75
+1437,Kothavalasa,devada,sai banda,SS,GP,Auction,3.00,0.75
+1438,Kothavalasa,devada,yerukuvani banda,SS,GP,Auction,3.00,0.75
+1439,Kothavalasa,devada,venkamma tank,SS,GP,Auction,1.00,0.25
+1440,Kothavalasa,ganisettipalem,karri cheruvu,SS,GP,Auction,2.00,0.50
+1441,Kothavalasa,ganisetti palem,krishna sagaram,SS,GP,Auction,3.00,0.75
+1442,Kothavalasa,gulivindada,appayya tank,SS,GP,Auction,7.00,1.75
+1443,Kothavalasa,gulivindada,bariki banda,SS,GP,Auction,1.00,0.25
+1444,Kothavalasa,gulivindada,gedda vagu,SS,GP,Auction,5.00,1.25
+1445,Kothavalasa,gulivindada,sanku banda,SS,GP,Auction,2.00,0.50
+1446,Kothavalasa,gulivindada,veera sagaram,SS,GP,Auction,1.00,0.25
+1447,Kothavalasa,gulivindada,ammatank,SS,GP,Auction,2.00,0.50
+1448,Kothavalasa,gulivindada,boddabanda,SS,GP,Auction,1.00,0.25
+1449,Kothavalasa,gulivindada,chitrala banda,SS,GP,Auction,1.00,0.25
+1450,Kothavalasa,gulivindada,gulimisetti tank,SS,GP,Auction,5.00,1.25
+1451,Kothavalasa,gulivindada,revati banda,SS,GP,Auction,4.00,1.00
+1452,Kothavalasa,kantakapalli,kantakammayya cheruvu,SS,GP,Auction,3.00,0.75
+1453,Kothavalasa,kantakapalli,lingalakomaticheruvu,SS,GP,Auction,2.00,0.50
+1454,Kothavalasa,kantakapalli,veerapatruni cheruvu,SS,GP,Auction,1.00,0.25
+1455,Kothavalasa,katakapalli,atchamma cheruvu,SS,GP,Auction,2.00,0.50
+1456,Kothavalasa,katakapalli,krishanasagaram,SS,GP,Auction,1.00,0.25
+1457,Kothavalasa,katakapalli,ramaraju charuvu,SS,GP,Auction,2.00,0.50
+1458,Kothavalasa,katakapalli,yerra charuvu,SS,GP,Auction,3.00,0.75
+1459,Kothavalasa,katkapalli,chintala charuvu,SS,GP,Auction,2.00,0.50
+1460,Kothavalasa,katakapalli,koneru devudu kattu banda,SS,GP,Auction,1.00,0.25
+1461,Kothavalasa,katakapalli,komata charuvu,SS,GP,Auction,1.00,0.25
+1462,Kothavalasa,katakapalli,parvathamma charuvu,SS,GP,Auction,2.00,0.50
+1463,Kothavalasa,katakapalli,reddi banda,SS,GP,Auction,2.00,0.50
+1464,Kothavalasa,katakapalli,velaga banda,SS,GP,Auction,1.00,0.25
+1465,Kothavalasa,katakapalli,amma charuvu,SS,GP,Auction,2.00,0.50
+1466,Kothavalasa,katakapalli,lankamalla pathuruni charuvu,SS,GP,Auction,1.00,0.25
+1467,Kothavalasa,katkapalli,narasammapatahurunu charuvu,SS,GP,Auction,3.00,0.75
+1468,Kothavalasa,katakapalli,narsa raju tank,SS,GP,Auction,5.00,1.25
+1469,Kothavalasa,katakapalli,satyavathamma charuvu,SS,GP,Auction,1.00,0.25
+1470,Kothavalasa,katakapalli,sairapu raju cheruvu,SS,GP,Auction,3.00,0.75
+1471,Kothavalasa,kothavalasa,bhaskaracharaulu banda,SS,GP,Auction,2.00,0.50
+1472,Kothavalasa,kothavalasa,dumpavanitank,SS,GP,Auction,3.00,0.75
+1473,Kothavalasa,kothavalasa,narasamma tank,SS,GP,Auction,3.00,0.75
+1474,Kothavalasa,kothavalasa,gangamamma koneru,SS,GP,Auction,7.00,1.75
+1475,Kothavalasa,kothavalasa,chaviti banda,SS,GP,Auction,1.00,0.25
+1476,Kothavalasa,kothavalasa,gedda banda,SS,GP,Auction,2.00,0.50
+1477,Kothavalasa,kothavalasa,kotha cheruvu,SS,GP,Auction,1.00,0.25
+1478,Kothavalasa,kothavalasa,kondappacheruvu,SS,GP,Auction,2.00,0.50
+1479,Kothavalasa,kothavalasa,thimmada banda,SS,GP,Auction,1.00,0.25
+1480,Kothavalasa,kothavalasa,vllayyacheruvu,SS,GP,Auction,1.00,0.25
+1481,Kothavalasa,kothvalasa,bheemandora cheruvu,SS,GP,Auction,1.00,0.25
+1482,Kothavalasa,kothavalasa,ayyanna tank,SS,GP,Auction,5.00,1.25
+1483,Kothavalasa,kothavalasa,komati tank,SS,GP,Auction,6.00,1.50
+1484,Kothavalasa,kothavalasa,krishna sagaram,SS,GP,Auction,2.00,0.50
+1485,Kothavalasa,kothavalasa,majjibanda,SS,GP,Auction,2.00,0.50
+1486,Kothavalasa,kothavalasa,venkannabanda,SS,GP,Auction,2.00,0.50
+1487,Kothavalasa,kothavalasa,chennapatruni tank,SS,GP,Auction,1.00,0.25
+1488,Kothavalasa,musiram,amma tank,SS,GP,Auction,1.00,0.25
+1489,Kothavalasa,musiram,bariki banda,SS,GP,Auction,1.00,0.25
+1490,Kothavalasa,misiram,chatru banda,SS,GP,Auction,1.00,0.25
+1491,Kothavalasa,musiram,gumpuvani tank,SS,GP,Auction,1.00,0.25
+1492,Kothavalasa,musiram,gokada vani tank,SS,GP,Auction,2.00,0.50
+1493,Kothavalasa,musiram,geddakattu,SS,GP,Auction,1.00,0.25
+1494,Kothavalasa,musiram,kothakoneru,SS,GP,Auction,1.00,0.25
+1495,Kothavalasa,musiram,kothabanda,SS,GP,Auction,1.00,0.25
+1496,Kothavalasa,musiram,naidu tank,SS,GP,Auction,2.00,0.50
+1497,Kothavalasa,musiram,nagaraju banda,SS,GP,Auction,1.00,0.25
+1498,Kothavalasa,musiram,pala pathruvani tank,SS,GP,Auction,2.00,0.50
+1499,Kothavalasa,musiram,simmavani tank,SS,GP,Auction,1.00,0.25
+1500,Kothavalasa,musiram,timidi tank,SS,GP,Auction,1.00,0.25
+1501,Kothavalasa,musiram,vissanna tank,SS,GP,Auction,8.00,2.00
+1502,Kothavalasa,nimmalapalem,jogiraju banda,SS,GP,Auction,3.00,0.75
+1503,Kothavalasa,nimmalapalem,narasimha sagaram,SS,GP,Auction,1.00,0.25
+1504,Kothavalasa,nimmalapalem,velaga tank,SS,GP,Auction,1.00,0.25
+1505,Kothavalasa,nimmalapalem,chinnayya tank,SS,GP,Auction,1.00,0.25
+1506,Kothavalasa,nimmalapalem,patha tank,SS,GP,Auction,1.00,0.25
+1507,Kothavalasa,nimmalapalem,sriram sageram,SS,GP,Auction,2.00,0.50
+1508,Kothavalasa,nimmalapalem,velga banda,SS,GP,Auction,1.00,0.25
+1509,Kothavalasa,ramalingapuram,kotha tank,SS,GP,Auction,1.00,0.25
+1510,Kothavalasa,ramalingapuram,murty tank,SS,GP,Auction,1.00,0.25
+1511,Kothavalasa,ramalingapuram,ramalinga tank,SS,GP,Auction,2.00,0.50
+1512,Kothavalasa,ramalingapuram,velaga banda,SS,GP,Auction,1.00,0.25
+1513,Kothavalasa,ramalingapuram,venkatarama tank,SS,GP,Auction,1.00,0.25
+1514,Kothavalasa,relli,lingamma cheruvu,SS,GP,Auction,6.00,1.50
+1515,Kothavalasa,relli,budhamma cheruvu,SS,GP,Auction,2.00,0.50
+1516,Kothavalasa,relli,chintala cheruvu,SS,GP,Auction,1.00,0.25
+1517,Kothavalasa,relli,kothabanda,SS,GP,Auction,2.00,0.50
+1518,Kothavalasa,relli,musalayya banda,SS,GP,Auction,1.00,0.25
+1519,Kothavalasa,relli,ramoji cheruvu,SS,GP,Auction,3.00,0.75
+1520,Kothavalasa,relli,surapuvani cheruvu,SS,GP,Auction,1.00,0.25
+1521,Kothavalasa,relli,turakala cheruvu,SS,GP,Auction,3.00,0.75
+1522,Kothavalasa,relli,vijarama sagaram,SS,GP,Auction,4.00,1.00
+1523,Kothavalasa,santhapalem,rongalibanda,SS,GP,Auction,2.00,0.50
+1524,Kothavalasa,santapalem,velagabanda,SS,GP,Auction,2.00,0.50
+1525,Kothavalasa,santhapalem,voora tank,SS,GP,Auction,1.00,0.25
+1526,Kothavalasa,santhapalem,vootavani tank,SS,GP,Auction,1.00,0.25
+1527,Kothavalasa,thummukapalli,anantham cheruvu,SS,GP,Auction,1.00,0.25
+1528,Kothavalasa,thummukapalli,demudu cheruvu,SS,GP,Auction,1.00,0.25
+1529,Kothavalasa,thummukapalli,gowrakattucheruvu,SS,GP,Auction,7.00,1.75
+1530,Kothavalasa,thummukapalli,geddakattu cheruvu,SS,GP,Auction,1.00,0.25
+1531,Kothavalasa,thummukapalli,lankabanda,SS,GP,Auction,1.00,0.25
+1532,Kothavalasa,thumikapalli,thondrapu vani tank,SS,GP,Auction,2.00,0.50
+1533,Kothavalasa,thumikapalli,voora tank,SS,GP,Auction,1.00,0.25
+1534,Kothavalasa,uttarapalli,karuvu banda,SS,GP,Auction,3.00,0.75
+1535,Kothavalasa,uttarapalli,dalibanda,SS,GP,Auction,1.00,0.25
+1536,Kothavalasa,uttarapalli,dukkavani cheruvu,SS,GP,Auction,1.00,0.25
+1537,Kothavalasa,uttarapalli,gokada banda,SS,GP,Auction,1.00,0.25
+1538,Kothavalasa,uttarapalli,gavaravani cheruvu,SS,GP,Auction,1.00,0.25
+1539,Kothavalasa,uttarapalli,geddakattu banda,SS,GP,Auction,1.00,0.25
+1540,Kothavalasa,uttarapalli,karrivani cheruvu,SS,GP,Auction,2.00,0.50
+1541,Kothavalasa,uttarapalli,mukkavani cheruvu,SS,GP,Auction,3.00,0.75
+1542,Kothavalasa,uttarapalli,valasamma cheruvu,SS,GP,Auction,1.00,0.25
+1543,Kothavalasa,uttarapalli,venkata naresh banda,SS,GP,Auction,1.00,0.25
+1544,Kothavalasa,veerabadrapuram,adilaxmi cheruvu,SS,GP,Auction,2.00,0.50
+1545,Kothavalasa,veerabhadrapuram,banthuluru narayanarao cheruvu,SS,GP,Auction,1.00,0.25
+1546,Kothavalasa,veerabhadrapuram,hanumatha banda,SS,GP,Auction,2.00,0.50
+1547,Kothavalasa,veerabadrapura,inam cheruvu,SS,GP,Auction,3.00,0.75
+1548,Kothavalasa,veerabhadrapuram,juvvibanda,SS,GP,Auction,8.00,2.00
+1549,Kothavalasa,veerabadrapuram,ramannacheruvu,SS,GP,Auction,8.00,2.00
+1550,Kothavalasa,veerabhadrapuram,kondavani cheruvu,SS,GP,Auction,3.00,0.75
+1551,Kothavalasa,veerabhadrapuram,kotnanavani banda,SS,GP,Auction,1.00,0.25
+1552,Kothavalasa,veerabhadrapuram,narayanapathruni cheruvu,SS,GP,Auction,1.00,0.25
+1553,Kothavalasa,veerabhadra puram,pilla banda,SS,GP,Auction,2.00,0.50
+1554,Kothavalasa,veerabhadrapuram,vedula cheruvu,SS,GP,Auction,2.00,0.50
+1555,Kothavalasa,veerabhadrapuram,ramunaidu cheruvu,SS,GP,Auction,5.00,1.25
+1556,Kothavalasa,veerabhadrapuram,vissamma cheruvu,SS,GP,Auction,1.00,0.25
+1557,Kothavalasa,veerabadrapuram,yerrabanda,SS,GP,Auction,2.00,0.50
+1558,Kothavalasa,veerabadrapuram,satrulubanda,SS,GP,Auction,2.00,0.50
+1559,Kothavalasa,veerabadrapuram,maddibanda,SS,GP,Auction,1.00,0.25
+1560,Kothavalasa,veerabadhapuram,appadu cheruvu,SS,GP,Auction,1.00,0.25

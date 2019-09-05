@@ -1,0 +1,2 @@
+class LandCategory < ApplicationRecord
+end

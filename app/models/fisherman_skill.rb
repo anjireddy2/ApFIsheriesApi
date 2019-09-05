@@ -1,0 +1,2 @@
+class FishermanSkill < ApplicationRecord
+end

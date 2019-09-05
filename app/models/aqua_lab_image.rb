@@ -1,0 +1,2 @@
+class AquaLabImage < ApplicationRecord
+end

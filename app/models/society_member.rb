@@ -1,0 +1,2 @@
+class SocietyMember < ApplicationRecord
+end

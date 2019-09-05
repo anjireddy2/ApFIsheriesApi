@@ -1,0 +1,2 @@
+class FreshWaterBoundary < ApplicationRecord
+end

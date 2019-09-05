@@ -1,0 +1,2 @@
+class AquaLabStaff < ApplicationRecord
+end

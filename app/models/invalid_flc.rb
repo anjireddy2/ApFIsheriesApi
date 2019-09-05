@@ -1,0 +1,2 @@
+class InvalidFlc < ApplicationRecord
+end

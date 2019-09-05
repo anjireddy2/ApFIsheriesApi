@@ -1,0 +1,2 @@
+class FreshWaterLandDetail < ApplicationRecord
+end

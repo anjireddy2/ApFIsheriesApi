@@ -1,0 +1,2 @@
+class WaterBodyOwnership < ApplicationRecord
+end

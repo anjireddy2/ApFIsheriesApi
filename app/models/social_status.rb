@@ -1,0 +1,2 @@
+class SocialStatus < ApplicationRecord
+end

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="92px" height="68px" viewBox="0 0 92 68" enable-background="new 0 0 92 68" xml:space="preserve">
+<g>
+	<g>
+		
+			<radialGradient id="SVGID_1_" cx="831.9541" cy="-3132.8049" r="44.0814" gradientTransform="matrix(0 -1 -1 0 -3058.1311 853.6772)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#CDDC29"/>
+			<stop  offset="1" style="stop-color:#196634"/>
+		</radialGradient>
+		<path fill="url(#SVGID_1_)" d="M90.992,22.363c-0.672,12.748-10.781,23.26-23.841,24.11c-11.941,0.76-22.498-6.89-25.897-17.802
+			c-0.447-2.727,1.251-3.31,3.846-2.819c10.064,1.969,18.204,14.317,32.875,6.398c-0.939,1.699-2.056,3.13-3.175,4.159
+			C79.674,36.185,88.844,32.874,90.992,22.363L90.992,22.363z"/>
+		
+			<radialGradient id="SVGID_2_" cx="822.7087" cy="-3117.8796" r="13.4161" gradientTransform="matrix(0 -1 -1 0 -3058.1311 853.6772)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#18A54A"/>
+			<stop  offset="0.43" style="stop-color:#285C2D"/>
+			<stop  offset="1" style="stop-color:#112013"/>
+		</radialGradient>
+		<path fill="url(#SVGID_2_)" d="M41.522,26.525c0.581-0.851,1.922-0.986,3.578-0.673c10.064,1.969,18.204,14.317,32.875,6.398
+			c-4.428,3.622-9.35,4.473-14.135,3.757C56.506,34.932,44.966,23.259,41.522,26.525L41.522,26.525z"/>
+		
+			<radialGradient id="SVGID_3_" cx="824.2914" cy="-3141.0269" r="7.5783" gradientTransform="matrix(0 -1 -1 0 -3058.1311 853.6772)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#18A54A"/>
+			<stop  offset="0.43" style="stop-color:#285C2D"/>
+			<stop  offset="1" style="stop-color:#112013"/>
+		</radialGradient>
+		<path fill="url(#SVGID_3_)" d="M90.992,22.363c-1.701,7.245-10.066,12.748-15.166,12.972c-0.312,0.403-0.668,0.76-1.026,1.073
+			C79.674,36.185,88.844,32.874,90.992,22.363L90.992,22.363z"/>
+	</g>
+	<g>
+		
+			<radialGradient id="SVGID_4_" cx="-2836.5015" cy="436.4336" r="62.3511" gradientTransform="matrix(0 1 1 0 -410.834 2873.2678)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#3AC0F0"/>
+			<stop  offset="1" style="stop-color:#293793"/>
+		</radialGradient>
+		<path fill="url(#SVGID_4_)" d="M2.519,35.861C3.468,17.828,17.765,2.96,36.241,1.757c16.891-1.074,31.823,9.747,36.63,25.182
+			c0.633,3.859-1.77,4.683-5.439,3.988C53.196,28.14,41.683,10.679,20.93,21.878c1.328-2.405,2.909-4.43,4.491-5.883
+			C18.524,16.312,5.557,20.993,2.519,35.861L2.519,35.861z"/>
+		
+			<radialGradient id="SVGID_5_" cx="-2849.5786" cy="457.5452" r="18.9768" gradientTransform="matrix(0 1 1 0 -410.834 2873.2678)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#396DB5"/>
+			<stop  offset="0.415" style="stop-color:#354FA2"/>
+			<stop  offset="1" style="stop-color:#0B1720"/>
+		</radialGradient>
+		<path fill="url(#SVGID_5_)" d="M72.492,29.975c-0.822,1.203-2.719,1.394-5.061,0.952C53.196,28.14,41.683,10.679,20.93,21.878
+			c6.263-5.126,13.223-6.328,19.993-5.315C51.3,18.081,67.621,34.594,72.492,29.975L72.492,29.975z"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 26.7744 64.9733)" fill="#2AAAE2" font-family="'ArialMT'" font-size="13.7434">my</text>
+<text transform="matrix(1 0 0 1 45.7817 64.9733)" fill="#6ABD45" font-family="'ArialMT'" font-size="13.7434">AP</text>
+<circle opacity="0.6" fill="#ED2025" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" enable-background="new    " cx="65.62" cy="23.775" r="2.1"/>
+<circle opacity="0.6" fill="#ED2025" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" enable-background="new    " cx="48.25" cy="33.128" r="2.1"/>
+<circle fill="#ED2025" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" cx="65.632" cy="23.891" r="0.584"/>
+<circle fill="#ED2025" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" cx="48.262" cy="33.244" r="0.584"/>
+</svg>
