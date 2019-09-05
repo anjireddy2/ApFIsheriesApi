@@ -6,119 +6,119 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
-require 'HTTParty'
-require 'Nokogiri'
-#    RegsitrationType.create :name => "Aqua Lab"
-#    RegsitrationType.create :name => "Aquaculture Fresh Water Farm"
-#    RegsitrationType.create :name => "Inland Fisherman"
-#    RegsitrationType.create :name => "Inland Fisherwoman"
-#    RegsitrationType.create :name => "Inland Fishermen Society"
-#    RegsitrationType.create :name => "Inland Fisherwomen Society"
-#    RegsitrationType.create :name => "Marine Crew"
-#    RegsitrationType.create :name => "Marine Fishermen Society"
-#    RegsitrationType.create :name => "Marine Fisherwomen Society"
-#    RegsitrationType.create :name => "Marine Vessel Registration"
+# require 'HTTParty'
+# require 'Nokogiri'
+   RegsitrationType.create :name => "Aqua Lab"
+   RegsitrationType.create :name => "Aquaculture Fresh Water Farm"
+   RegsitrationType.create :name => "Inland Fisherman"
+   RegsitrationType.create :name => "Inland Fisherwoman"
+   RegsitrationType.create :name => "Inland Fishermen Society"
+   RegsitrationType.create :name => "Inland Fisherwomen Society"
+   RegsitrationType.create :name => "Marine Crew"
+   RegsitrationType.create :name => "Marine Fishermen Society"
+   RegsitrationType.create :name => "Marine Fisherwomen Society"
+   RegsitrationType.create :name => "Marine Vessel Registration"
 
 
-#    User.create :aadhaar_no => "123456789871", :password => "admin", :role_id => 13,:mobile_no => "9985324862"
-#    User.create :aadhaar_no => "123456789872", :password => "fdo", :role_id => 2,:mobile_no => "9985324861"
-#    User.create :aadhaar_no => "123456789873", :password => "adf", :role_id => 3,:mobile_no => "9985324860"
-#    User.create :aadhaar_no => "123456789874", :password => "dd", :role_id => 4,:mobile_no => "9985324863"
-#    User.create :aadhaar_no => "123456789875", :password => "dfo", :role_id => 5,:mobile_no => "9985324864"
-#    User.create :aadhaar_no => "123456789876", :password => "add_drct", :role_id => 6,:mobile_no => "9985324865"
-#    User.create :aadhaar_no => "123456789877", :password => "commisioner", :role_id => 7,:mobile_no => "9985324866"
-#    User.create :aadhaar_no => "123456789878", :password => "MRO", :role_id => 8,:mobile_no => "9985324867"
-#    User.create :aadhaar_no => "123456789879", :password => "SVVU", :role_id => 9,:mobile_no => "9985324868"
-#    User.create :aadhaar_no => "123456789880", :password => "CIBA", :role_id => 10,:mobile_no => "9985324869"
-#    User.create :aadhaar_no => "123456789881", :password => "NaCSA", :role_id => 11,:mobile_no => "9985324870"
-#    User.create :aadhaar_no => "123456789882", :password => "SIFT", :role_id => 12,:mobile_no => "9985324871"
-#    User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
-#    User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
+   User.create :aadhaar_no => "123456789871", :password => "admin", :role_id => 13,:mobile_no => "9985324862"
+   User.create :aadhaar_no => "123456789872", :password => "fdo", :role_id => 2,:mobile_no => "9985324861"
+   User.create :aadhaar_no => "123456789873", :password => "adf", :role_id => 3,:mobile_no => "9985324860"
+   User.create :aadhaar_no => "123456789874", :password => "dd", :role_id => 4,:mobile_no => "9985324863"
+   User.create :aadhaar_no => "123456789875", :password => "dfo", :role_id => 5,:mobile_no => "9985324864"
+   User.create :aadhaar_no => "123456789876", :password => "add_drct", :role_id => 6,:mobile_no => "9985324865"
+   User.create :aadhaar_no => "123456789877", :password => "commisioner", :role_id => 7,:mobile_no => "9985324866"
+   User.create :aadhaar_no => "123456789878", :password => "MRO", :role_id => 8,:mobile_no => "9985324867"
+   User.create :aadhaar_no => "123456789879", :password => "SVVU", :role_id => 9,:mobile_no => "9985324868"
+   User.create :aadhaar_no => "123456789880", :password => "CIBA", :role_id => 10,:mobile_no => "9985324869"
+   User.create :aadhaar_no => "123456789881", :password => "NaCSA", :role_id => 11,:mobile_no => "9985324870"
+   User.create :aadhaar_no => "123456789882", :password => "SIFT", :role_id => 12,:mobile_no => "9985324871"
+   User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
+   User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
 
-#    Role.create :role_name => "fdo", :role_description => "Fisheries Department "
-#    Role.create :role_name => "adf", :role_description => "Fisheries Department "
-#    Role.create :role_name => "dd", :role_description => "Fisheries Department "
-#    Role.create :role_name => "dfo", :role_description => "Fisheries Department"
-#    Role.create :role_name => "addt_director", :role_description => "Fisheries Department Officer"
-#    Role.create :role_name => "commissioner", :role_description => "Fisheries Department Officer"
-#    Role.create :role_name => "mro", :role_description => "Mandal Revenue Officer"
-#    Role.create :role_name => "svvu", :role_description => "Sri Venkateswara Veterinary University "
-#    Role.create :role_name => "ciba", :role_description => "Central Institute of Brackishwater Aquaculture"
-#    Role.create :role_name => "NaCSA", :role_description => "National Centre for Sustainable Aquaculture "
-#    Role.create :role_name => "SIFT", :role_description => "State Institute Of Fisheries Technology"
-#    Role.create :role_name => "man_user", :role_description => "Fisher Man"
-#    Role.create :role_name => "woman_user", :role_description => "Fisher Woman"
-#    Role.create :role_name => "FM", :role_description => ""
-#    Role.create :role_name => "AIF", :role_description => ""
-#    Role.create :role_name => "MPEAF", :role_description => ""
+   Role.create :role_name => "fdo", :role_description => "Fisheries Department "
+   Role.create :role_name => "adf", :role_description => "Fisheries Department "
+   Role.create :role_name => "dd", :role_description => "Fisheries Department "
+   Role.create :role_name => "dfo", :role_description => "Fisheries Department"
+   Role.create :role_name => "addt_director", :role_description => "Fisheries Department Officer"
+   Role.create :role_name => "commissioner", :role_description => "Fisheries Department Officer"
+   Role.create :role_name => "mro", :role_description => "Mandal Revenue Officer"
+   Role.create :role_name => "svvu", :role_description => "Sri Venkateswara Veterinary University "
+   Role.create :role_name => "ciba", :role_description => "Central Institute of Brackishwater Aquaculture"
+   Role.create :role_name => "NaCSA", :role_description => "National Centre for Sustainable Aquaculture "
+   Role.create :role_name => "SIFT", :role_description => "State Institute Of Fisheries Technology"
+   Role.create :role_name => "man_user", :role_description => "Fisher Man"
+   Role.create :role_name => "woman_user", :role_description => "Fisher Woman"
+   Role.create :role_name => "FM", :role_description => ""
+   Role.create :role_name => "AIF", :role_description => ""
+   Role.create :role_name => "MPEAF", :role_description => ""
    
-#    Seasonality.create :seasonality_type => "SS"
-#    Seasonality.create :seasonality_type => "LS"
+   Seasonality.create :seasonality_type => "SS"
+   Seasonality.create :seasonality_type => "LS"
 
-#    WaterBodyType.create :type_of_water_body => "GP"
-#    WaterBodyType.create :type_of_water_body => "MI"
-#    WaterBodyType.create :type_of_water_body => "Reservoir"
+   WaterBodyType.create :type_of_water_body => "GP"
+   WaterBodyType.create :type_of_water_body => "MI"
+   WaterBodyType.create :type_of_water_body => "Reservoir"
 
-#    WaterBodyOwnership.create :type_of_ownership => "Lease"
-#    WaterBodyOwnership.create :type_of_ownership => "License"
-#    WaterBodyOwnership.create :type_of_ownership => "Auction"
+   WaterBodyOwnership.create :type_of_ownership => "Lease"
+   WaterBodyOwnership.create :type_of_ownership => "License"
+   WaterBodyOwnership.create :type_of_ownership => "Auction"
 
-# puts "Migrating Seed data for Districts"
-# csv_text = File.read(Rails.public_path+'districts.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    District.create :district_code => row[0],:district_name => row[1]
-#    puts "District Name  " + row[1]
-# end
+puts "Migrating Seed data for Districts"
+csv_text = File.read(Rails.public_path+'districts.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   District.create :district_code => row[0],:district_name => row[1]
+   puts "District Name  " + row[1]
+end
 
-# puts "District data is migrated successfully"
+puts "District data is migrated successfully"
 
-# puts "Migrating Seed data for Mandals"
-# csv_text = File.read(Rails.public_path+'mandals.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    Mandal.create :district_id => row[0],:mandal_code => row[1], :mandal_name => row[2].humanize
-#    puts "Mandal Name  "  + row[2]
-# end
+puts "Migrating Seed data for Mandals"
+csv_text = File.read(Rails.public_path+'mandals.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   Mandal.create :district_id => row[0],:mandal_code => row[1], :mandal_name => row[2].humanize
+   puts "Mandal Name  "  + row[2]
+end
 
-# # puts "Mandal data is migrated successfully"
-
-
-
-# puts "Migrating Seed data for Panchayats"
-# csv_text = File.read(Rails.public_path+'panchayats.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    Panchayat.create :mandal_id => row[0],:panchayat_code => row[1], :panchayat_name => row[2].humanize
-#    puts "Panchayat Name  " + row[2]
-# end
+# puts "Mandal data is migrated successfully"
 
 
-# puts "Panchayat data is migrated successfully"
 
-# puts "Migrating Seed data for Villages"
-# csv_text = File.read(Rails.public_path+'villages.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    Village.create :mandal_id => row[0],:village_code => row[1], :village_name => row[2].humanize
-#    puts "Village Name  " + row[2]
-# end
-
-# # puts "Villages data is migrated successfully"
+puts "Migrating Seed data for Panchayats"
+csv_text = File.read(Rails.public_path+'panchayats.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   Panchayat.create :mandal_id => row[0],:panchayat_code => row[1], :panchayat_name => row[2].humanize
+   puts "Panchayat Name  " + row[2]
+end
 
 
-# puts "Adding Water Body Clusters Data"
+puts "Panchayat data is migrated successfully"
 
-# csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodyDetails.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    usr = User.create :mobile_no => row[3],:role_id => row[4],:password => "default@123"
-#    UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
-#    dist = District.where(:district_name => row[0]).first
-#    puts dist.id
-#    clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
+puts "Migrating Seed data for Villages"
+csv_text = File.read(Rails.public_path+'villages.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   Village.create :mandal_id => row[0],:village_code => row[1], :village_name => row[2].humanize
+   puts "Village Name  " + row[2]
+end
+
+# puts "Villages data is migrated successfully"
+
+
+puts "Adding Water Body Clusters Data"
+
+csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodyDetails.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   usr = User.create :mobile_no => row[3],:role_id => row[4],:password => "default@123"
+   UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
+   dist = District.where(:district_name => row[0]).first
+   puts dist.id
+   clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
    
-# end
+end
 
 # # puts "End of Cluster Creation"
 
@@ -128,33 +128,33 @@ require 'Nokogiri'
 
 
 
-# csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodies.csv', :encoding => 'ISO-8859-1')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    begin
+csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodies.csv', :encoding => 'ISO-8859-1')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   begin
        
-#        mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
-#        village = Village.where(:village_name => row[1].strip.humanize).first unless mandal.blank?
-#        panchayat = Panchayat.where(:panchayat_name => row[1].strip.humanize).first unless mandal.blank?
-#        seasonality = Seasonality.where(:seasonality_type => row[3].strip).first
-#        wtr_bdy_typ = WaterBodyType.where(:type_of_water_body => row[4].strip).first
-#        ownr_shp = WaterBodyOwnership.where(:type_of_ownership => row[5].strip).first
+       mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
+       village = Village.where(:village_name => row[1].strip.humanize).first unless mandal.blank?
+       panchayat = Panchayat.where(:panchayat_name => row[1].strip.humanize).first unless mandal.blank?
+       seasonality = Seasonality.where(:seasonality_type => row[3].strip).first
+       wtr_bdy_typ = WaterBodyType.where(:type_of_water_body => row[4].strip).first
+       ownr_shp = WaterBodyOwnership.where(:type_of_ownership => row[5].strip).first
 
-#        wtr_bdy = WaterBody.new :district_id => mandal.district.id,:mandal_id => mandal.id,:water_body_name => row[2],:water_body_cluster_id => row[8].strip,:village_name => row[1]
-#        wtr_bdy.village_id = village.id unless village.blank?
-#        wtr_bdy.panchayat_id = panchayat.id unless panchayat.blank?
-#        wtr_bdy.save!
-#        puts "Water Body Name  " + wtr_bdy.water_body_name
-#        wtr_bdy_dtl = WaterBodyDetail.new :water_body_id => wtr_bdy.id,:seasonality_id => seasonality.id,:water_body_ownership_id => ownr_shp.id,:twsa => row[6].strip,:ewsa => row[7].strip,:required_fingarling => row[9],:water_body_type_id => wtr_bdy_typ.id
-#        wtr_bdy_dtl.save!
-#    rescue StandardError => e
-#       mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
-#        InvalidWaterBody.create :raised_exception => e.message,:data_of_invalid_water_body => row
-# puts "Invalid Water Body   " + row[2].to_s
-#    end
-# end
+       wtr_bdy = WaterBody.new :district_id => mandal.district.id,:mandal_id => mandal.id,:water_body_name => row[2],:water_body_cluster_id => row[8].strip,:village_name => row[1]
+       wtr_bdy.village_id = village.id unless village.blank?
+       wtr_bdy.panchayat_id = panchayat.id unless panchayat.blank?
+       wtr_bdy.save!
+       puts "Water Body Name  " + wtr_bdy.water_body_name
+       wtr_bdy_dtl = WaterBodyDetail.new :water_body_id => wtr_bdy.id,:seasonality_id => seasonality.id,:water_body_ownership_id => ownr_shp.id,:twsa => row[6].strip,:ewsa => row[7].strip,:required_fingarling => row[9],:water_body_type_id => wtr_bdy_typ.id
+       wtr_bdy_dtl.save!
+   rescue StandardError => e
+      mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
+       InvalidWaterBody.create :raised_exception => e.message,:data_of_invalid_water_body => row
+puts "Invalid Water Body   " + row[2].to_s
+   end
+end
 
-# puts "End of Water Body creation"
+puts "End of Water Body creation"
 
 # file = Rails.public_path+"water_body.csv"
 
