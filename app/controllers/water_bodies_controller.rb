@@ -16,7 +16,7 @@ class WaterBodiesController < ApplicationController
         res = []
         @water_bodies.each do |water_body|
 #            raise water_body.water_body_detail.inspect
-            res  << {:id =>water_body.id :water_body_name => water_body.water_body_name,:twsa => water_body.water_body_detail.twsa,:ewsa => water_body.water_body_detail.ewsa,:seasonality => water_body.water_body_detail.seasonality.seasonality_type,:water_body_type => water_body.water_body_detail.water_body_type.type_of_water_body,:ownership => water_body.water_body_detail.water_body_ownership.type_of_ownership}
+            res  << {:id =>water_body.id , :water_body_name => water_body.water_body_name,:twsa => water_body.water_body_detail.twsa,:ewsa => water_body.water_body_detail.ewsa,:seasonality => water_body.water_body_detail.seasonality.seasonality_type,:water_body_type => water_body.water_body_detail.water_body_type.type_of_water_body,:ownership => water_body.water_body_detail.water_body_ownership.type_of_ownership}
         end
         json_response(res)
     end
