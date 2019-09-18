@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
-require 'HTTParty'
-require 'Nokogiri'
+# require 'HTTParty'
+# require 'Nokogiri'
    RegsitrationType.create :name => "Aqua Lab"
    RegsitrationType.create :name => "Aquaculture Fresh Water Farm"
    RegsitrationType.create :name => "Inland Fisherman"
