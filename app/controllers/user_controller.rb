@@ -22,4 +22,13 @@ class UserController < ApplicationController
         json_response(res)
     end
 
+    def forgot_pwd
+        usr = User.where(:mobile_no => params[:my_input]).first
+        if usr
+            usr.update(:password => params[:new_pwd])
+            json_response({:success => true,:message => "Password changed successfully"})
+        else
+            json_response({:success => false,:message => "Invalid mobile number"})
+        end
+    end
 end

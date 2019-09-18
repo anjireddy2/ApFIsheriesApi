@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
-# require 'HTTParty'
-# require 'Nokogiri'
+require 'HTTParty'
+require 'Nokogiri'
    RegsitrationType.create :name => "Aqua Lab"
    RegsitrationType.create :name => "Aquaculture Fresh Water Farm"
    RegsitrationType.create :name => "Inland Fisherman"
@@ -81,7 +81,7 @@ csv.each do |row|
    puts "Mandal Name  "  + row[2]
 end
 
-# puts "Mandal data is migrated successfully"
+# # puts "Mandal data is migrated successfully"
 
 
 
@@ -120,10 +120,10 @@ csv.each do |row|
    
 end
 
-# # puts "End of Cluster Creation"
+puts "End of Cluster Creation"
 
 
-# # puts "Water Body Creation"
+# puts "Water Body Creation"
 
 
 
@@ -154,39 +154,39 @@ puts "Invalid Water Body   " + row[2].to_s
    end
 end
 
-puts "End of Water Body creation"
+# # puts "End of Water Body creation"
 
-# file = Rails.public_path+"water_body.csv"
+# # file = Rails.public_path+"water_body.csv"
 
-# waterbodies = WaterBody.all
+# # waterbodies = WaterBody.all
 
-# column_headers = ["District Code","District Name","Mandal Code","Mandal Name","Panchayat Code","Panchayat Name" ,"Village Code","Village Name","Water Body Name","SS/LS/Resarvior","Ownership","Lease/Auction","TWSA","EWSA","Cluster Name"]
+# # column_headers = ["District Code","District Name","Mandal Code","Mandal Name","Panchayat Code","Panchayat Name" ,"Village Code","Village Name","Water Body Name","SS/LS/Resarvior","Ownership","Lease/Auction","TWSA","EWSA","Cluster Name"]
 
-# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-#  waterbodies.each do |wtr_bdy|
-# #    writer = []
-#      puts wtr_bdy.water_body_name.inspect
-#      writer << [wtr_bdy.mandal.district.district_code,wtr_bdy.mandal.district.district_name,wtr_bdy.mandal.mandal_code,wtr_bdy.mandal.mandal_name,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_code,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_name,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_code,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_name,wtr_bdy.water_body_name,wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.seasonality.blank? ? "" : wtr_bdy.water_body_detail.seasonality.seasonality_type),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_type.blank? ? "" : wtr_bdy.water_body_detail.water_body_type.type_of_water_body),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_ownership.blank? ? "" : wtr_bdy.water_body_detail.water_body_ownership.type_of_ownership),wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.twsa,wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.ewsa,wtr_bdy.water_body_cluster.blank? ? "" : wtr_bdy.water_body_cluster.cluster_name]
-
-#  end
-# end
-
-
-
-# file = Rails.public_path+"in_valid_water_body.csv"
-
-# in_waterbodies = InValidWaterBody.all
-
-# column_headers = ["Exception Reason","Data","District Name","Mandal Name","Village Name"]
-
-# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-#  in_waterbodies.each do |wtr_bdy|
-# #    writer = []
+# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# #  waterbodies.each do |wtr_bdy|
+# # #    writer = []
 # #      puts wtr_bdy.water_body_name.inspect
-#      writer << [wtr_bdy.raised_exception,wtr_bdy.data_of_invalid_water_body,wtr_bdy.district_name,wtr_bdy.mandal_name,wtr_bdy.district_name]
+# #      writer << [wtr_bdy.mandal.district.district_code,wtr_bdy.mandal.district.district_name,wtr_bdy.mandal.mandal_code,wtr_bdy.mandal.mandal_name,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_code,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_name,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_code,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_name,wtr_bdy.water_body_name,wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.seasonality.blank? ? "" : wtr_bdy.water_body_detail.seasonality.seasonality_type),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_type.blank? ? "" : wtr_bdy.water_body_detail.water_body_type.type_of_water_body),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_ownership.blank? ? "" : wtr_bdy.water_body_detail.water_body_ownership.type_of_ownership),wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.twsa,wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.ewsa,wtr_bdy.water_body_cluster.blank? ? "" : wtr_bdy.water_body_cluster.cluster_name]
 
-#  end
-# end
+# #  end
+# # end
+
+
+
+# # file = Rails.public_path+"in_valid_water_body.csv"
+
+# # in_waterbodies = InValidWaterBody.all
+
+# # column_headers = ["Exception Reason","Data","District Name","Mandal Name","Village Name"]
+
+# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# #  in_waterbodies.each do |wtr_bdy|
+# # #    writer = []
+# # #      puts wtr_bdy.water_body_name.inspect
+# #      writer << [wtr_bdy.raised_exception,wtr_bdy.data_of_invalid_water_body,wtr_bdy.district_name,wtr_bdy.mandal_name,wtr_bdy.district_name]
+
+# #  end
+# # end
 
 
 puts "FLC Creation"
@@ -213,14 +213,25 @@ csv_text = File.read(Rails.public_path+'VesselInfo/latest_boat_owner_data.csv', 
 csv = CSV.parse(csv_text, :headers => false)
 csv.each do |row|
    begin
-       usr = User.new(:aadhaar_no => row[13],:password => "default@123",:mobile_no => row[14])
-       usr.save!
+       
+       vsl_data = JSON.parse(row[5])
+     
+       fth_nm = vsl_data[0]["fatherName"]
+      
+       adhr_no = vsl_data[0]["aadharNumber"]
+      
+       mob_no = vsl_data[0]["mobileNumber"]
+     
+       rat_no = vsl_data[0]["rationCardNumber"]
+      
+       usr = User.new(:aadhaar_no => adhr_no,:password => "default@123",:mobile_no => mob_no)
+       usr.save
        flc = FishLandingCenter.where(:flc_name => row[3].humanize).first
        vsl = VesselDetail.new :district_id => row[0],:mandal_id => row[1],:fish_landing_center_id => flc.id,:user_id => usr.id,
-                               :owner_id => row[4],:owner_name => row[5],:boat_id => row[6],:boat_type => row[9],
-                               :license_renewed_date => row[10].to_date,:license_valid_upto => row[11].to_date,:father_name => row[12],
-                               :aadhaar_no => row[13],:mobile_number => row[14],:bank_account_number => row[15],:ration_card_number => row[16],:ifsc_code => row[17],:mfid_number => row[18],
-                               :bank_details => row[19],:email_id => row[20],:deleted => row[21],:creation_level => row[24],:is_eligible => row[25],:rejection_reason_id => row[26],:comment => row[27]
+                               :owner_id => row[4],:owner_name => row[6],:boat_id => row[7],:boat_type => row[10],
+                               :license_renewed_date => row[11],:license_valid_upto => row[12],:father_name => fth_nm,
+                               :aadhaar_no => adhr_no,:mobile_number => mob_no,:bank_account_number => row[16],:ration_card_number => rat_no,:ifsc_code => row[18],:mfid_number => row[19],
+                               :bank_details => row[20],:email_id => row[21],:deleted => row[22],:creation_level => row[25],:is_eligible => row[26],:rejection_reason_id => row[27],:comment => row[28]
        vsl.save!
        puts "Vessel with ID " + vsl.boat_id + " Is Created"
    rescue StandardError => e
@@ -303,13 +314,13 @@ end
 # end
 
 
-csv_text = File.read(Rails.public_path+'users.csv')
-csv = CSV.parse(csv_text, :headers => false)
-csv.each do |row|
-   usr = User.create :mobile_no => row[1],:role_id => 1,:password => "default@123"
-  #  UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
-  #  dist = District.where(:district_name => row[0]).first
-  #  puts dist.id
-  #  clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
+# csv_text = File.read(Rails.public_path+'users.csv')
+# csv = CSV.parse(csv_text, :headers => false)
+# csv.each do |row|
+#    usr = User.create :mobile_no => row[1],:role_id => 1,:password => "default@123"
+#   #  UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
+#   #  dist = District.where(:district_name => row[0]).first
+#   #  puts dist.id
+#   #  clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
    
-end
+# end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_22_085606) do
+ActiveRecord::Schema.define(version: 2019_09_17_093745) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -186,7 +186,7 @@ ActiveRecord::Schema.define(version: 2019_08_22_085606) do
     t.string "member_aadhaar_no"
     t.string "member_mobile_no"
     t.string "member_ration_card_no"
-    t.integer "member_social_status"
+    t.string "member_social_status"
     t.string "member_caste_cert_no"
     t.datetime "member_date_of_birth"
     t.boolean "active_fisher_man"
@@ -195,6 +195,14 @@ ActiveRecord::Schema.define(version: 2019_08_22_085606) do
     t.boolean "net_sweing"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "society_registration_id"
+    t.boolean "fish_vendor"
+    t.boolean "is_president"
+    t.string "member_emp_status"
+    t.integer "age"
+    t.string "gender"
+    t.string "member_aadhaar_ref_id"
+    t.integer "user_id"
   end
 
   create_table "society_registrations", force: :cascade do |t|
@@ -208,6 +216,14 @@ ActiveRecord::Schema.define(version: 2019_08_22_085606) do
     t.boolean "ncdc"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "aadhaar_ref_id"
+    t.string "gender"
+    t.boolean "is_promoter"
+    t.datetime "date_of_birth"
+    t.integer "age"
+    t.integer "emp_status"
+    t.integer "social_status"
+    t.boolean "fish_vendor"
     t.index ["district_id"], name: "index_society_registrations_on_district_id"
     t.index ["fish_landing_center_id"], name: "index_society_registrations_on_fish_landing_center_id"
     t.index ["mandal_id"], name: "index_society_registrations_on_mandal_id"
@@ -265,6 +281,34 @@ ActiveRecord::Schema.define(version: 2019_08_22_085606) do
     t.index ["role_id"], name: "index_users_on_role_id"
   end
 
+  create_table "vessel_crew_members", force: :cascade do |t|
+    t.bigint "vessel_detail_id"
+    t.string "vessel_reg_no"
+    t.string "member_aadhaar_id"
+    t.string "member_aadhaar_ref_id"
+    t.string "member_ration_card_number"
+    t.string "member_name"
+    t.string "memner_father_name"
+    t.string "member_age"
+    t.string "member_gender"
+    t.string "job_title"
+    t.string "member_mobile_number"
+    t.string "member_social_status"
+    t.string "member_mfid"
+    t.string "bank_account_number"
+    t.string "bank_ifsc"
+    t.string "bank_name"
+    t.string "branch_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "member_email"
+    t.datetime "member_date_of_birth"
+    t.string "member_employement_status"
+    t.string "gender"
+    t.integer "user_id"
+    t.index ["vessel_detail_id"], name: "index_vessel_crew_members_on_vessel_detail_id"
+  end
+
   create_table "vessel_details", force: :cascade do |t|
     t.bigint "district_id"
     t.bigint "mandal_id"
@@ -302,6 +346,7 @@ ActiveRecord::Schema.define(version: 2019_08_22_085606) do
     t.string "vessel_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "member_aadhaar_ref_id"
     t.index ["district_id"], name: "index_vessel_details_on_district_id"
     t.index ["fish_landing_center_id"], name: "index_vessel_details_on_fish_landing_center_id"
     t.index ["mandal_id"], name: "index_vessel_details_on_mandal_id"

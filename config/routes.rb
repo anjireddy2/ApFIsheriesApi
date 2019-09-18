@@ -3,6 +3,9 @@ Rails.application.routes.draw do
     
     resources :districts do
         resources :mandals do
+            collection do
+                get 'flc_mandals'
+            end
             resources :panchayats
             resources :villages
             resources :water_bodies do
@@ -32,11 +35,18 @@ Rails.application.routes.draw do
         member do
             get 'edit_vessel'
             put 'update_vessel'
-            # post 'create'
+            delete 'delete_crew_member'
+            post 'create_crew_user'
+            get 'edit_crew_member'
+            post 'update_crew_member'
         end
-        # collection do
-        #     put 'update_vessel'
-        # end
+         collection do
+             get 'verify_aadhaar'
+             get 'verify_ration_card'
+             get 'crew_list'
+             post 'update_crew_member'
+            #  delete 'delete_crew_member'
+         end
     end
     resources :serp do
         collection do
@@ -47,6 +57,7 @@ Rails.application.routes.draw do
         collection do
             post 'login'
             post 'logout'
+            post 'forgot_pwd'
         end
     end
 
@@ -54,6 +65,17 @@ Rails.application.routes.draw do
         collection do
             post 'create'
             post 'add_members'
+            delete 'delete_member'
+            post 'verify_vessel'
+            get 'get_society_details'
+            post 'update_society_member'
+            get 'edit_member'
+            
+        end
+        member do
+            get 'society_members'
+            delete 'delete_member'
+            delete 'delete_society'
         end
     end
 
