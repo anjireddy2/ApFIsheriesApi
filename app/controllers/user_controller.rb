@@ -3,7 +3,7 @@ class UserController < ApplicationController
     def login
         puts params.inspect
         # res = []
-        user = User.where("mobile_no = ? and password = ?",params[:mobile_number],params[:password].downcase).first
+        user = User.where("(mobile_no = ? or user_name = ?) and password = ?",params[:mobile_number],params[:mobile_number],params[:password].downcase).first
         if !user.blank?
             res = {:success => true,:message => "Logged in successfully",:user_id => user.id}
         else
