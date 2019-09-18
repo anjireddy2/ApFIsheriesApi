@@ -35,6 +35,83 @@ require 'Nokogiri'
    User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
    User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
 
+
+   #FDO USERS
+
+   User.create :user_name => "Ichapuram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Kaviti", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Sompeta", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Mandasa", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Vajrapukothuru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Santhabommali", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Polaki", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Gara", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Srikakulam", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Etcherla", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Ranasthalam", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Bhogapuram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Poosapatirega", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Bheemili", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Vizag_FDO_CMU1", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Vizag_RU", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Peda Gantyada", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Parawada", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Atchuthapuram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Rambilli", :password => "default@1243", :role_id => 1
+   User.create :user_name => "S.Rayavaram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Nakkapalli", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Payakaraopeta", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Thondangi", :password => "default@1243", :role_id => 1
+   User.create :user_name => "U.Kothapalli", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Kakinada_FDO_FH", :password => "default@1243", :role_id => 1
+   User.create :user_name => "KakinadaU", :password => "default@1243", :role_id => 1
+   User.create :user_name => "KakinadaR", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Karapa", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Iploavaram_Bhyravapalem", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Iploavaram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Katrenikona", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Uppalaguptam", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Allavaram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Mamidikuduru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Malkipuram", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Sakhinetipalli", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Mogalthuru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Narsapur", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Kruthivennu", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Machilipatanam_Fishing_Harbour", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Nagayalanka", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Koduru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Repalle", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Nizampatnam_FDO1", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Nizampatnam_FDO2", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Bapatla", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Ongole", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Tangutur", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Kothapatnam", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Singarayakonda", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Ulavapadu", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Gudluru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Chirala", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Chinaganjam", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Vetapalem", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Kavali", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Bogolu", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Alluru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Vidavaluru", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Indukurupeta", :password => "default@1243", :role_id => 1
+   User.create :user_name => "T.P.Gudur", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Muthukur", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Kota", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Vakadu", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Chillakur", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Sullurpeta", :password => "default@1243", :role_id => 1
+   User.create :user_name => "Tada", :password => "default@1243", :role_id => 1
+
+
+
+
+
+
    Role.create :role_name => "fdo", :role_description => "Fisheries Department "
    Role.create :role_name => "adf", :role_description => "Fisheries Department "
    Role.create :role_name => "dd", :role_description => "Fisheries Department "

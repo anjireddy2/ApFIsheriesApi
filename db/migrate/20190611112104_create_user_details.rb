@@ -1,9 +1,9 @@
 class CreateUserDetails < ActiveRecord::Migration[5.2]
   def change
     create_table :user_details do |t|
-    	t.references :registration_type
-    	t.string :user_name
-    	t.string :mobile_number
+		t.references :registration_type
+		t.string :user_name
+		t.string :mobile_number
     	t.string :gender
     	t.datetime :date_of_birth
     	t.references :state

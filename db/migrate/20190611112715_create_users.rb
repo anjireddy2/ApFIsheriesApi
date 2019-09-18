@@ -4,7 +4,8 @@ class CreateUsers < ActiveRecord::Migration[5.2]
     	t.string :aadhaar_no
     	t.string :password
     	t.string :mobile_no
-    	t.references :role
+      t.references :role
+      t.string :user_name
       t.timestamps
     end
   end
