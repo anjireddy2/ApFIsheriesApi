@@ -129,16 +129,16 @@ require 'csv'
    Role.create :role_name => "AIF", :role_description => ""
    Role.create :role_name => "MPEAF", :role_description => ""
    
-   Seasonality.create :seasonality_type => "SS"
-   Seasonality.create :seasonality_type => "LS"
+#    Seasonality.create :seasonality_type => "SS"
+#    Seasonality.create :seasonality_type => "LS"
 
-   WaterBodyType.create :type_of_water_body => "GP"
-   WaterBodyType.create :type_of_water_body => "MI"
-   WaterBodyType.create :type_of_water_body => "Reservoir"
+#    WaterBodyType.create :type_of_water_body => "GP"
+#    WaterBodyType.create :type_of_water_body => "MI"
+#    WaterBodyType.create :type_of_water_body => "Reservoir"
 
-   WaterBodyOwnership.create :type_of_ownership => "Lease"
-   WaterBodyOwnership.create :type_of_ownership => "License"
-   WaterBodyOwnership.create :type_of_ownership => "Auction"
+#    WaterBodyOwnership.create :type_of_ownership => "Lease"
+#    WaterBodyOwnership.create :type_of_ownership => "License"
+#    WaterBodyOwnership.create :type_of_ownership => "Auction"
 
 puts "Migrating Seed data for Districts"
 csv_text = File.read(Rails.public_path+'districts.csv')
@@ -184,89 +184,89 @@ end
 # puts "Villages data is migrated successfully"
 
 
-puts "Adding Water Body Clusters Data"
+# puts "Adding Water Body Clusters Data"
 
-csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodyDetails.csv')
-csv = CSV.parse(csv_text, :headers => false)
-csv.each do |row|
-   usr = User.create :mobile_no => row[3],:role_id => row[4],:password => "default@123"
-   UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
-   dist = District.where(:district_name => row[0]).first
-   puts dist.id
-   clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
+# csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodyDetails.csv')
+# csv = CSV.parse(csv_text, :headers => false)
+# csv.each do |row|
+#    usr = User.create :mobile_no => row[3],:role_id => row[4],:password => "default@123"
+#    UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
+#    dist = District.where(:district_name => row[0]).first
+#    puts dist.id
+#    clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
    
-end
+# end
 
-puts "End of Cluster Creation"
-
-
-# puts "Water Body Creation"
+# puts "End of Cluster Creation"
 
 
+# # puts "Water Body Creation"
 
 
-csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodies.csv', :encoding => 'ISO-8859-1')
-csv = CSV.parse(csv_text, :headers => false)
-csv.each do |row|
-   begin
+
+
+# csv_text = File.read(Rails.public_path+'WaterBody_DB/WaterBodies.csv', :encoding => 'ISO-8859-1')
+# csv = CSV.parse(csv_text, :headers => false)
+# csv.each do |row|
+#    begin
        
-       mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
-       village = Village.where(:village_name => row[1].strip.humanize).first unless mandal.blank?
-       panchayat = Panchayat.where(:panchayat_name => row[1].strip.humanize).first unless mandal.blank?
-       seasonality = Seasonality.where(:seasonality_type => row[3].strip).first
-       wtr_bdy_typ = WaterBodyType.where(:type_of_water_body => row[4].strip).first
-       ownr_shp = WaterBodyOwnership.where(:type_of_ownership => row[5].strip).first
+#        mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
+#        village = Village.where(:village_name => row[1].strip.humanize).first unless mandal.blank?
+#        panchayat = Panchayat.where(:panchayat_name => row[1].strip.humanize).first unless mandal.blank?
+#        seasonality = Seasonality.where(:seasonality_type => row[3].strip).first
+#        wtr_bdy_typ = WaterBodyType.where(:type_of_water_body => row[4].strip).first
+#        ownr_shp = WaterBodyOwnership.where(:type_of_ownership => row[5].strip).first
 
-       wtr_bdy = WaterBody.new :district_id => mandal.district.id,:mandal_id => mandal.id,:water_body_name => row[2],:water_body_cluster_id => row[8].strip,:village_name => row[1]
-       wtr_bdy.village_id = village.id unless village.blank?
-       wtr_bdy.panchayat_id = panchayat.id unless panchayat.blank?
-       wtr_bdy.save!
-       puts "Water Body Name  " + wtr_bdy.water_body_name
-       wtr_bdy_dtl = WaterBodyDetail.new :water_body_id => wtr_bdy.id,:seasonality_id => seasonality.id,:water_body_ownership_id => ownr_shp.id,:twsa => row[6].strip,:ewsa => row[7].strip,:required_fingarling => row[9],:water_body_type_id => wtr_bdy_typ.id
-       wtr_bdy_dtl.save!
-   rescue StandardError => e
-      mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
-       InvalidWaterBody.create :raised_exception => e.message,:data_of_invalid_water_body => row
-puts "Invalid Water Body   " + row[2].to_s
-   end
-end
+#        wtr_bdy = WaterBody.new :district_id => mandal.district.id,:mandal_id => mandal.id,:water_body_name => row[2],:water_body_cluster_id => row[8].strip,:village_name => row[1]
+#        wtr_bdy.village_id = village.id unless village.blank?
+#        wtr_bdy.panchayat_id = panchayat.id unless panchayat.blank?
+#        wtr_bdy.save!
+#        puts "Water Body Name  " + wtr_bdy.water_body_name
+#        wtr_bdy_dtl = WaterBodyDetail.new :water_body_id => wtr_bdy.id,:seasonality_id => seasonality.id,:water_body_ownership_id => ownr_shp.id,:twsa => row[6].strip,:ewsa => row[7].strip,:required_fingarling => row[9],:water_body_type_id => wtr_bdy_typ.id
+#        wtr_bdy_dtl.save!
+#    rescue StandardError => e
+#       mandal = Mandal.where(:mandal_name => row[0].strip.humanize).first
+#        InvalidWaterBody.create :raised_exception => e.message,:data_of_invalid_water_body => row
+# puts "Invalid Water Body   " + row[2].to_s
+#    end
+# end
 
-# # puts "End of Water Body creation"
+# # # puts "End of Water Body creation"
 
-# # file = Rails.public_path+"water_body.csv"
+# # # file = Rails.public_path+"water_body.csv"
 
-# # waterbodies = WaterBody.all
+# # # waterbodies = WaterBody.all
 
-# # column_headers = ["District Code","District Name","Mandal Code","Mandal Name","Panchayat Code","Panchayat Name" ,"Village Code","Village Name","Water Body Name","SS/LS/Resarvior","Ownership","Lease/Auction","TWSA","EWSA","Cluster Name"]
+# # # column_headers = ["District Code","District Name","Mandal Code","Mandal Name","Panchayat Code","Panchayat Name" ,"Village Code","Village Name","Water Body Name","SS/LS/Resarvior","Ownership","Lease/Auction","TWSA","EWSA","Cluster Name"]
 
-# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-# #  waterbodies.each do |wtr_bdy|
-# # #    writer = []
-# #      puts wtr_bdy.water_body_name.inspect
-# #      writer << [wtr_bdy.mandal.district.district_code,wtr_bdy.mandal.district.district_name,wtr_bdy.mandal.mandal_code,wtr_bdy.mandal.mandal_name,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_code,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_name,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_code,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_name,wtr_bdy.water_body_name,wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.seasonality.blank? ? "" : wtr_bdy.water_body_detail.seasonality.seasonality_type),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_type.blank? ? "" : wtr_bdy.water_body_detail.water_body_type.type_of_water_body),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_ownership.blank? ? "" : wtr_bdy.water_body_detail.water_body_ownership.type_of_ownership),wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.twsa,wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.ewsa,wtr_bdy.water_body_cluster.blank? ? "" : wtr_bdy.water_body_cluster.cluster_name]
-
-# #  end
-# # end
-
-
-
-# # file = Rails.public_path+"in_valid_water_body.csv"
-
-# # in_waterbodies = InValidWaterBody.all
-
-# # column_headers = ["Exception Reason","Data","District Name","Mandal Name","Village Name"]
-
-# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-# #  in_waterbodies.each do |wtr_bdy|
-# # #    writer = []
+# # # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# # #  waterbodies.each do |wtr_bdy|
+# # # #    writer = []
 # # #      puts wtr_bdy.water_body_name.inspect
-# #      writer << [wtr_bdy.raised_exception,wtr_bdy.data_of_invalid_water_body,wtr_bdy.district_name,wtr_bdy.mandal_name,wtr_bdy.district_name]
+# # #      writer << [wtr_bdy.mandal.district.district_code,wtr_bdy.mandal.district.district_name,wtr_bdy.mandal.mandal_code,wtr_bdy.mandal.mandal_name,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_code,wtr_bdy.panchayat.blank? ? "" : wtr_bdy.panchayat.panchayat_name,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_code,wtr_bdy.village.blank? ? "" : wtr_bdy.village.village_name,wtr_bdy.water_body_name,wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.seasonality.blank? ? "" : wtr_bdy.water_body_detail.seasonality.seasonality_type),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_type.blank? ? "" : wtr_bdy.water_body_detail.water_body_type.type_of_water_body),wtr_bdy.water_body_detail.blank? ? "" : (wtr_bdy.water_body_detail.water_body_ownership.blank? ? "" : wtr_bdy.water_body_detail.water_body_ownership.type_of_ownership),wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.twsa,wtr_bdy.water_body_detail.blank? ? "" : wtr_bdy.water_body_detail.ewsa,wtr_bdy.water_body_cluster.blank? ? "" : wtr_bdy.water_body_cluster.cluster_name]
 
-# #  end
-# # end
+# # #  end
+# # # end
 
 
-puts "FLC Creation"
+
+# # # file = Rails.public_path+"in_valid_water_body.csv"
+
+# # # in_waterbodies = InValidWaterBody.all
+
+# # # column_headers = ["Exception Reason","Data","District Name","Mandal Name","Village Name"]
+
+# # # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# # #  in_waterbodies.each do |wtr_bdy|
+# # # #    writer = []
+# # # #      puts wtr_bdy.water_body_name.inspect
+# # #      writer << [wtr_bdy.raised_exception,wtr_bdy.data_of_invalid_water_body,wtr_bdy.district_name,wtr_bdy.mandal_name,wtr_bdy.district_name]
+
+# # #  end
+# # # end
+
+
+# puts "FLC Creation"
 
 csv_text = File.read(Rails.public_path+'FishLandingCenters/flc_data.csv', :encoding => 'ISO-8859-1')
 csv = CSV.parse(csv_text, :headers => false)
@@ -321,83 +321,83 @@ end
 
 
 
-# file = Rails.public_path+"invalid_water_body.csv"
+# # file = Rails.public_path+"invalid_water_body.csv"
 
-# inva_bdys = InvalidWaterBody.all
+# # inva_bdys = InvalidWaterBody.all
 
-# column_headers = ["Exception Reason", "Data"]
+# # column_headers = ["Exception Reason", "Data"]
 
-# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-#  inva_bdys.each do |inv_bdy|
-#    writer << [inv_bdy.raised_exception, inv_bdy.data_of_invalid_water_body]
-#  end
-# end
-
-
+# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# #  inva_bdys.each do |inv_bdy|
+# #    writer << [inv_bdy.raised_exception, inv_bdy.data_of_invalid_water_body]
+# #  end
+# # end
 
 
-# csv_text = File.read(Rails.public_path+'FishLandingCenters/flc_data.csv', :encoding => 'ISO-8859-1')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    begin
-#     puts "Valid FLC   " + row.to_s
-#        mandal = Mandal.where(:mandal_name => row[2].strip.humanize).first
-#    puts "Mandal   " + mandal.mandal_name
-#        village = Village.where(:village_name => row[3].strip.humanize).first unless village.blank?
-#    puts "village   " #+ village.id unless village.blank?
-#        dist = District.where(:district_name => row[1].strip.humanize).first unless dist.blank?
-#    puts "District   " #+ dist.id  unless dist.blank?
-#        panchayat = Panchayat.where(:panchayat_name => row[3].strip.humanize).first unless panchayat.blank?
-#    puts "panchayat   " #+ panchayat.id unless panchayat.blank?
-#        flc = FishLandingCenter.new :district_id => dist.id,:flc_name => row[0],:longitude => row[5],:latitude => row[4]
-#        flc.village_id = village.id unless village.blank?
-#        flc.panchayat_id = panchayat.id unless panchayat.blank?
-#    flc.mandal_id = mandal.id unsless mandal.blank?
-#        flc.save!
-#       puts "Valid FLC   " + row[0]
-#    rescue StandardError => e
-#        InvalidFlc.create :raised_exception => e.message,:data_of_invalid_flc => row
-# puts "Invalid FLC  " + row[0].to_s
-#    end
-# end
-# file = Rails.public_path+"data.csv"
-# doc = HTTParty.get("http://www.onefivenine.com/india/villages/Srikakulam/Vangara/Talagam")
-# parsed_page = Nokogiri::HTML(doc)
-# child = parsed_page.css("div.boxinside2")[3].children
-# column_headers = ["Locality Name","Mandal Name","District","State","Region ","Language ","Date","Time zone","Elevation / Altitude","Telephone Code / Std Code"]
-# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
 
-# #    parsed_page.css("div.boxinside2")[3].children[0..48].each do |c|
-     
-#           writer << [child[2].text.strip,child[6].text.strip,child[10].text.strip,child[14].text.strip,child[18].text.strip,child[22].text.strip,child[30].text.strip,child[34].text.strip,child[38].text.strip + child[39].text.strip,"XXXXXX"]
 
+# # csv_text = File.read(Rails.public_path+'FishLandingCenters/flc_data.csv', :encoding => 'ISO-8859-1')
+# # csv = CSV.parse(csv_text, :headers => false)
+# # csv.each do |row|
+# #    begin
+# #     puts "Valid FLC   " + row.to_s
+# #        mandal = Mandal.where(:mandal_name => row[2].strip.humanize).first
+# #    puts "Mandal   " + mandal.mandal_name
+# #        village = Village.where(:village_name => row[3].strip.humanize).first unless village.blank?
+# #    puts "village   " #+ village.id unless village.blank?
+# #        dist = District.where(:district_name => row[1].strip.humanize).first unless dist.blank?
+# #    puts "District   " #+ dist.id  unless dist.blank?
+# #        panchayat = Panchayat.where(:panchayat_name => row[3].strip.humanize).first unless panchayat.blank?
+# #    puts "panchayat   " #+ panchayat.id unless panchayat.blank?
+# #        flc = FishLandingCenter.new :district_id => dist.id,:flc_name => row[0],:longitude => row[5],:latitude => row[4]
+# #        flc.village_id = village.id unless village.blank?
+# #        flc.panchayat_id = panchayat.id unless panchayat.blank?
+# #    flc.mandal_id = mandal.id unsless mandal.blank?
+# #        flc.save!
+# #       puts "Valid FLC   " + row[0]
+# #    rescue StandardError => e
+# #        InvalidFlc.create :raised_exception => e.message,:data_of_invalid_flc => row
+# # puts "Invalid FLC  " + row[0].to_s
 # #    end
-# end
+# # end
+# # file = Rails.public_path+"data.csv"
+# # doc = HTTParty.get("http://www.onefivenine.com/india/villages/Srikakulam/Vangara/Talagam")
+# # parsed_page = Nokogiri::HTML(doc)
+# # child = parsed_page.css("div.boxinside2")[3].children
+# # column_headers = ["Locality Name","Mandal Name","District","State","Region ","Language ","Date","Time zone","Elevation / Altitude","Telephone Code / Std Code"]
+# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+
+# # #    parsed_page.css("div.boxinside2")[3].children[0..48].each do |c|
+     
+# #           writer << [child[2].text.strip,child[6].text.strip,child[10].text.strip,child[14].text.strip,child[18].text.strip,child[22].text.strip,child[30].text.strip,child[34].text.strip,child[38].text.strip + child[39].text.strip,"XXXXXX"]
+
+# # #    end
+# # end
 
 
-# file = Rails.public_path+"invalid_viilages.csv"
+# # file = Rails.public_path+"invalid_viilages.csv"
 
-# waterbodies = WaterBody.all
+# # waterbodies = WaterBody.all
 
-# column_headers = ["District Name","Mandal Name","Village Name"]
+# # column_headers = ["District Name","Mandal Name","Village Name"]
 
-# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-#   waterbodies.each do |wtr_bdy|
-#     if(wtr_bdy.village_id == nil)
-#     #    puts wtr_bdy.water_body_name.inspect
-#           writer << [wtr_bdy.district.district_name,wtr_bdy.mandal.mandal_name,wtr_bdy.village_name,wtr_bdy.water_body_name]
-#     end
-#   end
-# end
+# # CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# #   waterbodies.each do |wtr_bdy|
+# #     if(wtr_bdy.village_id == nil)
+# #     #    puts wtr_bdy.water_body_name.inspect
+# #           writer << [wtr_bdy.district.district_name,wtr_bdy.mandal.mandal_name,wtr_bdy.village_name,wtr_bdy.water_body_name]
+# #     end
+# #   end
+# # end
 
 
-# csv_text = File.read(Rails.public_path+'users.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    usr = User.create :mobile_no => row[1],:role_id => 1,:password => "default@123"
-#   #  UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
-#   #  dist = District.where(:district_name => row[0]).first
-#   #  puts dist.id
-#   #  clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
+# # csv_text = File.read(Rails.public_path+'users.csv')
+# # csv = CSV.parse(csv_text, :headers => false)
+# # csv.each do |row|
+# #    usr = User.create :mobile_no => row[1],:role_id => 1,:password => "default@123"
+# #   #  UserDetail.create :user_id => usr.id,:user_name => row[2],:mobile_number => usr.mobile_no,:alternate_mobile_no => usr.mobile_no
+# #   #  dist = District.where(:district_name => row[0]).first
+# #   #  puts dist.id
+# #   #  clstr = WaterBodyCluster.create :user_id => usr.id,:district_id => dist.id,:cluster_name => row[1]
    
-# end
+# # end
