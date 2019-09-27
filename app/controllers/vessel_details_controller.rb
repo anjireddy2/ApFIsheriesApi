@@ -39,6 +39,7 @@ class VesselDetailsController < ApplicationController
         # vessel_detail.owner_id=params[:]
         vessel_detail.owner_name=params[:owner_name]
         vessel_detail.boat_id=params[:vessel_number]
+        vessel_detail.vessel_name = params[:vessel_name]
         vessel_detail.boat_type=params[:vessltype]
         vessel_detail.license_renewed_date=params[:licence_renewal_date].to_date
         vessel_detail.license_valid_upto=params[:licence_valid_date].to_date
@@ -120,6 +121,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.user_id = params[:userId]
         vessel_detail.member_aadhaar_ref_id = params[:reference]
         vessel_detail.is_eligible=true
+        vessel_detail.vessel_name = params[:vessel_name]
         # vessel_detail.rejection_reason_id=params[:]
         vessel_detail.comment=params[:remarks]
         puts "XXXXXXXXXXXXXXXXXXXXXX"
