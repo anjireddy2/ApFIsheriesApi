@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
+
 # require 'HTTParty'
 # require 'Nokogiri'
    RegsitrationType.create :name => "Aqua Lab"
@@ -19,21 +20,6 @@ require 'csv'
    RegsitrationType.create :name => "Marine Fisherwomen Society"
    RegsitrationType.create :name => "Marine Vessel Registration"
 
-
-   User.create :aadhaar_no => "123456789871", :password => "admin", :role_id => 13,:mobile_no => "9985324862"
-   User.create :aadhaar_no => "123456789872", :password => "fdo", :role_id => 2,:mobile_no => "9985324861"
-   User.create :aadhaar_no => "123456789873", :password => "adf", :role_id => 3,:mobile_no => "9985324860"
-   User.create :aadhaar_no => "123456789874", :password => "dd", :role_id => 4,:mobile_no => "9985324863"
-   User.create :aadhaar_no => "123456789875", :password => "dfo", :role_id => 5,:mobile_no => "9985324864"
-   User.create :aadhaar_no => "123456789876", :password => "add_drct", :role_id => 6,:mobile_no => "9985324865"
-   User.create :aadhaar_no => "123456789877", :password => "commisioner", :role_id => 7,:mobile_no => "9985324866"
-   User.create :aadhaar_no => "123456789878", :password => "MRO", :role_id => 8,:mobile_no => "9985324867"
-   User.create :aadhaar_no => "123456789879", :password => "SVVU", :role_id => 9,:mobile_no => "9985324868"
-   User.create :aadhaar_no => "123456789880", :password => "CIBA", :role_id => 10,:mobile_no => "9985324869"
-   User.create :aadhaar_no => "123456789881", :password => "NaCSA", :role_id => 11,:mobile_no => "9985324870"
-   User.create :aadhaar_no => "123456789882", :password => "SIFT", :role_id => 12,:mobile_no => "9985324871"
-   User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
-   User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
 
    Role.create :role_name => "fdo", :role_description => "Fisheries Department "
    Role.create :role_name => "adf", :role_description => "Fisheries Department "
@@ -51,7 +37,100 @@ require 'csv'
    Role.create :role_name => "FM", :role_description => ""
    Role.create :role_name => "AIF", :role_description => ""
    Role.create :role_name => "MPEAF", :role_description => ""
+
+   User.create :aadhaar_no => "123456789871", :password => "admin", :role_id => 13,:mobile_no => "9985324862"
+   User.create :aadhaar_no => "123456789872", :password => "fdo", :role_id => 2,:mobile_no => "9985324861"
+   User.create :aadhaar_no => "123456789873", :password => "adf", :role_id => 3,:mobile_no => "9985324860"
+   User.create :aadhaar_no => "123456789874", :password => "dd", :role_id => 4,:mobile_no => "9985324863"
+   User.create :aadhaar_no => "123456789875", :password => "dfo", :role_id => 5,:mobile_no => "9985324864"
+   User.create :aadhaar_no => "123456789876", :password => "add_drct", :role_id => 6,:mobile_no => "9985324865"
+   User.create :aadhaar_no => "123456789877", :password => "commisioner", :role_id => 7,:mobile_no => "9985324866"
+   User.create :aadhaar_no => "123456789878", :password => "MRO", :role_id => 8,:mobile_no => "9985324867"
+   User.create :aadhaar_no => "123456789879", :password => "SVVU", :role_id => 9,:mobile_no => "9985324868"
+   User.create :aadhaar_no => "123456789880", :password => "CIBA", :role_id => 10,:mobile_no => "9985324869"
+   User.create :aadhaar_no => "123456789881", :password => "NaCSA", :role_id => 11,:mobile_no => "9985324870"
+   User.create :aadhaar_no => "123456789882", :password => "SIFT", :role_id => 12,:mobile_no => "9985324871"
+   User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
+   User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
+
+  
    
+User.create :user_name => "Kaviti", :password => "default@123", :role_id => 1
+User.create :user_name => "Ichapuram", :password => "default@123", :role_id => 1
+User.create :user_name => "Sompeta", :password => "default@123", :role_id => 1
+User.create :user_name => "Mandasa", :password => "default@123", :role_id => 1
+User.create :user_name => "Vajrapukothuru", :password => "default@123", :role_id => 1
+User.create :user_name => "Santhabommali", :password => "default@123", :role_id => 1
+User.create :user_name => "Polaki", :password => "default@123", :role_id => 1
+User.create :user_name => "Gara", :password => "default@123", :role_id => 1
+User.create :user_name => "Srikakulam", :password => "default@123", :role_id => 1
+User.create :user_name => "Etcherla", :password => "default@123", :role_id => 1
+
+User.create :user_name => "Ranasthalam", :password => "default@123", :role_id => 1
+User.create :user_name => "Bhogapuram", :password => "default@123", :role_id => 1
+User.create :user_name => "Poosapatirega", :password => "default@123", :role_id => 1
+User.create :user_name => "Bheemili", :password => "default@123", :role_id => 1
+User.create :user_name => "Vizag_FDO_CMU1", :password => "default@123", :role_id => 1
+User.create :user_name => "Vizag_RU", :password => "default@123", :role_id => 1
+User.create :user_name => "Peda Gantyada", :password => "default@123", :role_id => 1
+User.create :user_name => "Parawada", :password => "default@123", :role_id => 1
+User.create :user_name => "Atchuthapuram", :password => "default@123", :role_id => 1
+User.create :user_name => "Rambilli", :password => "default@123", :role_id => 1
+
+User.create :user_name => "S.Rayavaram", :password => "default@123", :role_id => 1
+User.create :user_name => "Nakkapalli", :password => "default@123", :role_id => 1
+User.create :user_name => "Payakaraopeta", :password => "default@123", :role_id => 1
+User.create :user_name => "Thondangi", :password => "default@123", :role_id => 1
+User.create :user_name => "U.Kothapalli", :password => "default@123", :role_id => 1
+User.create :user_name => "Kakinada_FDO_FH", :password => "default@123", :role_id => 1
+User.create :user_name => "KakinadaU", :password => "default@123", :role_id => 1
+User.create :user_name => "KakinadaR", :password => "default@123", :role_id => 1
+User.create :user_name => "Karapa", :password => "default@123", :role_id => 1
+User.create :user_name => "Thallarevu", :password => "default@123", :role_id => 1
+
+User.create :user_name => "Ipolavaram_Bhyravapalem", :password => "default@123", :role_id => 1
+User.create :user_name => "Ipolavaram", :password => "default@123", :role_id => 1
+User.create :user_name => "Katrenikona", :password => "default@123", :role_id => 1
+User.create :user_name => "Uppalaguptam", :password => "default@123", :role_id => 1
+User.create :user_name => "Allavaram", :password => "default@123", :role_id => 1
+User.create :user_name => "Mamidikuduru", :password => "default@123", :role_id => 1
+User.create :user_name => "Malkipuram", :password => "default@123", :role_id => 1
+User.create :user_name => "Sakhinetipalli", :password => "default@123", :role_id => 1
+User.create :user_name => "Mogalthuru", :password => "default@123", :role_id => 1
+User.create :user_name => "Narsapur", :password => "default@123", :role_id => 1
+
+User.create :user_name => "Kruthivennu", :password => "default@123", :role_id => 1
+User.create :user_name => "Machilipatnam_Fishing_Harbour", :password => "default@123", :role_id => 1
+User.create :user_name => "Nagayalanka", :password => "default@123", :role_id => 1
+User.create :user_name => "Koduru", :password => "default@123", :role_id => 1
+User.create :user_name => "Repalle", :password => "default@123", :role_id => 1
+User.create :user_name => "Nizampatnam_FDO1", :password => "default@123", :role_id => 1
+User.create :user_name => "Nizampatnam_FDO2", :password => "default@123", :role_id => 1
+User.create :user_name => "Bapatla", :password => "default@123", :role_id => 1
+User.create :user_name => "Ongole", :password => "default@123", :role_id => 1
+User.create :user_name => "Tangutur", :password => "default@123", :role_id => 1
+
+User.create :user_name => "Kothapatnam", :password => "default@123", :role_id => 1
+User.create :user_name => "Singarayakonda", :password => "default@123", :role_id => 1
+User.create :user_name => "Ulavapadu", :password => "default@123", :role_id => 1
+User.create :user_name => "Gudluru", :password => "default@123", :role_id => 1
+User.create :user_name => "Chirala", :password => "default@123", :role_id => 1
+User.create :user_name => "Chinaganjam", :password => "default@123", :role_id => 1
+User.create :user_name => "Vetapalem", :password => "default@123", :role_id => 1
+User.create :user_name => "Kavali", :password => "default@123", :role_id => 1
+User.create :user_name => "Bogolu", :password => "default@123", :role_id => 1
+User.create :user_name => "Alluru", :password => "default@123", :role_id => 1
+
+User.create :user_name => "Vidavaluru", :password => "default@123", :role_id => 1
+User.create :user_name => "Indukurupeta", :password => "default@123", :role_id => 1
+User.create :user_name => "T.P.Gudur", :password => "default@123", :role_id => 1
+User.create :user_name => "Muthukur", :password => "default@123", :role_id => 1
+User.create :user_name => "Kota", :password => "default@123", :role_id => 1
+User.create :user_name => "Vakadu", :password => "default@123", :role_id => 1
+User.create :user_name => "Chillakur", :password => "default@123", :role_id => 1
+User.create :user_name => "Sullurpeta", :password => "default@123", :role_id => 1
+User.create :user_name => "Tada", :password => "default@123", :role_id => 1
+
    Seasonality.create :seasonality_type => "SS"
    Seasonality.create :seasonality_type => "LS"
 
@@ -123,7 +202,7 @@ end
 puts "End of Cluster Creation"
 
 
-# puts "Water Body Creation"
+puts "Water Body Creation"
 
 
 
