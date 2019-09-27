@@ -49,7 +49,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.bank_account_number=params[:bank_account_number]
         vessel_detail.ration_card_number=params[:ration_card]
         vessel_detail.ifsc_code=params[:ifsc_code]
-        vessel_detail.mfid_number=params[:mfid]
+        vessel_detail.mfid_number=params[:mfid_number]
         vessel_detail.bank_details=params[:bank_name]
         vessel_detail.email_id=params[:email_id]
         vessel_detail.deleted=false
@@ -61,7 +61,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.dat_count = params[:dat_count]
         vessel_detail.gps_count = params[:gps_count]
         vessel_detail.fish_finder_count = params[:fish_finder_count]
-        vessel_detail.echo_sounder_count = params[:echo_sounder]
+        vessel_detail.echo_sounder_count = params[:echo_sounder_count]
         vessel_detail.user_id = params[:userId]
         vessel_detail.member_aadhaar_ref_id = params[:reference]
         vessel_detail.is_eligible=true
@@ -105,7 +105,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.bank_account_number=params[:bank_account_number]
         vessel_detail.ration_card_number=params[:ration_card]
         vessel_detail.ifsc_code=params[:ifsc_code]
-        vessel_detail.mfid_number=params[:mfid]
+        vessel_detail.mfid_number=params[:mfid_number]
         vessel_detail.bank_details=params[:bank_name]
         vessel_detail.email_id=params[:email_id]
         vessel_detail.deleted=false
@@ -117,7 +117,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.dat_count = params[:dat_count]
         vessel_detail.gps_count = params[:gps_count]
         vessel_detail.fish_finder_count = params[:fish_finder_count]
-        vessel_detail.echo_sounder_count = params[:echo_sounder]
+        vessel_detail.echo_sounder_count = params[:echo_sounder_count]
         vessel_detail.user_id = params[:userId]
         vessel_detail.member_aadhaar_ref_id = params[:reference]
         vessel_detail.is_eligible=true
