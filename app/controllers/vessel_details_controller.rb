@@ -177,7 +177,7 @@ class VesselDetailsController < ApplicationController
         date_of_birth = ""
         url = "https://qa-apimgateway.e-pragati.in/rationcardapis/1.0.0/api/v1/Print?existingRCNum="+params[:rationid]
         headers = {Authorization: "Bearer f5aa9ac1-f4d7-35f7-9783-c5a957b0a8d6"}
-        # begin        
+        begin        
             response = HTTParty.get(url, headers: headers)
             res = JSON.parse(Hash.from_xml(response.body).to_json)
             unless membesr = res["Envelope"]["Body"]["getRationCardPrintDetailsResponse"]["return"]["rationCardDetails"].blank?
@@ -205,9 +205,9 @@ class VesselDetailsController < ApplicationController
             else
                 json_response({:success => false,:message => "Ration card details and Aadhaar number is mismacthing"})
             end
-        # rescue
-        #     json_response({:success => false,:message => "Invalid Ration Number"})
-        # end
+        rescue
+            json_response({:success => false,:message => "Invalid Ration Number"})
+        end
     end
 
     def crew_list
