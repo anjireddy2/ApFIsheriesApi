@@ -19,7 +19,7 @@ Rails.application.routes.draw do
                     get 'search'
                      post 'create'
                      get 'edit_vessel'
-                    
+                    get 'bank_details'
                 end
                    member do
                        delete 'destroy'
@@ -39,12 +39,14 @@ Rails.application.routes.draw do
             post 'create_crew_user'
             get 'edit_crew_member'
             post 'update_crew_member'
+            
         end
          collection do
              get 'verify_aadhaar'
              get 'verify_ration_card'
              get 'crew_list'
              post 'update_crew_member'
+             get 'bank_details'
             #  delete 'delete_crew_member'
          end
     end
