@@ -21,7 +21,7 @@ class VesselDetailsController < ApplicationController
         @vessel_details.each do |vessel|
 #            raise water_body.water_body_detail.inspect
             res  << {:id => vessel.id,:district_name => vessel.district.district_name,:mandal_name => vessel.mandal.mandal_name,:flc_name => vessel.fish_landing_center.flc_name,:vessel_owner_name => vessel.owner_name,:vessel_number => vessel.boat_id,:status => vessel.deleted ? "In-Active" : "Active",:boat_type => vessel.boat_type,:license_renewal_date => vessel.license_renewed_date,:license_valid_upto => vessel.license_valid_upto,:aadhaar_no => vessel.aadhaar_no,:mobile_number => vessel.mobile_number,:bank_account_number => vessel.bank_account_number,
-                :ration_card_number => vessel.ration_card_number}
+                :ration_card_number => vessel.ration_card_number,:ref_number => vessel.member_aadhaar_ref_id}
         end
         json_response(res)
         
