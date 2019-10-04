@@ -3,8 +3,15 @@ class VesselDetailsController < ApplicationController
     require 'json'
     require 'active_support/core_ext/hash'
 
-    before_action :get_flc,except: ["index","verify_aadhaar","verify_ration_card"] 
+    before_action :get_flc,except: ["index","verify_aadhaar","verify_ration_card","bank_details"] 
     
+
+    
+    def bank_details
+        banks = Bank.all.map{|b| b.bank_name}
+        json_response({:success => true,:banks => banks})
+   end
+
     def index
 
         #  @vessel_details = @flc.vessel_details
@@ -23,6 +30,7 @@ class VesselDetailsController < ApplicationController
             res  << {:id => vessel.id,:district_name => vessel.district.district_name,:mandal_name => vessel.mandal.mandal_name,:flc_name => vessel.fish_landing_center.flc_name,:vessel_owner_name => vessel.owner_name,:vessel_number => vessel.boat_id,:status => vessel.deleted ? "In-Active" : "Active",:boat_type => vessel.boat_type,:license_renewal_date => vessel.license_renewed_date,:license_valid_upto => vessel.license_valid_upto,:aadhaar_no => vessel.aadhaar_no,:mobile_number => vessel.mobile_number,:bank_account_number => vessel.bank_account_number,
                 :ration_card_number => vessel.ration_card_number,:ref_number => vessel.member_aadhaar_ref_id}
         end
+        res << {:total_count => res.length,:verified_count => @vessel_details.verified_vessels.count,:not_verified_count => @vessel_details.un_verified_vessels.count}
         json_response(res)
         
     end
@@ -46,7 +54,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.father_name=params[:father_name]
         vessel_detail.aadhaar_no=params[:aadhaar_number]
         vessel_detail.mobile_number=params[:mobile_number]
-        vessel_detail.bank_account_number=params[:bank_account_number]
+        vessel_detail.bank_account_number=params[:bank_account_number].to_s
         vessel_detail.ration_card_number=params[:ration_card]
         vessel_detail.ifsc_code=params[:ifsc_code]
         vessel_detail.mfid_number=params[:mfid_number]
@@ -65,6 +73,12 @@ class VesselDetailsController < ApplicationController
         vessel_detail.user_id = params[:userId]
         vessel_detail.member_aadhaar_ref_id = params[:reference]
         vessel_detail.is_eligible=true
+        if params[:bank_name] == "Others"
+            if !params[:bank_others_name].blank?
+                bank = Bank.create(:bank_name => params[:bank_others_name])
+                vessel_detail.bank_details = bank.bank_name
+            end
+        end
        if vessel_detail.valid?
             vessel_detail.save!
             res = {:success => true,:message => "Vessel #{vessel_detail.boat_id} created Succesfully"}
@@ -102,7 +116,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.aadhaar_no=params[:aadhaar_number]
         vessel_detail.member_aadhaar_ref_id = params[:reference]
         vessel_detail.mobile_number=params[:mobile_number]
-        vessel_detail.bank_account_number=params[:bank_account_number]
+        vessel_detail.bank_account_number=params[:bank_account_number].to_s
         vessel_detail.ration_card_number=params[:ration_card]
         vessel_detail.ifsc_code=params[:ifsc_code]
         vessel_detail.mfid_number=params[:mfid_number]
@@ -124,6 +138,12 @@ class VesselDetailsController < ApplicationController
         vessel_detail.vessel_name = params[:vessel_name]
         # vessel_detail.rejection_reason_id=params[:]
         vessel_detail.comment=params[:remarks]
+        if params[:bank_name] == "Others"
+            if !params[:bank_others_name].blank?
+                bank = Bank.create(:bank_name => params[:bank_others_name])
+                vessel_detail.bank_details = bank.bank_name
+            end
+        end
         puts "XXXXXXXXXXXXXXXXXXXXXX"
         if vessel_detail.valid?
             vessel_detail.save
@@ -258,6 +278,12 @@ class VesselDetailsController < ApplicationController
         crw_member.member_email = params[:email_id]
         crw_member.member_date_of_birth = params[:date_of_birth].to_date
         crw_member.member_employement_status = params[:employment_status]
+        if params[:bank_name] == "Others"
+            if !params[:bank_others_name].blank?
+                bank = Bank.create(:bank_name => params[:bank_others_name])
+                vessel_detail.bank_details = bank.bank_name
+            end
+        end
         if crw_member.save
             json_response({:success => true,:message => "Upadated Successfully"})
         else
@@ -284,13 +310,19 @@ class VesselDetailsController < ApplicationController
         crw_mem.member_mobile_number = params[:mobile_number]
         crw_mem.member_social_status = params[:social_status]
         crw_mem.member_mfid = params[:mfid]
-        crw_mem.bank_account_number = params[:bank_account_number]
+        crw_mem.bank_account_number = params[:bank_account_number].to_s
         crw_mem.bank_ifsc = params[:ifsc_code]
         crw_mem.bank_name = params[:bank_name]
         crw_mem.branch_name = params[:branch_name]
         crw_mem.member_email = params[:email_id]
         crw_mem.member_date_of_birth = params[:date_of_birth].to_date
         crw_mem.member_employement_status = params[:employment_status]
+        if params[:bank_name] == "Others"
+            if !params[:bank_others_name].blank?
+                bank = Bank.create(:bank_name => params[:bank_others_name])
+                vessel_detail.bank_details = bank.bank_name
+            end
+        end
         if crw_mem.valid?
             crw_mem.save
             json_response({:success => true,:message => vessel.vessel_crew_members})
