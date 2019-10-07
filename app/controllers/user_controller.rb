@@ -5,7 +5,7 @@ class UserController < ApplicationController
         # res = []
         user = User.where("user_name = ? and password = ?",params[:mobile_number],params[:password].downcase).first
         if !user.blank?
-            res = {:success => true,:message => "Logged in successfully",:user_id => user.id}
+            res = {:success => true,:message => "Logged in successfully",:user_id => user.id,:user_name => user.user_name}
         else
             res = {:success => false,:message => "Invalid credentials"}
         end
