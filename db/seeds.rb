@@ -105,6 +105,8 @@ User.create :user_name => "Nellore", :password => "default@123", :role_id => 1
 User.create :user_name => "Kota", :password => "default@123", :role_id => 1
 User.create :user_name => "Chillakur", :password => "default@123", :role_id => 1
 User.create :user_name => "Tada", :password => "default@123", :role_id => 1
+User.create :user_name => "epa_admin", :password => "default@123", :role_id => 1
+User.create :user_name => "Marine_HO", :password => "default@123", :role_id => 1
 #    Seasonality.create :seasonality_type => "SS"
 #    Seasonality.create :seasonality_type => "LS"
 
