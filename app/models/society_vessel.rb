@@ -1,3 +1,3 @@
 class SocietyVessel < ApplicationRecord
-    belongs_to :society_registration
+    # belongs_to :society_registration
 end

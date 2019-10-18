@@ -1,4 +1,4 @@
 class Panchayat < ApplicationRecord
     
-    belongs_to :mandal
+    # belongs_to :mandal
 end
