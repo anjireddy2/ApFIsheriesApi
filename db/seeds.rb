@@ -9,53 +9,53 @@ require 'csv'
 
 # require 'HTTParty'
 # require 'Nokogiri'
-   # RegsitrationType.create :name => "Aqua Lab"
-   # RegsitrationType.create :name => "Aquaculture Fresh Water Farm"
-   # RegsitrationType.create :name => "Inland Fisherman"
-   # RegsitrationType.create :name => "Inland Fisherwoman"
-   # RegsitrationType.create :name => "Inland Fishermen Society"
-   # RegsitrationType.create :name => "Inland Fisherwomen Society"
-   # RegsitrationType.create :name => "Marine Crew"
-   # RegsitrationType.create :name => "Marine Fishermen Society"
-   # RegsitrationType.create :name => "Marine Fisherwomen Society"
-   # RegsitrationType.create :name => "Marine Vessel Registration"
+   RegsitrationType.create :name => "Aqua Lab"
+   RegsitrationType.create :name => "Aquaculture Fresh Water Farm"
+   RegsitrationType.create :name => "Inland Fisherman"
+   RegsitrationType.create :name => "Inland Fisherwoman"
+   RegsitrationType.create :name => "Inland Fishermen Society"
+   RegsitrationType.create :name => "Inland Fisherwomen Society"
+   RegsitrationType.create :name => "Marine Crew"
+   RegsitrationType.create :name => "Marine Fishermen Society"
+   RegsitrationType.create :name => "Marine Fisherwomen Society"
+   RegsitrationType.create :name => "Marine Vessel Registration"
 
 
-   # Role.create :role_name => "fdo", :role_description => "Fisheries Department "
-   # Role.create :role_name => "adf", :role_description => "Fisheries Department "
-   # Role.create :role_name => "dd", :role_description => "Fisheries Department "
-   # Role.create :role_name => "dfo", :role_description => "Fisheries Department"
-   # Role.create :role_name => "addt_director", :role_description => "Fisheries Department Officer"
-   # Role.create :role_name => "commissioner", :role_description => "Fisheries Department Officer"
-   # Role.create :role_name => "mro", :role_description => "Mandal Revenue Officer"
-   # Role.create :role_name => "svvu", :role_description => "Sri Venkateswara Veterinary University "
-   # Role.create :role_name => "ciba", :role_description => "Central Institute of Brackishwater Aquaculture"
-   # Role.create :role_name => "NaCSA", :role_description => "National Centre for Sustainable Aquaculture "
-   # Role.create :role_name => "SIFT", :role_description => "State Institute Of Fisheries Technology"
-   # Role.create :role_name => "man_user", :role_description => "Fisher Man"
-   # Role.create :role_name => "woman_user", :role_description => "Fisher Woman"
-   # Role.create :role_name => "FM", :role_description => ""
-   # Role.create :role_name => "AIF", :role_description => ""
-   # Role.create :role_name => "MPEAF", :role_description => ""
+   Role.create :role_name => "fdo", :role_description => "Fisheries Department "
+   Role.create :role_name => "adf", :role_description => "Fisheries Department "
+   Role.create :role_name => "dd", :role_description => "Fisheries Department "
+   Role.create :role_name => "dfo", :role_description => "Fisheries Department"
+   Role.create :role_name => "addt_director", :role_description => "Fisheries Department Officer"
+   Role.create :role_name => "commissioner", :role_description => "Fisheries Department Officer"
+   Role.create :role_name => "mro", :role_description => "Mandal Revenue Officer"
+   Role.create :role_name => "svvu", :role_description => "Sri Venkateswara Veterinary University "
+   Role.create :role_name => "ciba", :role_description => "Central Institute of Brackishwater Aquaculture"
+   Role.create :role_name => "NaCSA", :role_description => "National Centre for Sustainable Aquaculture "
+   Role.create :role_name => "SIFT", :role_description => "State Institute Of Fisheries Technology"
+   Role.create :role_name => "man_user", :role_description => "Fisher Man"
+   Role.create :role_name => "woman_user", :role_description => "Fisher Woman"
+   Role.create :role_name => "FM", :role_description => ""
+   Role.create :role_name => "AIF", :role_description => ""
+   Role.create :role_name => "MPEAF", :role_description => ""
 
-   # User.create :aadhaar_no => "123456789871", :password => "admin", :role_id => 13,:mobile_no => "9985324862"
-   # User.create :aadhaar_no => "123456789872", :password => "fdo", :role_id => 2,:mobile_no => "9985324861"
-   # User.create :aadhaar_no => "123456789873", :password => "adf", :role_id => 3,:mobile_no => "9985324860"
-   # User.create :aadhaar_no => "123456789874", :password => "dd", :role_id => 4,:mobile_no => "9985324863"
-   # User.create :aadhaar_no => "123456789875", :password => "dfo", :role_id => 5,:mobile_no => "9985324864"
-   # User.create :aadhaar_no => "123456789876", :password => "add_drct", :role_id => 6,:mobile_no => "9985324865"
-   # User.create :aadhaar_no => "123456789877", :password => "commisioner", :role_id => 7,:mobile_no => "9985324866"
-   # User.create :aadhaar_no => "123456789878", :password => "MRO", :role_id => 8,:mobile_no => "9985324867"
-   # User.create :aadhaar_no => "123456789879", :password => "SVVU", :role_id => 9,:mobile_no => "9985324868"
-   # User.create :aadhaar_no => "123456789880", :password => "CIBA", :role_id => 10,:mobile_no => "9985324869"
-   # User.create :aadhaar_no => "123456789881", :password => "NaCSA", :role_id => 11,:mobile_no => "9985324870"
-   # User.create :aadhaar_no => "123456789882", :password => "SIFT", :role_id => 12,:mobile_no => "9985324871"
-   # User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
-   # User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
+   User.create :aadhaar_no => "123456789871", :password => "admin", :role_id => 13,:mobile_no => "9985324862"
+   User.create :aadhaar_no => "123456789872", :password => "fdo", :role_id => 2,:mobile_no => "9985324861"
+   User.create :aadhaar_no => "123456789873", :password => "adf", :role_id => 3,:mobile_no => "9985324860"
+   User.create :aadhaar_no => "123456789874", :password => "dd", :role_id => 4,:mobile_no => "9985324863"
+   User.create :aadhaar_no => "123456789875", :password => "dfo", :role_id => 5,:mobile_no => "9985324864"
+   User.create :aadhaar_no => "123456789876", :password => "add_drct", :role_id => 6,:mobile_no => "9985324865"
+   User.create :aadhaar_no => "123456789877", :password => "commisioner", :role_id => 7,:mobile_no => "9985324866"
+   User.create :aadhaar_no => "123456789878", :password => "MRO", :role_id => 8,:mobile_no => "9985324867"
+   User.create :aadhaar_no => "123456789879", :password => "SVVU", :role_id => 9,:mobile_no => "9985324868"
+   User.create :aadhaar_no => "123456789880", :password => "CIBA", :role_id => 10,:mobile_no => "9985324869"
+   User.create :aadhaar_no => "123456789881", :password => "NaCSA", :role_id => 11,:mobile_no => "9985324870"
+   User.create :aadhaar_no => "123456789882", :password => "SIFT", :role_id => 12,:mobile_no => "9985324871"
+   User.create :aadhaar_no => "123456789883", :password => "man_user", :role_id => 13,:mobile_no => "9985324872"
+   User.create :aadhaar_no => "123456789884", :password => "woman_user", :role_id => 14,:mobile_no => "9985324873"
 
   
    
-# User.create :user_name => "Kaviti", :password => "default@123", :role_id => 1
+User.create :user_name => "Kaviti", :password => "default@123", :role_id => 1
 User.create :user_name => "Ichapuram", :password => "default@123", :role_id => 1
 User.create :user_name => "Sompeta", :password => "default@123", :role_id => 1
 User.create :user_name => "Kasibugga", :password => "default@123", :role_id => 1
@@ -107,57 +107,57 @@ User.create :user_name => "Chillakur", :password => "default@123", :role_id => 1
 User.create :user_name => "Tada", :password => "default@123", :role_id => 1
 User.create :user_name => "epa_admin", :password => "default@123", :role_id => 1
 User.create :user_name => "Marine_HO", :password => "default@123", :role_id => 1
-#    Seasonality.create :seasonality_type => "SS"
-#    Seasonality.create :seasonality_type => "LS"
+   Seasonality.create :seasonality_type => "SS"
+   Seasonality.create :seasonality_type => "LS"
 
-#    WaterBodyType.create :type_of_water_body => "GP"
-#    WaterBodyType.create :type_of_water_body => "MI"
-#    WaterBodyType.create :type_of_water_body => "Reservoir"
+   WaterBodyType.create :type_of_water_body => "GP"
+   WaterBodyType.create :type_of_water_body => "MI"
+   WaterBodyType.create :type_of_water_body => "Reservoir"
 
-#    WaterBodyOwnership.create :type_of_ownership => "Lease"
-#    WaterBodyOwnership.create :type_of_ownership => "License"
-#    WaterBodyOwnership.create :type_of_ownership => "Auction"
+   WaterBodyOwnership.create :type_of_ownership => "Lease"
+   WaterBodyOwnership.create :type_of_ownership => "License"
+   WaterBodyOwnership.create :type_of_ownership => "Auction"
 
-# puts "Migrating Seed data for Districts"
-# csv_text = File.read(Rails.public_path+'districts.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    District.create :district_code => row[0],:district_name => row[1]
-#    puts "District Name  " + row[1]
-# end
+puts "Migrating Seed data for Districts"
+csv_text = File.read(Rails.public_path+'districts.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   District.create :district_code => row[0],:district_name => row[1]
+   puts "District Name  " + row[1]
+end
 
-# puts "District data is migrated successfully"
+puts "District data is migrated successfully"
 
-# puts "Migrating Seed data for Mandals"
-# csv_text = File.read(Rails.public_path+'mandals.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    Mandal.create :district_id => row[0],:mandal_code => row[1], :mandal_name => row[2].humanize
-#    puts "Mandal Name  "  + row[2]
-# end
+puts "Migrating Seed data for Mandals"
+csv_text = File.read(Rails.public_path+'mandals.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   Mandal.create :district_id => row[0],:mandal_code => row[1], :mandal_name => row[2].humanize
+   puts "Mandal Name  "  + row[2]
+end
 
 # # # puts "Mandal data is migrated successfully"
 
 
 
-# puts "Migrating Seed data for Panchayats"
-# csv_text = File.read(Rails.public_path+'panchayats.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    Panchayat.create :mandal_id => row[0],:panchayat_code => row[1], :panchayat_name => row[2].humanize
-#    puts "Panchayat Name  " + row[2]
-# end
+puts "Migrating Seed data for Panchayats"
+csv_text = File.read(Rails.public_path+'panchayats.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   Panchayat.create :mandal_id => row[0],:panchayat_code => row[1], :panchayat_name => row[2].humanize
+   puts "Panchayat Name  " + row[2]
+end
 
 
 # puts "Panchayat data is migrated successfully"
 
-# puts "Migrating Seed data for Villages"
-# csv_text = File.read(Rails.public_path+'villages.csv')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    Village.create :mandal_id => row[0],:village_code => row[1], :village_name => row[2].humanize
-#    puts "Village Name  " + row[2]
-# end
+puts "Migrating Seed data for Villages"
+csv_text = File.read(Rails.public_path+'villages.csv')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   Village.create :mandal_id => row[0],:village_code => row[1], :village_name => row[2].humanize
+   puts "Village Name  " + row[2]
+end
 
 # # puts "Villages data is migrated successfully"
 
@@ -244,57 +244,57 @@ User.create :user_name => "Marine_HO", :password => "default@123", :role_id => 1
 # # end
 
 
-# puts "FLC Creation"
+puts "FLC Creation"
 
-# csv_text = File.read(Rails.public_path+'FishLandingCenters/flc_data.csv', :encoding => 'ISO-8859-1')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    begin
-# #        usr = User.new(:aadhaar_no => row[13],:password => "default@123",:mobile_no => row[14])
-# #        usr.save!
-#        flc = FishLandingCenter.new(:district_id => row[0],:mandal_id => row[1],:flc_name => row[2].humanize)
-#        flc.save!
-#        puts "FLC with Name " + row[3] + " Is Created"
-#    rescue StandardError => e
-#        puts e.message.inspect
-#        InvalidFlc.create :raised_exception => e.message,:data_of_invalid_flc => row
-# puts "Invalid FLC   " + row[2].to_s
-#    end
-# end
+csv_text = File.read(Rails.public_path+'FishLandingCenters/flc_data.csv', :encoding => 'ISO-8859-1')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   begin
+#        usr = User.new(:aadhaar_no => row[13],:password => "default@123",:mobile_no => row[14])
+#        usr.save!
+       flc = FishLandingCenter.new(:district_id => row[0],:mandal_id => row[1],:flc_name => row[2].humanize)
+       flc.save!
+       puts "FLC with Name " + row[3] + " Is Created"
+   rescue StandardError => e
+       puts e.message.inspect
+       InvalidFlc.create :raised_exception => e.message,:data_of_invalid_flc => row
+puts "Invalid FLC   " + row[2].to_s
+   end
+end
 
-# puts "Vessel Details Creation"
+puts "Vessel Details Creation"
 
-# csv_text = File.read(Rails.public_path+'VesselInfo/latest_boat_owner_data.csv', :encoding => 'ISO-8859-1')
-# csv = CSV.parse(csv_text, :headers => false)
-# csv.each do |row|
-#    begin
+csv_text = File.read(Rails.public_path+'VesselInfo/latest_boat_owner_data.csv', :encoding => 'ISO-8859-1')
+csv = CSV.parse(csv_text, :headers => false)
+csv.each do |row|
+   begin
        
-#        vsl_data = JSON.parse(row[5])
+       vsl_data = JSON.parse(row[5])
      
-#        fth_nm = vsl_data[0]["fatherName"]
+       fth_nm = vsl_data[0]["fatherName"]
       
-#        adhr_no = vsl_data[0]["aadharNumber"]
+       adhr_no = vsl_data[0]["aadharNumber"]
       
-#        mob_no = vsl_data[0]["mobileNumber"]
+       mob_no = vsl_data[0]["mobileNumber"]
      
-#        rat_no = vsl_data[0]["rationCardNumber"]
+       rat_no = vsl_data[0]["rationCardNumber"]
       
-#        usr = User.new(:aadhaar_no => adhr_no,:password => "default@123",:mobile_no => mob_no)
-#        usr.save
-#        flc = FishLandingCenter.where(:flc_name => row[3].humanize).first
-#        vsl = VesselDetail.new :district_id => row[0],:mandal_id => row[1],:fish_landing_center_id => flc.id,:user_id => usr.id,
-#                                :owner_id => row[4],:owner_name => row[6],:boat_id => row[7],:boat_type => row[10],
-#                                :license_renewed_date => row[11],:license_valid_upto => row[12],:father_name => fth_nm,
-#                                :aadhaar_no => adhr_no,:mobile_number => mob_no,:bank_account_number => row[16],:ration_card_number => rat_no,:ifsc_code => row[18],:mfid_number => row[19],
-#                                :bank_details => row[20],:email_id => row[21],:deleted => row[22],:creation_level => row[25],:is_eligible => row[26],:rejection_reason_id => row[27],:comment => row[28]
-#        vsl.save!
-#        puts "Vessel with ID " + vsl.boat_id + " Is Created"
-#    rescue StandardError => e
-#        puts e.message.inspect
-#        InvalidVessel.create :raised_exception => e.message,:data_of_invalid_vessel => row
-# puts "Invalid Vessel   " + row[2].to_s
-#    end
-# end
+       usr = User.new(:aadhaar_no => adhr_no,:password => "default@123",:mobile_no => mob_no)
+       usr.save
+       flc = FishLandingCenter.where(:flc_name => row[3].humanize).first
+       vsl = VesselDetail.new :district_id => row[0],:mandal_id => row[1],:fish_landing_center_id => flc.id,:user_id => usr.id,
+                               :owner_id => row[4],:owner_name => row[6],:boat_id => row[7],:boat_type => row[10],
+                               :license_renewed_date => row[11],:license_valid_upto => row[12],:father_name => fth_nm,
+                               :aadhaar_no => adhr_no,:mobile_number => mob_no,:bank_account_number => row[16],:ration_card_number => rat_no,:ifsc_code => row[18],:mfid_number => row[19],
+                               :bank_details => row[20],:email_id => row[21],:deleted => row[22],:creation_level => row[25],:is_eligible => row[26],:rejection_reason_id => row[27],:comment => row[28]
+       vsl.save!
+       puts "Vessel with ID " + vsl.boat_id + " Is Created"
+   rescue StandardError => e
+       puts e.message.inspect
+       InvalidVessel.create :raised_exception => e.message,:data_of_invalid_vessel => row
+puts "Invalid Vessel   " + row[2].to_s
+   end
+end
 
 
 
