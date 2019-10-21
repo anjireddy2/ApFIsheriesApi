@@ -371,7 +371,7 @@ class VesselDetailsController < ApplicationController
 
 
     def audit
-         usrs = VesselUser.where("created_at >= '#{params[:report_from_date].to_datetime}' AND created_at <= '#{params[:report_to_date].to_datetime}'")
+         usrs = VesselUser.where(:created_at => params["report_from_date"].to_date.beginning_of_day..params["report_to_date"].to_date.end_of_day)
          json_response({:success => true,:message => usrs}) 
     end
 
