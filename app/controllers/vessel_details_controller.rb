@@ -93,7 +93,7 @@ class VesselDetailsController < ApplicationController
        if vessel_detail.valid?
         
           vessel_detail.save
-          vsl_usr.vessel_detail = vessel_detail
+          vsl_usr.vessel_detail_id = vessel_detail.id
           vsl_usr.user_id = params[:userId]
           col_names = VesselDetail.column_names
           col_names.each do |col_name|
@@ -179,7 +179,7 @@ class VesselDetailsController < ApplicationController
         if vessel_detail.valid?
            
             vessel_detail.save
-            vsl_usr.vessel_detail = vessel_detail
+            vsl_usr.vessel_detail_id = vessel_detail.id
             vsl_usr.user_id = params[:userId]
             col_names = VesselDetail.column_names
             col_names.each do |col_name|
