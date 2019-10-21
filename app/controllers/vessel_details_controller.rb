@@ -41,7 +41,16 @@ class VesselDetailsController < ApplicationController
        
         puts params.inspect
         vessel_detail = VesselDetail.new()
-        
+        vsl_usr = VesselUser.new()
+        col_names = VesselDetail.column_names
+        bfr_data = ""
+        aftr_data = ""
+        col_names.each do |col_name|
+            bfr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
+            
+            # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
+        end
+        vsl_usr.data_before_save = bfr_data 
         vessel_detail.district_id=params[:district_id]
         vessel_detail.mandal_id=params[:mandal_id]
         vessel_detail.fish_landing_center_id=params[:flc]
@@ -82,16 +91,7 @@ class VesselDetailsController < ApplicationController
             end
         end
        if vessel_detail.valid?
-        vsl_usr = VesselUser.new()
-        col_names = VesselDetail.column_names
-        bfr_data = ""
-        aftr_data = ""
-        col_names.each do |col_name|
-            bfr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
-            
-            # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
-        end
-        vsl_usr.data_before_save = bfr_data 
+        
           vessel_detail.save
           vsl_usr.vessel_detail = vessel_detail
           vsl_usr.user_id = params[:userId]
@@ -120,6 +120,16 @@ class VesselDetailsController < ApplicationController
    
     def update_vessel
         # res = []
+        vsl_usr = VesselUser.new()
+        col_names = VesselDetail.column_names
+        bfr_data = ""
+        aftr_data = ""
+        col_names.each do |col_name|
+            bfr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
+            
+            # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
+        end
+        vsl_usr.data_before_save = bfr_data 
         vessel_detail = VesselDetail.where(:id => params[:id]).first
         puts vessel_detail.inspect
         vessel_detail.district_id=params[:district_name]
@@ -166,16 +176,7 @@ class VesselDetailsController < ApplicationController
         end
         puts "XXXXXXXXXXXXXXXXXXXXXX"
         if vessel_detail.valid?
-            vsl_usr = VesselUser.new()
-            col_names = VesselDetail.column_names
-            bfr_data = ""
-            aftr_data = ""
-            col_names.each do |col_name|
-                bfr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
-                
-                # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
-            end
-            vsl_usr.data_before_save = bfr_data 
+           
             vessel_detail.save
             vsl_usr.vessel_detail = vessel_detail
             vsl_usr.user_id = params[:userId]
@@ -371,8 +372,16 @@ class VesselDetailsController < ApplicationController
 
 
     def audit
-         usrs = VesselUser.where(:created_at => params["report_from_date"].to_date.beginning_of_day..params["report_to_date"].to_date.end_of_day)
-         json_response({:success => true,:message => usrs}) 
+        res = []
+         vsl_auds = VesselUser.where(:created_at => params["report_from_date"].to_date.beginning_of_day..params["report_to_date"].to_date.end_of_day)
+         vsl_auds.each do |audit|
+            res << {:updated_by => audit.user.user_name,:vessel_id => audit.vessel_detail.id,
+                    :district => audit.vessel_detail.fish_landing_center.mandal.district.district_name,
+                    :mandal => audit.vessel_detail.fish_landing_center.mandal.mandal_name,
+                    :fish_landing_center => audit.vessel_detail.fish_landing_center.flc_name,
+                    :updated_at => audit.created_at.to_date}
+         end
+         json_response({:success => true,:message => res}) 
     end
 
     private
