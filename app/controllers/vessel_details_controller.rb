@@ -120,6 +120,7 @@ class VesselDetailsController < ApplicationController
    
     def update_vessel
         # res = []
+        vessel_detail = VesselDetail.where(:id => params[:id]).first
         vsl_usr = VesselUser.new()
         col_names = VesselDetail.column_names
         bfr_data = ""
@@ -130,7 +131,7 @@ class VesselDetailsController < ApplicationController
             # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
         end
         vsl_usr.data_before_save = bfr_data 
-        vessel_detail = VesselDetail.where(:id => params[:id]).first
+        
         puts vessel_detail.inspect
         vessel_detail.district_id=params[:district_name]
         vessel_detail.mandal_id=params[:mandal]
