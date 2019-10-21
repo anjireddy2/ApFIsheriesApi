@@ -11,7 +11,7 @@ class VesselDetail < ApplicationRecord
     validates_presence_of :mobile_number,:father_name,:aadhaar_no
    validates_presence_of :bank_account_number,:ifsc_code#,:mfid_number
    validates_presence_of :bank_details,:is_eligible
-   validates :boat_id,:uniqueness => true
+#    validates :boat_id,:uniqueness => true
 
    scope :un_verified_vessels, -> { where(:member_aadhaar_ref_id => nil) }
    scope :verified_vessels, -> { where("member_aadhaar_ref_id !=",  "''") }
