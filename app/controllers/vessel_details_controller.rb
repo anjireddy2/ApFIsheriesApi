@@ -3,7 +3,7 @@ class VesselDetailsController < ApplicationController
     require 'json'
     require 'active_support/core_ext/hash'
 
-    before_action :get_flc,except: ["index","verify_aadhaar","verify_ration_card","bank_details"] 
+    before_action :get_flc,except: ["index","verify_aadhaar","verify_ration_card","bank_details","audit"] 
     
 
     
@@ -82,7 +82,25 @@ class VesselDetailsController < ApplicationController
             end
         end
        if vessel_detail.valid?
-            vessel_detail.save!
+        vsl_usr = VesselUser.new()
+        col_names = VesselDetail.column_names
+        bfr_data = ""
+        aftr_data = ""
+        col_names.each do |col_name|
+            bfr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
+            
+            # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
+        end
+        vsl_usr.data_before_save = bfr_data 
+          vessel_detail.save
+          vsl_usr.vessel_detail = vessel_detail
+          vsl_usr.user_id = params[:userId]
+          col_names = VesselDetail.column_names
+          col_names.each do |col_name|
+              aftr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
+          end
+          vsl_usr.data_after_save = aftr_data
+          vsl_usr.save!
             res = {:success => true,:message => "Vessel #{vessel_detail.boat_id} created Succesfully"}
         else
             res = {:success => false,:message => vessel_detail.errors.full_messages}
@@ -148,7 +166,25 @@ class VesselDetailsController < ApplicationController
         end
         puts "XXXXXXXXXXXXXXXXXXXXXX"
         if vessel_detail.valid?
+            vsl_usr = VesselUser.new()
+            col_names = VesselDetail.column_names
+            bfr_data = ""
+            aftr_data = ""
+            col_names.each do |col_name|
+                bfr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
+                
+                # vsl_usr.data_after_save = col_name + ":" + vessel_detail[col_name] 
+            end
+            vsl_usr.data_before_save = bfr_data 
             vessel_detail.save
+            vsl_usr.vessel_detail = vessel_detail
+            vsl_usr.user_id = params[:userId]
+            col_names = VesselDetail.column_names
+            col_names.each do |col_name|
+                aftr_data += col_name.to_s + ":" + vessel_detail[col_name].to_s + ","
+            end
+            vsl_usr.data_after_save = aftr_data
+            vsl_usr.save
             res = {:success => true,:message => "Vessel Details updated succesfully"}
         else
             res = {:success => false,:message => vessel_detail.errors.full_messages}
@@ -333,6 +369,11 @@ class VesselDetailsController < ApplicationController
         end
     end
 
+
+    def audit
+         usrs = VesselUser.where("created_at >= '#{params[:report_from_date]}' AND created_at <= '#{params[:report_to_date]}'")
+         json_response({:success => true,:message => usrs}) 
+    end
 
     private
     

@@ -47,6 +47,7 @@ Rails.application.routes.draw do
              get 'crew_list'
              post 'update_crew_member'
              get 'bank_details'
+             post 'audit'
             #  delete 'delete_crew_member'
          end
     end

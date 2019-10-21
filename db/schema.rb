@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_17_093745) do
+ActiveRecord::Schema.define(version: 2019_10_18_093431) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,12 @@ ActiveRecord::Schema.define(version: 2019_09_17_093745) do
   end
 
   create_table "aqua_labs", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "banks", force: :cascade do |t|
+    t.string "bank_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -276,6 +282,7 @@ ActiveRecord::Schema.define(version: 2019_09_17_093745) do
     t.string "password"
     t.string "mobile_no"
     t.bigint "role_id"
+    t.string "user_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["role_id"], name: "index_users_on_role_id"
@@ -323,7 +330,7 @@ ActiveRecord::Schema.define(version: 2019_09_17_093745) do
     t.string "father_name"
     t.string "aadhaar_no"
     t.bigint "mobile_number"
-    t.bigint "bank_account_number"
+    t.string "bank_account_number"
     t.string "ration_card_number"
     t.string "ifsc_code"
     t.string "mfid_number"
@@ -351,6 +358,17 @@ ActiveRecord::Schema.define(version: 2019_09_17_093745) do
     t.index ["fish_landing_center_id"], name: "index_vessel_details_on_fish_landing_center_id"
     t.index ["mandal_id"], name: "index_vessel_details_on_mandal_id"
     t.index ["user_id"], name: "index_vessel_details_on_user_id"
+  end
+
+  create_table "vessel_users", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "vessel_detail_id"
+    t.text "data_before_save"
+    t.text "data_after_save"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_vessel_users_on_user_id"
+    t.index ["vessel_detail_id"], name: "index_vessel_users_on_vessel_detail_id"
   end
 
   create_table "villages", force: :cascade do |t|
