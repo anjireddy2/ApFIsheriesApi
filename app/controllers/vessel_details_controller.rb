@@ -375,7 +375,7 @@ class VesselDetailsController < ApplicationController
         res = []
          vsl_auds = VesselUser.where(:created_at => params["report_from_date"].to_date.beginning_of_day..params["report_to_date"].to_date.end_of_day)
          vsl_auds.each do |audit|
-            res << {:updated_by => audit.user.user_name,:vessel_id => audit.vessel_detail.id,
+            res << {:updated_by => audit.user.user_name,:vessel_id => audit.vessel_detail.boat_id,
                     :district => audit.vessel_detail.fish_landing_center.mandal.district.district_name,
                     :mandal => audit.vessel_detail.fish_landing_center.mandal.mandal_name,
                     :fish_landing_center => audit.vessel_detail.fish_landing_center.flc_name,
