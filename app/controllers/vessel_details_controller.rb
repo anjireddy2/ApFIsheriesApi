@@ -84,7 +84,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.user_id = params[:userId]
         vessel_detail.member_aadhaar_ref_id = params[:reference]
         vessel_detail.is_eligible=true
-        if params[:bank_name] == "Others"
+        if params[:bank_name] == "others"
             if !params[:bank_others_name].blank?
                 bank = Bank.create(:bank_name => params[:bank_others_name])
                 vessel_detail.bank_details = bank.bank_name
@@ -169,7 +169,7 @@ class VesselDetailsController < ApplicationController
         vessel_detail.vessel_name = params[:vessel_name]
         # vessel_detail.rejection_reason_id=params[:]
         vessel_detail.comment=params[:remarks]
-        if params[:bank_name] == "Others"
+        if params[:bank_name] == "others"
             if !params[:bank_others_name].blank?
                 bank = Bank.create(:bank_name => params[:bank_others_name])
                 vessel_detail.bank_details = bank.bank_name
@@ -215,7 +215,7 @@ class VesselDetailsController < ApplicationController
     
 
     def verify_aadhaar
-        begin
+        # begin
             response = open("https://dev-eys-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber="+params[:adhid]).read
             if response.blank?
                 res = {:success => false,:message => "Invalid Aadhaar Number"}
@@ -223,9 +223,9 @@ class VesselDetailsController < ApplicationController
                 res = {:success => true,:message => "Aadhaar is Verified",:ref_no => response}
             end
             json_response(res)
-        rescue
-            json_response({:success => false,:message => "Aadhaar Api is down"})
-        end
+        # rescue
+        #     json_response({:success => false,:message => "Aadhaar Api is down"})
+        # end
     end
 
     def verify_ration_card
