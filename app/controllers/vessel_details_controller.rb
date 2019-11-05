@@ -215,7 +215,7 @@ class VesselDetailsController < ApplicationController
     
 
     def verify_aadhaar
-        # begin
+         begin
             response = open("https://dev-eys-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber="+params[:adhid]).read
             if response.blank?
                 res = {:success => false,:message => "Invalid Aadhaar Number"}
@@ -223,9 +223,9 @@ class VesselDetailsController < ApplicationController
                 res = {:success => true,:message => "Aadhaar is Verified",:ref_no => response}
             end
             json_response(res)
-        # rescue
-        #     json_response({:success => false,:message => "Aadhaar Api is down"})
-        # end
+        rescue
+            json_response({:success => false,:message => "Aadhaar Api is down"})
+        end
     end
 
     def verify_ration_card
