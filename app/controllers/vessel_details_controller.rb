@@ -216,7 +216,7 @@ class VesselDetailsController < ApplicationController
 
     def verify_aadhaar
          begin
-            response = open("https://dev-eys-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber="+params[:adhid]).read
+            response = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber="+params[:adhid]).read
             if response.blank?
                 res = {:success => false,:message => "Invalid Aadhaar Number"}
             else
