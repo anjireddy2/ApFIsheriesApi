@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_26_115144) do
+ActiveRecord::Schema.define(version: 2019_12_10_081618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -77,6 +77,24 @@ ActiveRecord::Schema.define(version: 2019_11_26_115144) do
 
   create_table "aqua_labs", force: :cascade do |t|
     t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "ban_relief_crew_members", force: :cascade do |t|
+    t.integer "crew_mem_scheme_id"
+    t.integer "crew_member_id"
+    t.integer "comp_budget_id"
+    t.datetime "budget_fin_year_start_date"
+    t.datetime "budget_fin_year_end_date"
+    t.boolean "is_apporved"
+    t.datetime "last_modified_dt"
+    t.string "last_modified_by"
+    t.string "created_by"
+    t.datetime "created_at", null: false
+    t.string "application_status"
+    t.string "application_reg_no"
+    t.string "vessel_reg_no"
+    t.integer "vessel_id"
     t.datetime "updated_at", null: false
   end
 
@@ -195,6 +213,11 @@ ActiveRecord::Schema.define(version: 2019_11_26_115144) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["district_id"], name: "index_mandals_on_district_id"
+  end
+
+  create_table "marine_vessel_crew_members", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "panchayats", force: :cascade do |t|
