@@ -1,0 +1,2 @@
+class AadhaarRefNo < ApplicationRecord
+end

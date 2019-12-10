@@ -1,0 +1,2 @@
+class MarineVesselCrewMember < ApplicationRecord
+end

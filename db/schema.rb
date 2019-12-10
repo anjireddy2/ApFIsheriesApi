@@ -10,10 +10,50 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_21_110655) do
+ActiveRecord::Schema.define(version: 2019_11_26_115144) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "aadhaar_ref_nos", force: :cascade do |t|
+    t.string "aadhaar_no"
+    t.string "dev_aadhaar_ref_no"
+    t.string "qa_aadhaar_ref_no"
+    t.string "uat_aadhaar_ref_no"
+    t.string "prod_aadhaar_ref_no"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "apf_society_members", force: :cascade do |t|
+    t.string "district"
+    t.integer "district_code"
+    t.integer "district_id"
+    t.string "mandal"
+    t.integer "mandal_code"
+    t.integer "mandal_id"
+    t.string "panchayat"
+    t.integer "panchayat_code"
+    t.integer "panchayat_id"
+    t.string "village"
+    t.integer "village_code"
+    t.integer "village_id"
+    t.string "pincode"
+    t.string "society_name"
+    t.integer "society_id"
+    t.string "society_reg_id"
+    t.string "role_name"
+    t.string "fisherman_reg_id"
+    t.string "fisherman_name"
+    t.string "father_name"
+    t.string "aadhaar_no"
+    t.string "mobile_no"
+    t.string "latitude"
+    t.string "longitude"
+    t.string "heading"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "aqua_lab_equipments", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -55,6 +95,7 @@ ActiveRecord::Schema.define(version: 2019_10_21_110655) do
   create_table "districts", force: :cascade do |t|
     t.integer "district_code"
     t.string "district_name"
+    t.boolean "is_coastal"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "having_cluster"
@@ -70,9 +111,28 @@ ActiveRecord::Schema.define(version: 2019_10_21_110655) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "panchayat_id"
+    t.integer "district_code"
+    t.integer "mandal_code"
+    t.string "area_of_operation"
+    t.integer "village_code"
+    t.integer "panchayat_code"
+    t.string "district", array: true
+    t.string "mandal", array: true
+    t.date "last_modified_dt", array: true
+    t.string "last_modified_by", array: true
+    t.boolean "is_flc_active"
+    t.string "village", array: true
+    t.string "area_of_operation_code", array: true
+    t.string "panchayat", array: true
     t.index ["district_id"], name: "index_fish_landing_centers_on_district_id"
     t.index ["mandal_id"], name: "index_fish_landing_centers_on_mandal_id"
     t.index ["village_id"], name: "index_fish_landing_centers_on_village_id"
+  end
+
+  create_table "fisher_man_roles", force: :cascade do |t|
+    t.string "role_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "fisherman_skills", force: :cascade do |t|
@@ -354,6 +414,11 @@ ActiveRecord::Schema.define(version: 2019_10_21_110655) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "member_aadhaar_ref_id"
+    t.integer "district_code"
+    t.integer "mandal_code"
+    t.string "area_of_operation"
+    t.integer "village_code"
+    t.integer "panchayat_code"
     t.index ["district_id"], name: "index_vessel_details_on_district_id"
     t.index ["fish_landing_center_id"], name: "index_vessel_details_on_fish_landing_center_id"
     t.index ["mandal_id"], name: "index_vessel_details_on_mandal_id"

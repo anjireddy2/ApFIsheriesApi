@@ -1,0 +1,2 @@
+class ApfSocietyMember < ApplicationRecord
+end

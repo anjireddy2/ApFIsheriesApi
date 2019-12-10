@@ -30,7 +30,7 @@ development:
     adapter: postgresql
     encoding: unicode
     #host: 192.168.254.163
-    database: myapp_development
+    database: apf_new
     pool: 5
     username: postgres
     password: admin
