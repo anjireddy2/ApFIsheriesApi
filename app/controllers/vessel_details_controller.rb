@@ -3,9 +3,12 @@ class VesselDetailsController < ApplicationController
     require 'json'
     require 'active_support/core_ext/hash'
 
-    before_action :get_flc,except: ["index","verify_aadhaar","verify_ration_card","bank_details","audit"] 
+    before_action :get_flc,except: ["geo_location","index","verify_aadhaar","verify_ration_card","bank_details","audit"] 
     
 
+    def geo_location
+        
+    end
     
     def bank_details
         banks = Bank.all.map{|b| b.bank_name}

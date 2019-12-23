@@ -1098,13 +1098,14 @@ require 'roo'
 # end
 
 
-
-
 # puts "Panchayat data is migrated successfully"
+
+
+
 
 # puts "Society Details"
 # csv_text = File.read(Rails.public_path+'SocietyDetails/exported_data.csv', :encoding => 'ISO-8859-1')
-# column_headers = ["Dev Ref","QA Ref","UAT Ref","Prod Ref"]
+# column_headers = ["Aadhaar No","Prod Ref"]
 # file_to_write = Rails.public_path+"SocietyDetails/soc_mem_ref_ids.csv"
 # csv = CSV.parse(csv_text, :headers => false)
 
@@ -1136,7 +1137,7 @@ require 'roo'
 #       puts "Prod Ref No"
 
    
-#    # writer << [dev_ref_no,qa_ref_no,uat_ref_no,prod_ref_no]
+#       writer << [x,"'"+prod_ref_no+"'"]
 
 #    # num_rows += 1
  
@@ -1152,64 +1153,980 @@ require 'roo'
 
 
 
+# puts "SIFT Employee Details"
+# begin
+# # file_names = ["Chittor-Data_Format_for_Software_-_With_aadhaar_No (2).xlsx",
+# #                "EG DistDetails for  VV,VFA,FDOAIF,AD and DFO - VFA, FDO only.xlsx",
+# #                "KNL-Data Format for Software - With aadhaar No.xlsx","Krishna-data with aadhaar number.xlsx",
+# #             "Nellore -Data Format for Software - With aadhaar numbers-.xlsx","Prakasam-Data Format for Software - With aadhaar No (1).xlsx",
+# #             "Srikakulam-Data Format for Software - With aadhaar No.xlsx","Visakhapatnam-ALL DATA 2019-VFA Pending.xlsx",
+# #             "Vizianagaram-Data Format for Software - With aadhaar No -VFA Pending.xlsx"]
+# file =  Rails.public_path+"Employees_data_SIFT.csv"
+
+# column_headers = ["Name","Designation","Aadhaar No","Mobile No",
+#                   "Remarks","Dev Ref No","QA Ref No","UAT Ref No","PROD Ref No"]
+# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# # file_names.each do |file_name|                  
+# xlsx = Roo::Excelx.new(Rails.public_path+"EmployeesList/EMP_Details_SIFT.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+# xlsx.sheets.each do |sheet|
+#    # num_rows = 0
+#    puts "Sheet  Name"
+#    puts sheet
+#    puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          dev_ref_no = open("https://dev-eys-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+
+#          puts dev_ref_no
+#          puts "Dev Ref No"
+
+#          qa_ref_no = open("https://qah1-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+         
+#          puts qa_ref_no
+#          puts "QA Ref No"
+
+#          uat_ref_no = open("https://at-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+         
+#          puts uat_ref_no
+#          puts "UAT Ref No"
+
+#           prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+
+#          puts prod_ref_no
+#          puts "Prod Ref No"
+
+      
+#       writer << [row[0].value,row[1].value,row[2].value,row[3].value,row[4].value,"'#{dev_ref_no}'","'#{qa_ref_no}'","'#{uat_ref_no}'","'#{prod_ref_no}'"]
+
+#       # num_rows += 1
+#       rescue StandardError => e
+#          puts e.message
+#       end
+  
+# end
+#     end
+#    #  puts "Read #{num_rows} rows" 
+# #   end
+# end
+# rescue StandardError => e
+#    puts e.message.inspect
+# end
+
+
+
+
+
+
+# puts "Society Members for East Godavari"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/EG/Ban 2019-East Godavari-vth CFMS-10 11 2019.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "East Godavari"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "505"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+
+# puts "Society Members for Guntur"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/GNT/FDO REpalle banlist-2019-20.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = row[11].value
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "Guntur"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "506"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+# puts "Society Members for Krishna"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/KRISHNA/Krishna Dist marine Ban period Relief 2019.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "Krishna"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "510"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+
+# puts "Society Members for Nellore"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/Nellore/Banperiod_List_2019.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = ""
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[6].value
+#          crew_mem.bank_account_no = row[7].value
+#          crew_mem.bank_ifsc = row[8].value
+#          crew_mem.bank_name = ""
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "SPSR Nellore"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "515"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+# puts "Society Members for prakasam"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/prakasam/List prakasam.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "Prakasam"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "517"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+
+
+# puts "Society Members for Srikakulam"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/Srikakulam/2019- BAN LIST  DC APPROVAL.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "Srikakulam"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "519"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+
+# puts "Society Members for Visakha"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/Visakha/FISHING BAN 2019 TOTAL LIST VISAKHAPATNAM.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "Visakhapatanam"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "520"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+
+
+
+# puts "Society Members for VIZIANAGARAM"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/VIZIANAGARAM/BAN & LEAN PERIOD BENEFICIARIES LIST.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[4].value
+#          crew_mem.crew_member_name = row[0].value
+#          crew_mem.crew_member_father_name = row[1].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[6].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = row[7].value
+#          crew_mem.bank_account_no = row[8].value
+#          crew_mem.bank_ifsc = row[9].value
+#          crew_mem.bank_name = row[10].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "Vizianagaram"
+#          crew_mem.mandal_name = row[3].value
+#          crew_mem.village_name = row[2].value
+#          crew_mem.district_code = "521"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
+
+
+# puts "Society Members for West Godavari"
+     
+# xlsx = Roo::Excelx.new(Rails.public_path+"BAN  Data - RTGS-Final/WG/MOTORIZED FINAL VERIFICATION LIST.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheets.each do |sheet|
+#       # num_rows = 0
+#       puts "Sheet  Name"
+#       puts sheet
+#       puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          # puts row[3].value.inspect
+#          unless row[3].blank?
+#             mandal = Mandal.where(:mandal_name => row[3].value.humanize).first
+#          else
+#             mandal = ""
+#          end 
+#          unless row[2].value.blank?
+#             village = Village.where(:village_name => row[2].value.humanize).first
+#          else
+#             village = ""
+#          end
+#          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[5].value.to_s}").read
+#          puts prod_ref_no.inspect
+#          puts "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+#          crew_mem = MarineVesselCrewMember.new
+#          crew_mem.crew_member_ration_card_no = row[6].value
+#          crew_mem.crew_member_name = row[2].value
+#          crew_mem.crew_member_father_name = row[3].value
+#          crew_mem.crew_member_aadhar_ref_id = prod_ref_no
+#          crew_mem.crew_member_age =  ""  
+#          crew_mem.gender = ""
+#          crew_mem.job_title = ""
+#          crew_mem.crew_member_mobile_no = row[4].value  
+#          crew_mem.social_status = ""
+#          crew_mem.mfid = ""
+#          crew_mem.bank_account_no = row[9].value
+#          crew_mem.bank_ifsc = row[10].value
+#          crew_mem.bank_name = row[8].value
+#          crew_mem.branch_name = ""
+#          crew_mem.last_modified_dt = DateTime.now
+#          crew_mem.last_modified_by = "System Generated"
+#          crew_mem.created_by = "System Generated"
+#          crew_mem.created_at =  DateTime.now 
+#          crew_mem.district_name = "West Godavari"
+#          crew_mem.mandal_name = "" #row[3].value
+#          crew_mem.village_name = "" #row[2].value
+#          crew_mem.district_code = "523"
+#          crew_mem.mandal_code = mandal.mandal_code unless mandal.blank?
+#          crew_mem.village_code = village.village_code unless village.blank?
+#          crew_mem.crew_member_dob = ""
+#          crew_mem.email = ""
+#          crew_mem.is_active = true
+#          crew_mem.save
+#          puts crew_mem.inspect
+#          puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#          ban_relf_crw_mem = BanReliefCrewMember.new
+#          ban_relf_crw_mem.crew_mem_scheme_id = ""
+#          ban_relf_crw_mem.crew_member_id = crew_mem.id
+#          ban_relf_crw_mem.comp_budget_id = 14
+#          ban_relf_crw_mem.budget_fin_year_start_date = DateTime.now
+#          ban_relf_crw_mem.budget_fin_year_end_date = DateTime.now + 1.year
+#          ban_relf_crw_mem.is_apporved = true
+#          ban_relf_crw_mem.last_modified_dt = DateTime.now
+#          ban_relf_crw_mem.last_modified_by = "System Generated"
+#          ban_relf_crw_mem.created_by = "System Generated"
+#          ban_relf_crw_mem.created_at = DateTime.now
+#          ban_relf_crw_mem.application_status = "System Approved"
+#          ban_relf_crw_mem.application_reg_no = ""
+#          ban_relf_crw_mem.vessel_reg_no = ""
+#          ban_relf_crw_mem.vessel_id = ""
+#          ban_relf_crw_mem.save!
+#          puts ban_relf_crw_mem.inspect
+#          puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+#       rescue StandardError => e
+#          puts e.message
+#       end
+   
+#    end
+# end
+
+
 puts "SIFT Employee Details"
-begin
+# begin
 # file_names = ["Chittor-Data_Format_for_Software_-_With_aadhaar_No (2).xlsx",
 #                "EG DistDetails for  VV,VFA,FDOAIF,AD and DFO - VFA, FDO only.xlsx",
 #                "KNL-Data Format for Software - With aadhaar No.xlsx","Krishna-data with aadhaar number.xlsx",
 #             "Nellore -Data Format for Software - With aadhaar numbers-.xlsx","Prakasam-Data Format for Software - With aadhaar No (1).xlsx",
 #             "Srikakulam-Data Format for Software - With aadhaar No.xlsx","Visakhapatnam-ALL DATA 2019-VFA Pending.xlsx",
 #             "Vizianagaram-Data Format for Software - With aadhaar No -VFA Pending.xlsx"]
-file =  Rails.public_path+"Employees_data_SIFT.csv"
+# file =  Rails.public_path+"Employees_data_19_12_2019.csv"
 
-column_headers = ["Name","Designation","Aadhaar No","Mobile No",
-                  "Remarks","Dev Ref No","QA Ref No","UAT Ref No","PROD Ref No"]
-CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
-# file_names.each do |file_name|                  
-xlsx = Roo::Excelx.new(Rails.public_path+"EmployeesList/EMP_Details_SIFT.xlsx")
-puts "File  Name"
-# puts file_name
-puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
-xlsx.sheets.each do |sheet|
-   # num_rows = 0
-   puts "Sheet  Name"
-   puts sheet
-   puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
-   xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
-      begin
-         dev_ref_no = open("https://dev-eys-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+# column_headers = ["aadhar_no","aadhar_no_without_spaces","dev ref no","qa ref no","uat ref no","prod ref no"]
+# CSV.open(file, 'w', write_headers: true, headers: column_headers) do |writer|
+# # file_names.each do |file_name|                  
+# xlsx = Roo::Excelx.new(Rails.public_path+"EmployeesList/employee-aadhar_nos.xlsx")
+# puts "File  Name"
+# # puts file_name
+# puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+# xlsx.sheets.each do |sheet|
+#    # num_rows = 0
+#    puts "Sheet  Name"
+#    puts sheet
+#    puts "XXXXXXXXXXXXXXXXXXXXXXXXx"
+#    xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#       begin
+#          dev_ref_no = open("https://dev-eys-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[1].value.to_s}").read
 
-         puts dev_ref_no
-         puts "Dev Ref No"
+#          puts dev_ref_no
+#          puts "Dev Ref No"
 
-         qa_ref_no = open("https://qah1-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+#          qa_ref_no = open("https://qah1-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[1].value.to_s}").read
          
-         puts qa_ref_no
-         puts "QA Ref No"
-
-         uat_ref_no = open("https://at-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+#          puts qa_ref_no
+#          puts "QA Ref No"
+#         qa_ref_no = ""
+#          uat_ref_no = open("https://at-myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[1].value.to_s}").read
          
-         puts uat_ref_no
-         puts "UAT Ref No"
+#          puts uat_ref_no
+#          puts "UAT Ref No"
 
-          prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[2].value.to_s}").read
+#           prod_ref_no = open("https://myap.e-pragati.in/integration-service/integration/api/v1.0/getVaultRefID?aadhaarNumber=#{row[1].value.to_s}").read
 
-         puts prod_ref_no
-         puts "Prod Ref No"
+#          puts prod_ref_no
+#          puts "Prod Ref No"
 
       
-      writer << [row[0].value,row[1].value,row[2].value,row[3].value,row[4].value,"'#{dev_ref_no}'","'#{qa_ref_no}'","'#{uat_ref_no}'","'#{prod_ref_no}'"]
+#       writer << [row[0].value,row[1].value,"'#{dev_ref_no}'","'#{qa_ref_no}'","'#{uat_ref_no}'","'#{prod_ref_no}'"]
 
-      # num_rows += 1
-      rescue StandardError => e
-         puts e.message
-      end
+#       rescue StandardError => e
+#          puts e.message
+#       end
   
-end
-    end
-   #  puts "Read #{num_rows} rows" 
-#   end
-end
-rescue StandardError => e
-   puts e.message.inspect
+# end
+#     end
+#    #  puts "Read #{num_rows} rows" 
+# #   end
+# end
+# rescue StandardError => e
+#    puts e.message.inspect
+# end
+
+# puts "WATER BODY CREATION"
+# begin
+#     dist_lvl_folders = Dir.glob(Rails.public_path+'Action_Plan_2018-19/*')
+#     dist_lvl_folders.each do |folder|
+#         puts folder.inspect
+#         Dir.entries(folder).each do |file|
+#             begin
+#                 xlsx = Roo::Excelx.new(folder+"/"+file)
+#                 xlsx.sheets.each do |sheet|
+#                     xlsx.sheet(sheet).each_row_streaming(offset: 1) do |row|
+#                         dist_name = folder.split("Action_Plan_2018-19/")[1]
+#                         district = District.where(:district_name => dist_name).first
+#                         mandal = Mandal.where(:mandal_name => row[1].value).first unless row[1].blank?
+#                         village = Village.where(:village_name => row[2].value).first unless row[2].blank?
+#                         panchayat = Panchayat.where(:panchayat_name => row[2].value).first unless row[2].blank?
+#                         wb = ApfWaterBody.new
+#                         wb.water_body_type = row[5].value 
+#                         wb.water_body_name = row[3].value 
+#                         wb.seasonality = row[4].value
+#                         wb.total_water_spread_area = row[7].value
+#                         wb.est_water_spread_area = row[8].value
+#                         wb.lease_amount = ""
+#                         wb.last_modified_dt = DateTime.now
+#                         wb.las_modified_by = "System Generated"
+#                         wb.district = folder.split("Action_Plan_2018-19/")[1]
+#                         wb.mandal = row[1].value
+#                         wb.gram_panchayat = row[2].value
+#                         wb.village = row[2].value
+#                         wb.created_at = DateTime.now
+#                         wb.created_by = "System Generated"
+#                         wb.is_wb_active = true
+#                         wb.district_code = district.district_code unless district.blank?
+#                         wb.mandal_code = mandal.mandal_code unless mandal.blank?
+#                         wb.village_code = village.village_code unless village.blank?
+#                         wb.panchayat_code = panchayat.panchayat_code unless panchayat.blank?
+#                         wb.area_of_operation = ""
+#                         wb.area_of_operation_code =""
+#                         wb.latitude = ""
+#                         wb.longitude = ""
+#                         wb.pyid = ""
+#                         wb.save
+#                         puts wb.inspect
+#                     end
+#                 end
+#             rescue StandardError => e
+#                 puts e.message
+#             end
+#         end
+#     end
+# rescue StandardError => e
+#     puts e.message
+# end
+
+
+
+
+
+
+
+
+file =  Rails.public_path+"marine_crew_members_data_20_12_2019.csv"
+data_to_load = MarineVesselCrewMember.all
+# column_headers = ["id","crew_member_aadhar_ref_id"]
+CSV.open(file, 'w' ) do |writer|
+    data_to_load.each do |mem|
+        puts mem.crew_member_aadhar_ref_id.inspect
+        puts "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        writer << [mem.id,mem.created_at,mem.updated_at,"'#{mem.crew_member_aadhar_ref_id}'",
+                    mem.crew_member_ration_card_no,mem.crew_member_name,mem.crew_member_father_name,
+                    mem.crew_member_age,mem.gender,mem.job_title,mem.crew_member_mobile_no,
+                    mem.social_status,mem.mfid,"'#{mem.bank_account_no}'",mem.bank_ifsc,
+                    mem.bank_name,mem.branch_name,mem.last_modified_dt,mem.last_modified_by,
+                    mem.created_by,mem.district_name,mem.mandal_name,mem.village_name,mem.district_code,
+                    mem.mandal_code,mem.village_code,mem.crew_member_dob,mem.email,mem.is_active]
+        puts "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+    end                  
 end

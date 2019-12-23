@@ -11,6 +11,9 @@ class MandalsController < ApplicationController
         @mandals = @district.mandals.flc_mandals.uniq
         json_response(@mandals)
     end
+
+
+   
     private
     
     def get_district

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_10_081618) do
+ActiveRecord::Schema.define(version: 2019_12_18_105426) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -51,6 +51,44 @@ ActiveRecord::Schema.define(version: 2019_12_10_081618) do
     t.string "latitude"
     t.string "longitude"
     t.string "heading"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "apf_water_bodies", force: :cascade do |t|
+    t.string "water_body_type"
+    t.string "water_body_name"
+    t.string "seasonality"
+    t.string "total_water_spread_area"
+    t.string "est_water_spread_area"
+    t.string "lease_amount"
+    t.datetime "last_modified_dt"
+    t.string "las_modified_by"
+    t.string "district"
+    t.string "mandal"
+    t.string "gram_panchayat"
+    t.string "village"
+    t.datetime "created_at"
+    t.string "created_by"
+    t.boolean "is_wb_active"
+    t.string "district_code"
+    t.string "mandal_code"
+    t.string "village_code"
+    t.string "panchayat_code"
+    t.string "area_of_operation"
+    t.string "area_of_operation_code"
+    t.string "latitude"
+    t.string "longitude"
+    t.string "pyid"
+  end
+
+  create_table "apf_water_body_details", force: :cascade do |t|
+    t.integer "apf_water_body_id"
+    t.string "seasonality"
+    t.string "water_body_type"
+    t.string "water_body_ownership"
+    t.string "twsa"
+    t.string "ewsa"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -218,6 +256,32 @@ ActiveRecord::Schema.define(version: 2019_12_10_081618) do
   create_table "marine_vessel_crew_members", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "crew_member_aadhar_ref_id"
+    t.text "crew_member_ration_card_no"
+    t.string "crew_member_name"
+    t.string "crew_member_father_name"
+    t.integer "crew_member_age"
+    t.string "gender"
+    t.string "job_title"
+    t.text "crew_member_mobile_no"
+    t.string "social_status"
+    t.string "mfid"
+    t.text "bank_account_no"
+    t.string "bank_ifsc"
+    t.string "bank_name"
+    t.text "branch_name"
+    t.datetime "last_modified_dt"
+    t.string "last_modified_by"
+    t.string "created_by"
+    t.string "district_name"
+    t.string "mandal_name"
+    t.string "village_name"
+    t.string "district_code"
+    t.string "mandal_code"
+    t.string "village_code"
+    t.string "crew_member_dob"
+    t.string "email"
+    t.boolean "is_active"
   end
 
   create_table "panchayats", force: :cascade do |t|
